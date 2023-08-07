@@ -1,10 +1,27 @@
 ---
-title: 如何注册
+title: 注册
 ---
+ 
+1. 进入官网：[官网](https://simpfun.cn)  
 
-# 如何注册
-1.进入官网：simpfun.cn<br />
-2.点击立即注册
-![示例](https://raw.githubusercontent.com/ZengXiaoPi/Simpfun_Wiki/main/static/img/Register-1.jpeg)
-3.点击注册，后输入 帐号（用户名随便填写）｜帐号密码｜推荐码（填写/不填写）（如您的被推荐可找推荐人寻要推荐码，获得更多积分
-![示例](https://raw.githubusercontent.com/ZengXiaoPi/Simpfun_Wiki/main/static/img/Register-2.jpg)
+2. 点击 立即注册  
+
+<img src="/img/pages/Register-1.png" width="50%" />
+
+3. 点击注册后输入：帐号、帐号密码、推荐码（可选）  
+
+:::info
+
+推荐码机制在 [推荐机制](/docs/sfe4/recommend) 有详细讲解。
+
+如果您想支持我们，可以在推荐码下填写本维基开发人员的推荐码，感谢您！
+
+* 曾小皮-ZengXiaoPi `1300270`
+
+:::
+
+<img src="/img/pages/Register-2.png" width="50%" />
+
+4. 注册后进入微信小程序，**准确无误地**输入您的微信号，然后**支付1元**即可绑定微信。绑定后，您就可以使用简幻欢的服务了。  
+
+这里应该有一个微信小程序的二维码

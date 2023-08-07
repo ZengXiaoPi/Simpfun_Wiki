@@ -28,4 +28,4 @@ title: 推荐简幻欢
 
 在下方为您的推荐码  
 
-![图片](/img/Recommend.jpeg)
+<img src="/img/Recommend.jpeg" width="50%" />
