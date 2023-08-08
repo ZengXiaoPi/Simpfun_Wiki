@@ -127,4 +127,4 @@ Stop-Ask-Questions-The-Stupid-Ways
 
 # 萌新滚粗
 
-![](/img/pages/HowToAsk-5.png)
+![](/img/pages/HowToAsk-5.jpg)
