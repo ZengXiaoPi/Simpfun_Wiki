@@ -27,3 +27,5 @@ title: 如何重装游戏/更改配置
 变配后实例端口不会变化。  
 
 :::
+
+![1](/img/pages/Reinstall-1.png)
