@@ -1,7 +1,7 @@
 {
   "position": 500,
   "label": "Minecraft JE",
-  "collapsible": true,
+  "collapsible": false,
   "collapsed": false,
   "className": "red",
   "link": {
