@@ -6,31 +6,31 @@ title: 关于server.properties
 
 server.properties是Minecraft服务器的配置文件，在基岩版服务器和Java版服务器中都存在且承担同样职责（互通服为利用间歇泉插件将基岩版数据翻译为Java版），如果你有什么关于服务器的问题，可以先看看这个文档。
 
-以下是对于server.properties中各项设置的介绍和解释，其中多次引用[Minecraft Wiki](https://minecraft.fandom.com/zh/wiki/)如果你觉得有纰漏之处或者基岩Java有不同需要区分，欢迎来简幻欢交流群10（974338645）或muteme群（817575962）砍死我，当然你也可以fork一个文档去GitHub自己改。
+以下是对于server.properties中各项设置的介绍和解释，其中多次引用[Minecraft Wiki](https://minecraft.fandom.com/zh/wiki/)。
 
 [minecraft wiki上的文档](https://minecraft.fandom.com/wiki/Server.properties)
 
 :::
 
+:::info
 true=是，false=否
-
 :::
 
-allow-flight：允许飞行
+## allow-flight：允许飞行
 
 此处飞行指的是作弊飞行，鞘翅移动不算在内。其实mc服务端内置有反作弊，会监测玩家行为并踢出ban掉，但如果确保自己服务器不会进来hacker建议开启，如果网卡了可能会造成服务器误判并踢出（很有节目效果）
 
 此项默认为false。
 
-:::
+-----
 
-allow-nether：启用下界
+## allow-nether：启用下界
 
 如果你不想要地狱这个维度可以把它关掉，但一般没人动这个（只有小游戏服需要调这些吧）
 
 此项默认为true。
 
-:::
+-----
 
 broadcast-console-to-ops：广播控制台输出到在线op
 
