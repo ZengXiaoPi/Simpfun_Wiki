@@ -1,14 +1,12 @@
 ---
 title: Minecraft JE相关常见问题
 ---
- 
-<h1>一.插件服相关</h1>
-:::caution 不适用
 
-此解答适用于以下服务端：
+1.我无法在游戏中使用刷沙机，TNT复制机等机器！
 
-- Forge
-- Fabric
-- SpongeForge
+:::info
+
+此问题适用于`paper`，`purpur`服务端
 
 :::
+
