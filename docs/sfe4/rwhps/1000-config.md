@@ -1,5 +1,5 @@
 ---
-title: config
+title: config.json文件说明
 ---
 
 :::caution 不适用
