@@ -1,0 +1,73 @@
+---
+title: 一些常见问题
+---
+
+:::tip
+
+此文档汇总了一些我的世界开服的常见问题…所以建议任何新人  **建好实例以后**  都进来看看。
+
+如果此处不能解答你的疑问，可以移步[必应](cn.bing.com)或者在交流群问问群u。
+
+关于如何提问题，详见[此处](docs\100-howtoask.md)
+
+:::
+
+-----
+
+## 我的世界服务器如何给op
+
+### 进入服务器控制台
+
+（官方文档写有就直接拿过来用了） 看这个→[官方文档 终端](https://www.simpfun.me/docs/instance-management/shell)
+
+直到进入以下图片的页面后回到此处：
+
+<img decoding="1" src="https://www.simpfun.me/assets/images/%E7%BB%88%E7%AB%AF%E8%A7%A3%E6%9E%90-d86ed842811934d638a63900d57cf74c.png" width="50%">
+
+### 输入指令
+
+在显示“输入命令 无需加斜杠”的输入栏内输入以下指令：
+
+`op <name>`
+
+其中`<name>`这一项需要被替换 请连带`<>`符号一同改成你的游戏ID
+
+-----
+
+## 服务器开机与关机
+
+此图中右上角的蓝色“启动”按钮即为服务器开机。
+
+<img decoding="2" src="https://www.simpfun.me/assets/images/%E9%A1%B5%E9%9D%A2%E8%A7%A3%E6%9E%90-fa8e5ba37e9ee0556bfe80e354020d12.png" width="50%">
+
+开机后，服务器控制台看起来像这样：
+
+<img decoding="first" src="static\img\pages\CommonQuestion-1.png" width="50%">
+
+此时蓝色启动按钮变成了三个小按键
+
+<img decoding="second" src="static\img\pages\CommonQuestions-2.png" width="50%">
+
+现在它们的功能变成了重启、关机和强制关机。
+
+:::info
+
+关于关机和强制关机的区别：关机是在控制台输入stop命令执行关机，当然你也可以自己输入，游戏会自动保存；强制关机相当于结束进程，游戏来不及保存就被杀了。所以如果你的服务器正常运行，不要按下强制关机！
+
+:::
+
+点击它们，弹出确认窗口询问是否执行操作。如果你确定要执行此操作，请按`确定`。
+
+<img decoding="third" src="static\img\pages\CommonQuestions-3.png" width="50%">
+
+随后，服务器保存并关机。
+
+<img decoding="forth" src="static\img\pages\CommonQuestions-4.png" width="50%">
+
+-----
+
+## 关于后续补充问题到此处
+
+我暂时就只能想到这些常见问题了，，如果以后在群里看见没有的常见问题会补充，做成文档节省大家的时间，遇到重复问题直接给文档链接就行。
+
+编辑人员：Twelve_eight
