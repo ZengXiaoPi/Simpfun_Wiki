@@ -69,7 +69,7 @@ const config = {
             position: 'left',
             label: '主页',
           },
-          {to: '/blog', label: '博客', position: 'left'},
+          {to: '/blog', label: '逆天墙', position: 'left'},
           {
             href: 'https://github.com/ZengXiaoPi/Simpfun_Wiki',
             label: 'GitHub',
@@ -104,13 +104,17 @@ const config = {
                 label: 'BiliBili',
                 href: 'https://space.bilibili.com/1493209225',
               },
+			  {
+                label: 'Cloudflare',
+                href: 'https://github.com/ZengXiaoPi/Simpfun_Wiki',
+              },
             ],
           },
           {
             title: '别的东西',
             items: [
               {
-                label: '博客',
+                label: '逆天墙',
                 to: '/blog',
               },
               {

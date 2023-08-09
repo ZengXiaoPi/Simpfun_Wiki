@@ -1,12 +1,12 @@
 {
-  "position": 10,
-  "label": "SFE-4",
+  "position": 300,
+  "label": "Terraria",
   "collapsible": true,
   "collapsed": true,
   "className": "red",
   "link": {
     "type": "generated-index",
-    "title": "SFE-4"
+    "title": "Terraria"
   },
   "customProps": {
     "description": "This description can be used in the swizzled DocCard"
