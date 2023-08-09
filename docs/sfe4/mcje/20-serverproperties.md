@@ -9,6 +9,11 @@ server.properties是Minecraft服务器的配置文件，在基岩版服务器和
 以下是对于server.properties中各项设置的介绍和解释，其中多次引用[Minecraft Wiki](https://minecraft.fandom.com/zh/wiki/)。引用内容均用*斜体*标注。
 
 [minecraft wiki上的文档](https://minecraft.fandom.com/zh/wiki/Server.properties)
+:::
+
+:::tip 
+
+需要在文件系统内进行配置。如果你还不知道“文件系统”是什么，去看看[这个官方文档](https://www.simpfun.me/docs/instance-management/file)
 
 :::
 
