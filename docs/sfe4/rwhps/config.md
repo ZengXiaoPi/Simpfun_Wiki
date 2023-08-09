@@ -60,3 +60,12 @@ title: config
 您需要下载专门的 Sponge　插件。
 
 :::
+
+
+‘‘‘ python linenums="1"
+def bubble_sort(items):
+    for i in range(len(items)):
+        for j in range(len(items) - 1 - i):
+            if items[j] > items[j + 1]:
+                items[j], items[j + 1] = items[j + 1], items[j]
+‘‘‘
