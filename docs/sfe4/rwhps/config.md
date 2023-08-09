@@ -62,10 +62,33 @@ title: config
 :::
 
 
-‘‘‘ python linenums="1"
-def bubble_sort(items):
-    for i in range(len(items)):
-        for j in range(len(items) - 1 - i):
-            if items[j] > items[j + 1]:
-                items[j], items[j + 1] = items[j + 1], items[j]
+‘‘‘ json linenums="1"
+{
+  "DefStartCommand": "start",
+  "Log": "WARN",
+  "ServerName": "SFE4-SERVER",
+  "Subtitle": "SFE4-SERVER",
+  "Port": 10663,
+  "Passwd": "",
+  "MaxPlayer": 10,
+  "MaxGameIngTime": 7200,
+  "StartMinPlayerSize": -1,
+  "AutoStartMinPlayerSize": 4,
+  "MaxMessageLen": 40,
+  "MaxUnit": 200,
+  "DefIncome": 1.0,
+  "OneAdmin": true,
+  "SaveRePlayFile": true,
+  "IpCheckMultiLanguageSupport": false,
+  "SingleUserRelay": false,
+  "SingleUserRelayMod": false,
+  "WebGameBypassPort": false,
+  "WebService": false,
+  "SeparateWebPort": 5124,
+  "SSL": false,
+  "SSLPasswd": "RW-HPS",
+  "AutoReLoadMap": false,
+  "Turnstoneintogold": false,
+  "RunPid": 12
+}
 ‘‘‘
