@@ -30,6 +30,7 @@ title: 如何注册
   - ~~群里指点江山的~~Twelve_eight `1301180` `server.properties教程`
   - ideafox `1302636` `rw-hps教程`
   - ~~笨蛋~~`1332029` `添加了寻找插件的站点`
+  
 </details>
 
 :::
