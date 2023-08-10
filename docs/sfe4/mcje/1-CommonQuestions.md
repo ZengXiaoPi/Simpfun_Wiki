@@ -4,21 +4,25 @@ title: 一些常见问题
 
 :::tip
 
-此文档汇总了一些我的世界开服的常见问题…所以建议任何新人  **建好实例以后**  都进来看看。
+此文档汇总了一些我的世界开服的常见问题…所以建议任何新人**建好实例以后**都进来看看。
 
 如果此处不能解答你的疑问，可以移步[必应](cn.bing.com)或者在交流群问问群u。
 
-关于如何提问题，详见[此处](docs\100-howtoask.md)
+关于如何提问题，详见[此处](/docs/howtoask)
+
+:::
+
+:::info
+
+本篇部分图片搬运自[官方文档](https://simpfun.me)。
 
 :::
 
 -----
 
-## 我的世界服务器如何给op
+## Minecraft 服务器如何给op
 
 ### 进入服务器控制台
-
-（官方文档写有就直接拿过来用了） 看这个→[官方文档 终端](https://www.simpfun.me/docs/instance-management/shell)
 
 直到进入以下图片的页面后回到此处：
 
@@ -42,11 +46,11 @@ title: 一些常见问题
 
 开机后，服务器控制台看起来像这样：
 
-<img decoding="first" src="static\img\pages\CommonQuestion-1.png" width="50%">
+<img decoding="first" src="/img/pages/CommonQuestion-1.png" width="50%">
 
 此时蓝色启动按钮变成了三个小按键
 
-<img decoding="second" src="static\img\pages\CommonQuestions-2.png" width="50%">
+<img decoding="second" src="/img/pages/CommonQuestions-2.png" width="50%">
 
 现在它们的功能变成了重启、关机和强制关机。
 
@@ -58,16 +62,8 @@ title: 一些常见问题
 
 点击它们，弹出确认窗口询问是否执行操作。如果你确定要执行此操作，请按`确定`。
 
-<img decoding="third" src="static\img\pages\CommonQuestions-3.png" width="50%">
+<img decoding="third" src="/img/pages/CommonQuestions-3.png" width="50%">
 
 随后，服务器保存并关机。
 
-<img decoding="forth" src="static\img\pages\CommonQuestions-4.png" width="50%">
-
------
-
-## 关于后续补充问题到此处
-
-我暂时就只能想到这些常见问题了，，如果以后在群里看见没有的常见问题会补充，做成文档节省大家的时间，遇到重复问题直接给文档链接就行。
-
-编辑人员：Twelve_eight
+<img decoding="forth" src="/img/pages/CommonQuestions-4.png" width="50%">
