@@ -38,7 +38,8 @@ title:“自定义”选项开服
 
 `start.sh`文件默认内容如下：
 
-```#!/bin/bash
+```
+#!/bin/bash
 
 #启动变量说明，修改前务必查看
 #https://www.yuque.com/simpfun/sfe/startup
@@ -61,7 +62,9 @@ echo "您需要修改start.sh文件来配置您的启动参数"
 
 以下是一段启动命令示例：
 
-`${openjdk17} -Xms1024M -Xmx${maxmem}M -jar server-release.jar`
+```
+${openjdk17} -Xms1024M -Xmx${maxmem}M -jar server-release.jar
+```
 
 :::info
 
@@ -85,7 +88,9 @@ echo "您需要修改start.sh文件来配置您的启动参数"
 
 当你确认服务器启动命令配置完成后，记得删除代码中的此行：
 
-`echo "您需要修改start.sh文件来配置您的启动参数"`
+```
+echo "您需要修改start.sh文件来配置您的启动参数"
+```
 
 此行代码的作用是向控制台输出“您需要修改start.sh文件来配置您的启动参数”这句话，~~用来把你引到这里来看文档~~告诉你需要配置`start.sh`文件。既然已经配置成功，则不需要这句话（即使它对服务器运行不会造成任何影响，也可能造成你的误判——认为`start.sh`文件需要配置从而浪费时间。
 
