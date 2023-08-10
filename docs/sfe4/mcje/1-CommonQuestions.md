@@ -66,4 +66,4 @@ title: 一些常见问题
 
 随后，服务器保存并关机。
 
-![](/img/pages/CommonQuestions-4.png")
+![](/img/pages/CommonQuestions-4.png)
