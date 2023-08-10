@@ -46,7 +46,7 @@ title: 一些常见问题
 
 开机后，服务器控制台看起来像这样：
 
-![](/img/pages/CommonQuestion-1.png)
+![](/img/pages/CommonQuestions-1.png)
 
 此时蓝色启动按钮变成了三个小按键
 
@@ -66,4 +66,4 @@ title: 一些常见问题
 
 随后，服务器保存并关机。
 
-![](/img/pages/CommonQuestions-4.png" width="50%")
+![](/img/pages/CommonQuestions-4.png")
