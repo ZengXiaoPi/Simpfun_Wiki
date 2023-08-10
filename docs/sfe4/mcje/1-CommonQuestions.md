@@ -26,7 +26,7 @@ title: 一些常见问题
 
 直到进入以下图片的页面后回到此处：
 
-<img decoding="1" src="https://www.simpfun.me/assets/images/%E7%BB%88%E7%AB%AF%E8%A7%A3%E6%9E%90-d86ed842811934d638a63900d57cf74c.png" width="50%">
+![](https://www.simpfun.me/assets/images/%E7%BB%88%E7%AB%AF%E8%A7%A3%E6%9E%90-d86ed842811934d638a63900d57cf74c.png)
 
 ### 输入指令
 
@@ -42,15 +42,15 @@ title: 一些常见问题
 
 此图中右上角的蓝色“启动”按钮即为服务器开机。
 
-<img decoding="2" src="https://www.simpfun.me/assets/images/%E9%A1%B5%E9%9D%A2%E8%A7%A3%E6%9E%90-fa8e5ba37e9ee0556bfe80e354020d12.png" width="50%">
+![](https://www.simpfun.me/assets/images/%E9%A1%B5%E9%9D%A2%E8%A7%A3%E6%9E%90-fa8e5ba37e9ee0556bfe80e354020d12.png)
 
 开机后，服务器控制台看起来像这样：
 
-<img decoding="first" src="/img/pages/CommonQuestion-1.png" width="50%">
+![](/img/pages/CommonQuestion-1.png)
 
 此时蓝色启动按钮变成了三个小按键
 
-<img decoding="second" src="/img/pages/CommonQuestions-2.png" width="50%">
+![](/img/pages/CommonQuestions-2.png)
 
 现在它们的功能变成了重启、关机和强制关机。
 
@@ -62,7 +62,7 @@ title: 一些常见问题
 
 点击它们，弹出确认窗口询问是否执行操作。如果你确定要执行此操作，请按`确定`。
 
-<img decoding="third" src="/img/pages/CommonQuestions-3.png" width="50%">
+![](/img/pages/CommonQuestions-3.png)
 
 随后，服务器保存并关机。
 
