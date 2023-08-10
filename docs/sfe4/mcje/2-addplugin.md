@@ -11,6 +11,12 @@ title: 如何增加插件
 
 :::
 
+:::tip
+
+如果你正在寻找插件,可以访问[MCBBS（JE和BE插件）](https://www.mcbbs.net)和[MineBBS（BE插件）](https://www.minebbs.com)。
+
+:::
+
 ## 其他插件服务端
 
 :::caution 不适用
