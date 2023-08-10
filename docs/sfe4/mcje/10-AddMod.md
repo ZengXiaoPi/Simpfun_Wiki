@@ -20,8 +20,6 @@ title: 如何增加Mod
 
 - Minecraft互通
 
-- 
-
 :::
 
 ## 流程
