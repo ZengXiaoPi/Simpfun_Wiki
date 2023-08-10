@@ -22,7 +22,7 @@ title: 如何注册
 - 曾小皮-ZengXiaoPi `1300270` `网页搭建，JE教程和大多数教程`
 - ~~不能干的~~能干辉 `1300361` `你做了什么来着`
 - ~~sfe老用户~~剑舜 `1301726` `手机SFTP教程`
-- ~~群里指点江山的~~Twelve_eight`1301180`   `server.properties教程，我觉得我是`
+- ~~群里指点江山的~~Twelve_eight`1301180`   `server.properties教程`
 
 :::
 
