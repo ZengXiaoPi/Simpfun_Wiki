@@ -13,7 +13,7 @@ title: 如何增加插件
 
 :::tip
 
-如果你正在寻找插件,可以访问[MCBBS（JE和BE插件）](https://www.mcbbs.net)、[苦力怕论坛（BE和JE插件）](klpbbs.com)、[MineBBS（BE插件）](https://www.minebbs.com)。
+如果你正在寻找插件,可以访问[MCBBS（JE和BE插件）](https://www.mcbbs.net)、[苦力怕论坛（BE和JE插件）](https://klpbbs.com)、[MineBBS（BE插件）](https://www.minebbs.com)。
 
 :::
 
