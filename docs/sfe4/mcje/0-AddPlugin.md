@@ -29,6 +29,8 @@ title: 如何增加插件
 
 :::tip
 
+如果你正在寻找插件,可以访问[MCBBS](https://www.mcbbs.net)和[MineBBS](https://www.minebbs.com)。
+
 注意检查插件版本，前置等。  
 
 混合端可能出现部分插件不兼容。  
