@@ -23,7 +23,6 @@ force-gamemode=false
 # 防止服务器向客户端发送游戏模式值，而不是
 # 游戏模式值之外的其他游戏模式值。
 # 即使这些值是在创建世界后在 server.properties 中设置的。
-# 
 # force-gamemode=true 会强制服务器发送游戏模式值到客户端。
 # 除了服务器在创建世界时保存的游戏模式值之外
 # 如果这些值是在创建世界后在 server.properties 中设置的。
@@ -191,7 +190,7 @@ server-build-radius-ratio=Disabled
 
 但它却有作用，当设置为 4 之后，最明显的区别就是：游戏设置内的世界选项变得可以调整，例如打开坐标显示、死亡不掉落等设置。
 
-如何使用？在 **server.properties** 中添加以下配置。并重新启动服务器即可应用。
+如何使用？在 **server.properties** 中添加以下配置并重新启动服务器即可应用。
 
 ```ini
 op-permission-level=4
