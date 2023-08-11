@@ -376,15 +376,25 @@ wiki：如果不为0，服务器将在玩家的空闲时间达到设置的时间
 以下操作会重置玩家空闲时间：
 
   [点击窗口](http://wiki.vg/Protocol#Click_Window)
+  
   [附魔物品](http://wiki.vg/Protocol#Enchant_Item)
+  
   [更新告示牌](http://wiki.vg/Protocol#Update_Sign)
+  
   [挖掘方块](http://wiki.vg/Protocol#Player_Digging)
+  
   [放置方块](http://wiki.vg/Protocol#Player_Block_Placement)
+  
   [切换手持物品](http://wiki.vg/Protocol#Held_Item_Change_.28serverbound.29)
+  
   [动画](http://wiki.vg/Protocol#Animation_.28serverbound.29)注：仅限基岩版
+  
   [实体动作](http://wiki.vg/Protocol#Entity_Action)
+  
   [客户端状态](http://wiki.vg/Protocol#Client_Status)
+  
   [发送聊天信息](http://wiki.vg/Protocol#Chat_Message_.28serverbound.29)
+  
   [与实体交互](http://wiki.vg/Protocol#Use_Entity)
 
 注：以上超链接源自`wiki.vg`，没有中文
@@ -464,11 +474,15 @@ SFE-4所用控制台不属于远程控制台，这两项不用管它
 *wiki：*
 
 *可选选项，可输入指向一个资源包的URI。玩家可选择是否使用该资源包。*
+
 *注意若该值含":"和"="字符，需要在其前加上反斜线(\)，例如 http\://somedomain.com/somepack.zip?someparam\=somevalue 资源包大小理应不能超过*
 
 *`50 MiB`（1.15-pre5前）*
+
 *`100 MiB`（1.15-pre5到1.18-pre8）*
+
 *`250 MiB`（1.18-rc1起）*
+
 *注意，下载成功或失败由客户端记录，而非服务器。*
 
 此项默认为空白。
@@ -510,6 +524,7 @@ SFE-4所用控制台不属于远程控制台，这两项不用管它
 ## simulation-distance：模拟距离
 
 *wiki：设置服务端可更新实体范围的最大值，即玩家各个方向上的区块数量（是以玩家为中心的半径，不是直径）。超出此范围的实体不会被更新，对玩家也不可见。*
+
 *默认/推荐设置为10，如果有严重卡顿的话，减少该数值。*
 
 注：和单人世界的模拟距离是同一个概念。
@@ -549,7 +564,9 @@ SFE-4所用控制台不属于远程控制台，这两项不用管它
 ## spawn-protection：重生半径
 
 *wiki：通过将该值进行2x+1的运算来决定出生点的保护半径。设置为1会保护以出生点为中心的3×3方块的区域，2会保护5×5方块的区域，3会保护7×7方块的区域，以此类推。这个选项不在第一次服务器启动时生成，只会在第一个玩家加入服务器时出现。如果服务器没有设置OP，这个选项会自动禁用。*
+
 *设置为0将不会禁用出生点保护，但会保护位于出生点的那一个方块（13w05a前）。*
+
 *设置为0会禁用出生点保护（13w05a起，参见[MC-666](https://bugs.mojang.com/browse/MC-666)）。*
 
 此项默认值为`16`。
