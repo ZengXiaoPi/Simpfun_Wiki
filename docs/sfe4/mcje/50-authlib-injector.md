@@ -96,7 +96,7 @@ ${openjdk17} -Xms1024M -Xmx${maxmem}M -javaagent:authlib-injector-1.2.3.jar=http
 
 以[LittleSkin](https://littleskin.cn/)举例，注册好[LittleSkin](https://littleskin.cn/)账号后进入如下页面
 
-![見当違いの愛 手にしたって you got a 未来の後悔~捨て台詞くらいにはなるか？ 威張んなよ お前が](static\img\pages\AuthlibInjrctor-2.png)
+![見当違いの愛 手にしたって you got a 未来の後悔~捨て台詞くらいにはなるか？ 威張んなよ お前が](/img/pages/AuthlibInjrctor-2.png)
 
 直接鼠标左键长按那个`将此按钮拖动至启动器`的按钮 然后把它拖到PCL2上并松开左键 PCL2会自动为你开启当前版本的第三方登录验证
 
