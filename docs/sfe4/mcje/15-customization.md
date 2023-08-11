@@ -38,7 +38,7 @@ title:“自定义”选项开服
 
 `start.sh`文件默认内容如下：
 
-```
+```sh
 #!/bin/bash
 
 #启动变量说明，修改前务必查看
@@ -62,7 +62,7 @@ echo "您需要修改start.sh文件来配置您的启动参数"
 
 以下是一段启动命令示例：
 
-```
+```sh
 ${openjdk17} -Xms1024M -Xmx${maxmem}M -jar server-release.jar
 ```
 
@@ -88,7 +88,7 @@ ${openjdk17} -Xms1024M -Xmx${maxmem}M -jar server-release.jar
 
 当你确认服务器启动命令配置完成后，记得删除代码中的此行：
 
-```
+```sh
 echo "您需要修改start.sh文件来配置您的启动参数"
 ```
 
