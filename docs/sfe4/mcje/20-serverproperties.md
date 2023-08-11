@@ -15,6 +15,8 @@ server.properties是Minecraft服务器的配置文件，在基岩版服务器和
 
 需要在文件系统内进行配置。如果你还不知道“文件系统”是什么，去看看[这个官方文档](https://www.simpfun.me/docs/instance-management/file)
 
+注意: server.properties不支持热重载配置,每次修改配置请先关闭服务器!
+
 :::
 
 :::info
