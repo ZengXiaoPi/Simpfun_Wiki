@@ -2,6 +2,8 @@
 title:进阶文档：使用第三方验证服务器登录
 ---
 
+~~有人在图片名字夹私货~~
+
 :::tip
 
 你还在因为离线模式下多人联机**无法使用皮肤**而苦恼吗？还在因为你认为原版内置皮肤丑得批爆而厌烦吗？加入光荣的**authlib第三方登录**吧！！
@@ -46,7 +48,7 @@ title:进阶文档：使用第三方验证服务器登录
 
 下面是一个服务器启动命令示例，它来源于[自定义教程](docs\sfe4\mcje\15-customization.md)
 
-```
+```sh
 ${openjdk17} -Xms1024M -Xmx${maxmem}M -jar server-release.jar
 ```
 
@@ -54,7 +56,7 @@ ${openjdk17} -Xms1024M -Xmx${maxmem}M -jar server-release.jar
 
 以下是一个`-javaagent`参数示例：
 
-```
+```sh
 -javaagent:authlib-injector-1.2.3.jar=https://littleskin.cn/api/yggdrasil 
 ```
 
@@ -72,7 +74,7 @@ ${openjdk17} -Xms1024M -Xmx${maxmem}M -jar server-release.jar
 
 将`-javaagent`参数正确插入后，该命令如下：
 
-```
+```sh
 ${openjdk17} -Xms1024M -Xmx${maxmem}M -javaagent:authlib-injector-1.2.3.jar=https://littleskin.cn/api/yggdrasil -jar server-release.jar
 ```
 
@@ -111,5 +113,3 @@ ${openjdk17} -Xms1024M -Xmx${maxmem}M -javaagent:authlib-injector-1.2.3.jar=http
 # 推荐的第三方登录验证服务器
 
 [LittleSkin](https://littleskin.cn/)
-
-有好的第三方自己加到文档上，我就只知道这一个
