@@ -14,11 +14,9 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 :::
 
-<br><br><br><br>
+-----
 
 ## Bukkit插件
-
------
 
 ### AllMusic
 
@@ -38,7 +36,7 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 [Mcbbs](https://search.mcbbs.net/thread-972589-1-1.html) | [阿里云盘下载](https://www.123pan.com/s/Nh4zVv-BjOAH.html)
 
-----
+-----
 
 ### AuthMe
 
@@ -51,6 +49,18 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 下载链接：
 
 [CodeMC](https://ci.codemc.io/job/AuthMe/job/AuthMeReloaded/)
+
+-----
+
+### Boom
+
+版本：1.13.X - 1.20.X
+
+标签： `机制` `管理`
+
+介绍：开启**mobGriefing**后村民无法种地，不开启怕苦力怕**爆炸**？这款插件会帮你解决你的痛处！
+
+下载链接：[Mcbbs](https://www.mcbbs.net/thread-1150139-1-1.html) | [GitHub](https://github.com/4o4E/Boom/releases)
 
 -----
 
@@ -74,17 +84,17 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 -----
 
-### EssentialsX
+### Chunky
 
-版本：全版本
+版本：1.13.X-1.20.X
 
-标签：`管理` `信息` `生存`
+标签：`优化`
 
-介绍：这个插件提供了大量基础功能，例如`/tpa`，`/sethome`，`/warp`等等，非常适合新手使用。
+介绍：你的服务器还在因为区块加载导致卡顿？这款插件通过生成区块，或许能够解决你岌岌可危的TPS！
 
-下载链接：
+下载连接：
 
-[官网（下载时需要代理Github）](https://essentialsx.net/downloads.html)
+[SpigotMC](https://www.spigotmc.org/resources/chunky.81534/)
 
 -----
 
@@ -100,32 +110,20 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 [GitHub](https://github.com/Iseason2000/DeEnchantment/releases) | [Mcbbs](https://www.mcbbs.net/thread-1198268-1-1.html)
 
-----
+-----
 
-### Chunky
+### EssentialsX
 
-版本：1.13.X-1.20.X
+版本：全版本
 
-标签：`优化`
+标签：`管理` `信息` `生存`
 
-介绍：你的服务器还在因为区块加载导致卡顿？这款插件通过生成区块，或许能够解决你岌岌可危的TPS！
+介绍：这个插件提供了大量基础功能，例如`/tpa`，`/sethome`，`/warp`等等，非常适合新手使用。
 
-下载连接：
+下载链接：
 
-[SpigotMC](https://www.spigotmc.org/resources/chunky.81534/)
+[官网（下载时需要代理Github）](https://essentialsx.net/downloads.html)
 
-----
-
-### Boom版本：1.13.X - 1.20.X
-
-标签： `机制` `管理`
-
-介绍：开启**mobGriefing**后村民无法种地，不开启怕苦力怕**爆炸**？这款插件会帮你解决你的痛处！
-
-下载链接：[Mcbbs](https://www.mcbbs.net/thread-1150139-1-1.html) | [GitHub](https://github.com/4o4E/Boom/releases)
-
-<br><br><br><br>
+-----
 
 ## Sponge插件
-
-----
