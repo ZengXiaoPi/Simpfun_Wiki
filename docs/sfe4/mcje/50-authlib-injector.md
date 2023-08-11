@@ -38,7 +38,7 @@ title: 进阶文档：使用第三方验证服务器登录
 
 到[authlib-injector的官网](https://authlib-injector.yushi.moe/)下载。点进去默认是最新的1.2.3版本，下这个就行。
 
-![全然わかんない 全然わかんない 全然わかんない~本当くだんない 本当くだんない 本当くだんない](static\img\pages\AuthlibInjector-1.png)
+![全然わかんない 全然わかんない 全然わかんない~本当くだんない 本当くだんない 本当くだんない](/img/pages/AuthlibInjector-1.png)
 
 下载后扔到与`start.sh`同级的目录。
 
@@ -46,7 +46,7 @@ title: 进阶文档：使用第三方验证服务器登录
 
 ~~是的，我们又回到`start.sh`文件了（这文件就是配置启动命令和参数的，不回这来是要去哪）~~
 
-下面是一个服务器启动命令示例，它来源于[自定义教程](docs\sfe4\mcje\15-customization.md)
+下面是一个服务器启动命令示例，它来源于[自定义教程](/docs/sfe4/mcje/customization)
 
 ```sh
 ${openjdk17} -Xms1024M -Xmx${maxmem}M -jar server-release.jar
