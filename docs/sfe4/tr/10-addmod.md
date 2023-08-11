@@ -12,6 +12,12 @@ title: 如何上传并使用mod
 
 1. 进入实例，点击`文件`
 
+:::tip
+
+如果没有`.local`文件夹，可以开启一次服务器，再关闭。
+
+:::
+
 2. 进入`/.local/share/Terraria/tModLoader/Mods`
 
 3. 上传您以`.tmod`为后缀的 mod 文件。
