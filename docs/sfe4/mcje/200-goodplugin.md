@@ -14,9 +14,11 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 :::
 
------
+<br><br><br><br>
 
 ## Bukkit插件
+
+-----
 
 ### AllMusic
 
@@ -36,6 +38,8 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 [Mcbbs](https://search.mcbbs.net/thread-972589-1-1.html) | [阿里云盘下载](https://www.123pan.com/s/Nh4zVv-BjOAH.html)
 
+----
+
 ### AuthMe
 
 版本：全版本
@@ -47,6 +51,8 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 下载链接：
 
 [CodeMC](https://ci.codemc.io/job/AuthMe/job/AuthMeReloaded/)
+
+-----
 
 ### CoreProtect
 
@@ -66,6 +72,8 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 [Mcbbs](https://www.mcbbs.net/thread-72515-1-1.html) | [SpigotMC](https://www.spigotmc.org/resources/coreprotect.8631/)
 
+-----
+
 ### EssentialsX
 
 版本：全版本
@@ -80,4 +88,44 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 -----
 
+### DeEnchantment
+
+版本：1.19.X 1.18.X 1.17.X 1.16.X 
+
+标签：`开源` `机制` `附魔`
+
+介绍：觉得原版的附魔太无聊了？这款插件会让你的原版附魔多一些意外！
+
+下载链接：
+
+[GitHub](https://github.com/Iseason2000/DeEnchantment/releases) | [Mcbbs](https://www.mcbbs.net/thread-1198268-1-1.html)
+
+----
+
+### Chunky
+
+版本：1.13.X-1.20.X
+
+标签：`优化`
+
+介绍：你的服务器还在因为区块加载导致卡顿？这款插件通过生成区块，或许能够解决你岌岌可危的TPS！
+
+下载连接：
+
+[SpigotMC](https://www.spigotmc.org/resources/chunky.81534/)
+
+----
+
+### Boom版本：1.13.X - 1.20.X
+
+标签： `机制` `管理`
+
+介绍：开启**mobGriefing**后村民无法种地，不开启怕苦力怕**爆炸**？这款插件会帮你解决你的痛处！
+
+下载链接：[Mcbbs](https://www.mcbbs.net/thread-1150139-1-1.html) | [GitHub](https://github.com/4o4E/Boom/releases)
+
+<br><br><br><br>
+
 ## Sponge插件
+
+----
