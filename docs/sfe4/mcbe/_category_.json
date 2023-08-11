@@ -1,13 +1,12 @@
-
 {
-  "position": 400,
-  "label": "铁锈战争（RW-HPS）",
+  "position": 200,
+  "label": "Minecraft BE",
   "collapsible": true,
-  "collapsed": false,
+  "collapsed": true,
   "className": "red",
   "link": {
     "type": "generated-index",
-    "title": "铁锈战争（RW-HPS）"
+    "title": "Minecraft BE"
   },
   "customProps": {
     "description": "This description can be used in the swizzled DocCard"
