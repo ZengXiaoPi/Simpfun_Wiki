@@ -34,7 +34,7 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 下载链接：
 
-[Mcbbs](https://search.mcbbs.net/thread-972589-1-1.html) | [阿里云盘下载](https://www.123pan.com/s/Nh4zVv-BjOAH.html)
+[Mcbbs](https://search.mcbbs.net/thread-972589-1-1.html) | [123云盘下载](https://www.123pan.com/s/Nh4zVv-BjOAH.html)
 
 -----
 
