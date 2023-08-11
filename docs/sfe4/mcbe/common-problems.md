@@ -9,4 +9,4 @@ title: 基岩版服务器常见问题
 * 玩家代号大小写不匹配
 
 ## 无法开关游戏设置
-请看 [基岩版服务器配置文件介绍 - 隐藏的 op-permission-level](/docs/sfe4/mcbe/server-properties#隐藏的-op-permission-level)
+请看 **基岩版服务器配置文件介绍 - 隐藏的 op-permission-level**
