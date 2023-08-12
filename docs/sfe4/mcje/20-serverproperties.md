@@ -224,7 +224,9 @@ server.properties是Minecraft服务器的配置文件，在基岩版服务器和
 
 ## level-name：存档（世界）名称
 
-Java：此项默认为world。注：在各个Java服务端内核之间有不同：如spigot的文件结构为`world`，`world_nether`和`world_the_end`文件夹直接存储三个维度的数据，此项设置无效；如果文件结构中没有`world_nether`和`world_the_end`这两个文件夹，如`fabric`和`Vanilla`，则此项设定的名称即为存档名称，如果没有以此为名的文件夹则自动生成存档。
+Java：此项默认为`world`。
+
+注：在各个Java服务端内核之间有不同：如spigot的文件结构为`world`，`world_nether`和`world_the_end`文件夹直接存储三个维度的数据，此项设置无效；如果文件结构中没有`world_nether`和`world_the_end`这两个文件夹，如`fabric`和`Vanilla`，则此项设定的名称即为存档名称，如果没有以此为名的文件夹则自动生成存档。
 
 基岩：此项默认为Bedrock level且`world`文件夹名为`worlds`，同时存档作为文件夹存储在`worlds`文件夹下。
 
