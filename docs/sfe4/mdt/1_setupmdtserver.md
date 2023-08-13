@@ -33,13 +33,13 @@ title: 如何像人类一样开像素工厂服务器
 您如果像我一样**无法访问**github，您可以尝试一下使用**移动数据**连接或者使用**第三方科技**，当然***最简单的办法***就是去[这里](www.baidu.com)寻找该服务器包
 
 当然还有一种方法那便是参考下面链接并在浏览器打开
-```
+
 https://ghproxy.com/https://github.com/Anuken/Mindustry/releases/download/v您的版本号/server-release.jar
-```
+
 例：
-```
+
 https://ghproxy.com/https://github.com/Anuken/Mindustry/releases/download/v145.1/server-release.jar
-```
+
 :::
 
 - **第三步**
