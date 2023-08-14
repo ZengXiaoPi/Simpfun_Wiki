@@ -163,4 +163,6 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 下载链接：
 [MCBBS](https://www.mcbbs.net/thread-1075003-1-1.html) | [SpigotMC](https://www.spigotmc.org/resources/minimotd-motd-plugin-with-rgb-gradients.81254/)
 
+-----
+
 ## Sponge插件
