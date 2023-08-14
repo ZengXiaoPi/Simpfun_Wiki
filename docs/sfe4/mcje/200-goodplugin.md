@@ -126,4 +126,41 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 -----
 
+### Residence
+
+版本：1.7.10——1.19.x
+
+标签：`综合` `管理` `安全`
+
+介绍：老牌领地插件，详细信息请去MCBBS的帖子查看，里头有极其详细的介绍。
+
+:::tip
+
+->  【如果您有经济条件，请选择正版，支持作者！】
+-> 【付费版与免费版无本质区别，正版是对作者的尊重和支持！】
+
+:::
+
+下载链接：
+[MCBBS](https://www.mcbbs.net/thread-631343-1-1.html) | [官方免费版](https://zrips.net/Residence/) | [付费版下载地址(10欧元)](https://www.spigotmc.org/resources/residence-1-7-10-up-to-1-10.11480/)
+
+-----
+
+###MiniMOTD
+
+版本：1.8——最新版
+
+标签：`娱乐` `信息`
+
+介绍：还在嫌原版的motd一点新意都没有？这款插件可自定义假玩家以及RGB颜色的MOTD，支持彩虹渐变（1.16+），还支持随机服务器图标！它还可以设置最大人数比在线人数始终多x，这是可以自行设置多多少的！
+
+:::caution
+
+部分修改Tab界面的插件，部分修改计分板的插件也提供修改motd的功能，在使用此插件前请注意相关插件的motd配置是否已关闭！
+
+:::
+
+下载链接：
+[MCBBS](https://www.mcbbs.net/thread-1075003-1-1.html) | [SpigotMC](https://www.spigotmc.org/resources/minimotd-motd-plugin-with-rgb-gradients.81254/)
+
 ## Sponge插件
