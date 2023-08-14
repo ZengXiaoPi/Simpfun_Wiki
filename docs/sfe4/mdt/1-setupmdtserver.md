@@ -1,7 +1,6 @@
 ---
 title: 如何像人类一样开像素工厂服务器
 ---
-***提要: 如果您发现本文章有哪些错误请立刻联系我进行更正，祝您有愉快的阅读体验***
 
 - **第零步**
 
@@ -30,15 +29,15 @@ title: 如何像人类一样开像素工厂服务器
 
 :::caution  注意：
 
-您如果像我一样**无法访问**github，您可以尝试一下使用**移动数据**连接或者使用**第三方科技**，当然***最简单的办法***就是去[这里](www.baidu.com)寻找该服务器包
+您如果像我一样**无法访问**github，您可以尝试一下使用**移动数据**连接或者使用**第三方科技**，当然***最简单的办法***就是去[这里](https://www.baidu.com)寻找该服务器包
 
 当然还有一种方法那便是参考下面链接并在浏览器打开
 
-https://ghproxy.com/https://github.com/Anuken/Mindustry/releases/download/v您的版本号/server-release.jar
+`https://ghproxy.com/https://github.com/Anuken/Mindustry/releases/download/v您的版本号/server-release.jar`
 
 例：
 
-https://ghproxy.com/https://github.com/Anuken/Mindustry/releases/download/v145.1/server-release.jar
+`https://ghproxy.com/https://github.com/Anuken/Mindustry/releases/download/v145.1/server-release.jar`
 
 :::
 
@@ -88,5 +87,3 @@ https://ghproxy.com/https://github.com/Anuken/Mindustry/releases/download/v145.1
 - 启动，并保存服务器ip和端口
 
 这样，您就完成了这***艰难***的开服过程，如果发现终端里面的信息有**Permission denied**字样，请移步去文件-选中server-release.jar-右下角-工具箱-选中唯一选项-点击执行
-
-祝你生活愉快
