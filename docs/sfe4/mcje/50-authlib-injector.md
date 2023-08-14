@@ -92,24 +92,46 @@ ${openjdk17} -Xms1024M -Xmx${maxmem}M -javaagent:authlib-injector-1.2.3.jar=http
 
 :::
 
+:::tip
+
+本部分教程均以[LittleSkin](https://littleskin.cn)为例
+
+:::
+
 ## PCL2
 
-以[LittleSkin](https://littleskin.cn/)举例，注册好[LittleSkin](https://littleskin.cn/)账号后进入如下页面
+注册好[LittleSkin](https://littleskin.cn/)账号后进入如下页面
 
-![見当違いの愛 手にしたって you got a 未来の後悔~捨て台詞くらいにはなるか？ 威張んなよ お前が](/img/pages/AuthlibInjrctor-2.png)
+![見当違いの愛 手にしたって you got a 未来の後悔~捨て台詞くらいにはなるか？ 威張んなよ お前が](/img/pages/AuthlibInjector-2.png)
 
 直接鼠标左键长按那个`将此按钮拖动至启动器`的按钮 然后把它拖到PCL2上并松开左键 PCL2会自动为你开启当前版本的第三方登录验证
 
 然后你需要在PCL2里输入自己的LittleSkin账密来获取角色，然后的然后就可以正常游玩了！
 
-## HMCL 
+## HMCL
 
-我电脑上没有，在添加登录方式的时候选择第三方登录然后输入验证服务器api即可；也可以使用PCL2的方法加入。
+1.将红框内的按钮直接拖入HMCL中，在弹出的窗口中选择“完成”
+![Twelve你AuthlibInjector-2.png的名字都打错了](/img/pages/AuthlibInjector-3.png)
+2.点击HMCL左侧的`账户`，在二级页面的左侧选择`LittleSkin`，输入你的用户名和密码进行登录
+![我给改回来了](/img/pages/AuthlibInjector-4.png)
+3.登录完成后选择一个角色，然后你就可以开始游戏辣
 
-## BakaXL
+## BakaXL 3.x
 
-不知道
+配置相较于以上两个启动器较为麻烦
+
+1.在BakaXL的开始页面点击`本体设置`
+![上一个编写的人图片名夹带私货是吧,那我也夹点](/img/pages/AuthlibInjector-5.png)
+2.在左栏选择`账户与档案`，下滑找到“Minecraft用户档案”，选择`新增一个档案`
+![Never gonna give you up](/img/pages/AuthlibInjector-6.png)
+3.连续点击“游戏启动模式”三次，切换到外置登录，在验证服务器处输入`https://littleskin.cn/api/yggdrasil`，在下方输入你的邮箱和密码，点击`进行验证并返回`
+![Never gonna let you down](/img/pages/AuthlibInjector-7.png)
+![Never gonna run around and desert you](/img/pages/AuthlibInjector-8.png)
+4.此时它会提示你选择一个角色，选择你需要登录的角色即可
+
+## BakaXL 2.x
+BakaXL 2 已停更，WinXP~Win8.1建议使用兼容更好的HMCL
 
 # 推荐的第三方登录验证服务器
 
-[LittleSkin](https://littleskin.cn/)
+[LittleSkin](https://littleskin.cn/) —— 国内首选，目前为国内第一大的第三方皮肤站(因为Skinme寄了)
