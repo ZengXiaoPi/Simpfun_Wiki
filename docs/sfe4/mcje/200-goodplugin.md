@@ -8,6 +8,13 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 :::
 
+:::caution
+
++ 本文**可能由于更新不及时**导致标注的插件支持版本出现**错误（包括MCBBS也会出现这种情况）**，在确定插件支持版本时请去**SpigotMC等原下载地址**查看！    
++ 大部分插件支持**向上兼容**，例如插件A作者标注为支持1.8——1.16.x，其实际支持版本可能为1.8——1.19.x，但在1.20更新后出现了部分插件不兼容的情况，实际情况请自行测试或寻求帮助。
+
+:::
+
 :::tip
 
 按`Ctrl+F`或使用搜索功能查找标签/插件。
@@ -16,7 +23,7 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 -----
 
-## Bukkit插件
+## Bukkit系插件
 
 ### AllMusic
 
@@ -128,7 +135,7 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 ### Residence
 
-版本：1.7.10——1.19.x
+版本：1.7.10——1.20.x
 
 标签：`综合` `管理` `安全`
 
@@ -148,7 +155,7 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 ### MiniMOTD
 
-版本：1.8——最新版
+版本：1.8——1.20.x 
 
 标签：`娱乐` `信息`
 
@@ -174,7 +181,7 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 介绍：WorldEdit ，中文名一般译为“创世神”插件，为Minecraft中的十分易用的内建于游戏中的世界编辑器，多人游戏与单人游戏皆可使用。    
 更多信息请去MCBBS搬运帖查看。
 
-:::caution
+:::tip
 
 1.12及以下版本请去MCBBS搬运帖寻找旧版本下载使用！
 
@@ -184,4 +191,51 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 [MCBBS搬运帖](https://www.mcbbs.net/thread-68815-1-1.html) | [CurseForge](https://dev.bukkit.org/projects/worldedit)
 
 -----
+
+### Vault  
+
+版本：1.8——1.20.x  
+
+标签：`前置API` `经济`  
+
+介绍：Vault是一个经济/权限/聊天前置，它使插件可以轻松连接到这些系统而不需要连接各自的插件或以他们为前置。  
+(现在Bukkit系的经济插件大部分都是以这个插件为前置的)  
+
+:::caution
+
+Vault只提供功能支持，具体的功能实现需要额外的插件（[这是一个示例插件](https://www.mcbbs.net/thread-962904-1-1.html)）！    
+
+:::
+
+下载链接：  
+[SpigotMC](https://www.spigotmc.org/resources/vault.34315/)  
+
+-----
+
+### SkinsRestorer
+
+版本:1.8——1.20.x
+
+标签：`皮肤` `角色` `修复`
+
+介绍：SkinsRestorer是一个在离线模式的服务器显示正版皮肤的插件，通过使用命令或者初次加入时插件自动获取皮肤，玩家可以更改皮肤，即使用正版ID对应的皮肤，非正版玩家也可以通过指令加载某个正版ID的皮肤。  
+具体内容请去MCBBS搬运帖查看。  
+
+下载链接：
+[MCBBS搬运帖](https://www.mcbbs.net/thread-805404-1-1.html) | [SpigotMC](https://www.spigotmc.org/resources/skinsrestorer.2124/)
+
+-----
+
 ## Sponge插件
+
+### WorldEdit
+
+API版本：7.1（1.12.2），8.1（1.16.5），11（1.20）
+
+标签：`管理` `安全` `信息`  
+
+介绍：WorldEdit ，中文名一般译为“创世神”插件，为Minecraft中的十分易用的内建于游戏中的世界编辑器，多人游戏与单人游戏皆可使用。  
+
+下载链接：
+[SpongeOre](https://ore.spongepowered.org/EngineHub/WorldEdit)
+
