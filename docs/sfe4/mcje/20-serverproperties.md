@@ -15,7 +15,7 @@ server.properties是Minecraft服务器的配置文件，在基岩版服务器和
 
 需要在文件系统内进行配置。如果你还不知道“文件系统”是什么，去看看[这个官方文档](https://www.simpfun.me/docs/instance-management/file)
 
-注意: server.properties不支持热重载配置,每次修改配置请先关闭服务器!
+server.properties不支持热重载配置,不过不知道运行时能不能修改，总之每次修改配置请先关闭服务器为好。
 
 :::
 
@@ -25,7 +25,15 @@ server.properties是Minecraft服务器的配置文件，在基岩版服务器和
 
 :::
 
+# allow-cheat
+
+不知道为什么我看到的jvav版文件里没有这个，但是它存在并且很重要。
+
+允许服务器启用作弊
+
+
 -----
+
 
 ## allow-flight：允许飞行
 
@@ -630,3 +638,15 @@ SFE-4所用控制台不属于远程控制台，这两项不用管它
 注：这条设置是JE1.20.2新加的（甚至sfe4在我敲下这行字的时候还没有1.20.2的服务端），所以不会有什么影响，这条放在最末
 
 此项默认值为true。（我朝，更方便ban-ip了）
+
+-----
+
+# 一个好好玩的网站……
+
+[https://server.properties/](https://server.properties/)
+
+里面是一份paper端默认的`server.properties`文档。
+
+如果有人乱篡改配置结果忘了默认的可以来看看。
+
+（这个网页好好玩啊w
