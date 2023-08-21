@@ -15,3 +15,7 @@ title: 主页
 此维基用爱驱动！
 
 欢迎您加入我们的编辑。
+
+## 本维基贡献者
+
+![](https://contrib.rocks/image?repo=ZengXiaoPi/Simpfun_Wiki)
