@@ -13,7 +13,7 @@ title: 基岩版服务器常见问题
 
 ## 无法开启作弊？
 
-请看 [**基岩版服务器配置文件介绍**](https://simpdoc.top/docs/sfe4/mcbe/server-properties#%E7%BF%BB%E8%AF%91%E8%BF%87%E5%90%8E%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6)
+请看 [**基岩版服务器配置文件介绍**](/docs/sfe4/mcbe/server-properties)
 在`server.properties`内有这样一行配置：
 ```
 allow-cheats=false
