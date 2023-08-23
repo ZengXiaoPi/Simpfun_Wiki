@@ -133,6 +133,62 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 -----
 
+### MiniMOTD
+
+版本：1.8——1.20.x 
+
+标签：`娱乐` `信息`
+
+介绍：还在嫌原版的motd一点新意都没有？这款插件可自定义假玩家以及RGB颜色的MOTD，支持彩虹渐变（1.16+），还支持随机服务器图标！它还可以设置最大人数比在线人数始终多x，这是可以自行设置多多少的！
+
+:::caution
+
+部分修改Tab界面的插件，部分修改计分板的插件也提供修改motd的功能，在使用此插件前请注意相关插件的motd配置是否已关闭！
+
+:::
+
+下载链接：
+[MCBBS搬运帖](https://www.mcbbs.net/thread-1075003-1-1.html) | [SpigotMC](https://www.spigotmc.org/resources/minimotd-motd-plugin-with-rgb-gradients.81254/)
+
+-----
+
+### Multiverse-Core
+
+版本：1.7.2——1.20.x  
+
+标签：`管理` `传送` `创世`  
+
+介绍：全球知名的多世界管理插件。  
+
+它能做什么？  
+
+```
+可实现服务器多种不同种类的世界创建/删除  
+可设置外部地图挂载  
+可设置地图重生位置和重生地图  
+可设置传送所需费用，费用可以以来经济插件也可定制扣除指定物品  
+可设置世界前缀，可自定颜色  
+可设置允许需要权限才能进入世界  
+可设置不同世界的模式，如生存、困难等，生物、怪物是否生成  
+可以通过命令清除某一世界的某种生物  
+可以通过各种命令插件激活此插件命令  
+也可通过传送插件进行多世界传送  
+可通过该更多插件来提升此插件的功能 *创建更多种类的世界  
+可设置进入指定世界收费  
+```
+
+:::warning 提示
+
+Multiverse-Core仅提供基础的多世界功能，需要拓展功能请点击下方链接跳转至MCBBS论坛查看！   
+[Multiverse-Portals](https://www.mcbbs.net/thread-1413461-1-1.html)(多世界传送门) | [Multiverse-Inventories](https://www.mcbbs.net/thread-909834-1-1.html)(多世界背包隔离) | [Multiverse-NetherPortals](https://www.mcbbs.net/thread-1034491-1-1.html)(多世界下界隔离)
+
+:::
+
+下载链接：
+[MCBBS搬运帖](https://www.mcbbs.net/thread-1016455-1-1.html) | [DevBukkit](https://dev.bukkit.org/projects/multiverse-core)
+
+-----
+
 ### Residence
 
 版本：1.7.10——1.20.x
@@ -153,42 +209,17 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 -----
 
-### MiniMOTD
+### SkinsRestorer
 
-版本：1.8——1.20.x 
+版本:1.8——1.20.x
 
-标签：`娱乐` `信息`
+标签：`皮肤` `角色` `修复`
 
-介绍：还在嫌原版的motd一点新意都没有？这款插件可自定义假玩家以及RGB颜色的MOTD，支持彩虹渐变（1.16+），还支持随机服务器图标！它还可以设置最大人数比在线人数始终多x，这是可以自行设置多多少的！
-
-:::caution
-
-部分修改Tab界面的插件，部分修改计分板的插件也提供修改motd的功能，在使用此插件前请注意相关插件的motd配置是否已关闭！
-
-:::
+介绍：SkinsRestorer是一个在离线模式的服务器显示正版皮肤的插件，通过使用命令或者初次加入时插件自动获取皮肤，玩家可以更改皮肤，即使用正版ID对应的皮肤，非正版玩家也可以通过指令加载某个正版ID的皮肤。  
+具体内容请去MCBBS搬运帖查看。  
 
 下载链接：
-[MCBBS搬运帖](https://www.mcbbs.net/thread-1075003-1-1.html) | [SpigotMC](https://www.spigotmc.org/resources/minimotd-motd-plugin-with-rgb-gradients.81254/)
-
------
-
-### WorldEdit   
-
-版本：全版本  
-
-标签：`管理` `安全` `信息`  
-
-介绍：WorldEdit ，中文名一般译为“创世神”插件，为Minecraft中的十分易用的内建于游戏中的世界编辑器，多人游戏与单人游戏皆可使用。    
-更多信息请去MCBBS搬运帖查看。
-
-:::tip
-
-1.12及以下版本请去MCBBS搬运帖寻找旧版本下载使用！
-
-:::         
-
-下载链接：
-[MCBBS搬运帖](https://www.mcbbs.net/thread-68815-1-1.html) | [CurseForge](https://dev.bukkit.org/projects/worldedit)
+[MCBBS搬运帖](https://www.mcbbs.net/thread-805404-1-1.html) | [SpigotMC](https://www.spigotmc.org/resources/skinsrestorer.2124/)
 
 -----
 
@@ -212,17 +243,23 @@ Vault只提供功能支持，具体的功能实现需要额外的插件（[这�
 
 -----
 
-### SkinsRestorer
+### WorldEdit   
 
-版本:1.8——1.20.x
+版本：全版本  
 
-标签：`皮肤` `角色` `修复`
+标签：`管理` `安全` `信息`  
 
-介绍：SkinsRestorer是一个在离线模式的服务器显示正版皮肤的插件，通过使用命令或者初次加入时插件自动获取皮肤，玩家可以更改皮肤，即使用正版ID对应的皮肤，非正版玩家也可以通过指令加载某个正版ID的皮肤。  
-具体内容请去MCBBS搬运帖查看。  
+介绍：WorldEdit ，中文名一般译为“创世神”插件，为Minecraft中的十分易用的内建于游戏中的世界编辑器，多人游戏与单人游戏皆可使用。    
+更多信息请去MCBBS搬运帖查看。
+
+:::tip
+
+1.12及以下版本请去MCBBS搬运帖寻找旧版本下载使用！
+
+:::         
 
 下载链接：
-[MCBBS搬运帖](https://www.mcbbs.net/thread-805404-1-1.html) | [SpigotMC](https://www.spigotmc.org/resources/skinsrestorer.2124/)
+[MCBBS搬运帖](https://www.mcbbs.net/thread-68815-1-1.html) | [CurseForge](https://dev.bukkit.org/projects/worldedit)
 
 -----
 
