@@ -1,10 +1,10 @@
 ---
-title:如何添加Addon(模组)
+title: 如何添加Addon(模组)
 ---
 
-## 前言
+本篇文档将教你如何在服务端安装Addon。  
 
-本篇文档将教你如何在服务端安装Addon。
+## 前言
 
 :::warning 危险警告  
 
@@ -65,31 +65,31 @@ title:如何添加Addon(模组)
 准备好你需要安装的Addon。  
 关闭服务器。  
 
-#### 第二步
-在简幻欢控制台的`文件`页面，转到`/plugins/AddonsHelper`文件夹。  
+#### 第二步   
+在简幻欢控制台的`文件`页面，转到`/plugins/AddonsHelper`文件夹。   
 
-![草，忘了歌词了](/img/pages/MCBE-InputAddon-2.png)  
-~~请忽略掉歌词awa~~  
+![草，忘了歌词了](/img/pages/MCBE-InputAddon-2.png)   
+~~请忽略掉歌词awa~~   
 
 #### 第三步  
-将你需要安装的Addon上传至这个文件夹中。  
+将你需要安装的Addon上传至这个文件夹中。    
 
 :::caution 再次警告
 
-请注意文件格式是否正确！
+请注意文件格式是否正确！  
 
 :::
-![其实我是故意的](/img/pages/MCBE-InputAddon-3.png)
+![其实我是故意的](/img/pages/MCBE-InputAddon-3.png)  
 
 #### 第四步
-回到终端界面，重新开服，并查看终端窗口中是否出现类似下图红框内的输出，如果出现了，则证明导入成功。
+回到终端界面，重新开服，并查看终端窗口中是否出现类似下图红框内的输出，如果出现了，则证明导入成功。   
 
-![Windows赛高！](/img/pages/MCBE-InputAddon-4.png)
-(使用Windows窗口进行演示)
+![Windows赛高！](/img/pages/MCBE-InputAddon-4.png)  
+(使用Windows窗口进行演示)  
 
 :::tip
 
-使用这种方式导入Addon时，控制台会在加载世界完成后出现一大串红色的`ERROR`，但这是正常现象（服务器检测到原本的世界没有这些东西而出现ERROR），绝大部分情况下不影响使用。
+使用这种方式导入Addon时，控制台会在加载世界完成后出现一大串红色的`ERROR`，但这是正常现象（服务器检测到原本的世界没有这些东西而出现ERROR），绝大部分情况下不影响使用。  
 
 :::
 
@@ -98,30 +98,30 @@ title:如何添加Addon(模组)
 
 :::caution 提示
 
-适用服务端：所有BDS
+适用服务端：所有BDS  
 
 :::
 
 :::warning 警告
 
-这种方法只适合在新世界安装Addon，旧有的世界无法安装！
+这种方法只适合在新世界安装Addon，旧有的世界无法安装！  
 
 :::
 
 #### 第一步   
-将你需要安装的addon先导入本地客户端，并创建一个新世界安装addon。   
+将你需要安装的addon先导入本地客户端，并创建一个新世界安装addon。    
 各个系统导入与安装方法请自行搜索教程。   
 
 #### 第二步   
 将整个存档**文件夹**导出并上传至服务器的`worlds`文件夹，并**记下存档文件夹的名称**(**尽量使用英文**)。   
 各个系统的存档导出方法请自行搜索教程。  
-例：此处我上传的新存档文件夹名称为`Fontaine`。
+例：此处我上传的新存档文件夹名称为`Fontaine`。  
 
-![鸽子还不赶紧补充库存](/img/pages/MCBE-InputAddon-5.png)
-~~(请忽略这是个Windows窗口的事实，你把它想象成简幻欢的控制台就行了)~~
+![鸽子还不赶紧补充库存](/img/pages/MCBE-InputAddon-5.png)  
+~~(请忽略这是个Windows窗口的事实，你把它想象成简幻欢的控制台就行了)~~  
 
 #### 第三步
-回到服务器根目录，打开`server.properties`，找到下面这行配置   
+回到服务器根目录，打开`server.properties`，找到下面这行配置：     
 ```
 level-name=Bedrock level
 # Allowed values: Any string without semicolon symbol or symbols illegal for file name: /\n\r\t\f`?*\\<>|\":
@@ -129,7 +129,7 @@ level-name=Bedrock level
 将其中的`Bedrock level`更改为你上传的存档文件夹的名字。  
 例：在上一步中我上传的存档文件夹名为`Fontaine`，那么我就需要把`Bedrock level`更改为`Fontaine`，如下图所示：   
 
-![Fontaine的中文是枫丹，原神启动！](/img/pages/MCBE-InputAddon-6.png)
+![Fontaine的中文是枫丹，原神启动！](/img/pages/MCBE-InputAddon-6.png)  
 
 #### 第四步
-回到终端界面，重新开服，并检查世界是否正常加载。
+回到终端界面，重新开服，并检查世界是否正常加载。  
