@@ -105,7 +105,7 @@ const config = {
                 href: 'https://space.bilibili.com/1493209225',
               },
 			  {
-                label: 'Cloudflare',
+                label: 'Github',
                 href: 'https://github.com/ZengXiaoPi/Simpfun_Wiki',
               },
             ],
