@@ -63,7 +63,9 @@ ${openjdk17} -Xms1024M -Xmx${maxmem}M -jar server-release.jar
 它表示：
 
   使用名为`authlib-injector-1.2.3.jar`的文件进行第三方登录；
+  
   第三方登录文件与服务器核心处在同一目录下；
+  
   第三方登录服务器验证地址为`https://littleskin.cn/api/yggdrasil`（此第三方登录服务器为[LittleSkin](https://littleskin.cn/)）
 
 :::tip
@@ -112,6 +114,7 @@ ${openjdk17} -Xms1024M -Xmx${maxmem}M -javaagent:authlib-injector-1.2.3.jar=http
 
 1.将红框内的按钮直接拖入HMCL中，在弹出的窗口中选择“完成”
 ![Twelve你AuthlibInjector-2.png的名字都打错了](/img/pages/AuthlibInjector-3.png)
+<!--好好好，你人还挺好的嘞-->
 2.点击HMCL左侧的`账户`，在二级页面的左侧选择`LittleSkin`，输入你的用户名和密码进行登录
 ![我给改回来了](/img/pages/AuthlibInjector-4.png)     
 3.登录完成后选择一个角色，然后你就可以开始游戏辣
@@ -127,6 +130,8 @@ ${openjdk17} -Xms1024M -Xmx${maxmem}M -javaagent:authlib-injector-1.2.3.jar=http
 3.连续点击“游戏启动模式”三次，切换到外置登录，在验证服务器处输入`https://littleskin.cn/api/yggdrasil`，在下方输入你的邮箱和密码，点击`进行验证并返回`
 ![Never gonna let you down](/img/pages/AuthlibInjector-7.png)
 ![Never gonna run around and desert you](/img/pages/AuthlibInjector-8.png)
+<!--Never gonna make you cry-->
+<!--Never gonna say good bye-->
 4.此时它会提示你选择一个角色，选择你需要登录的角色即可
 
 ## BakaXL 2.x
