@@ -13,7 +13,7 @@ const FeatureList = [
     ),
   },
   {
-    title: '免费试用',
+    title: '完全免费',
     description: (
       <>
         您可以自由免费查看本维基，

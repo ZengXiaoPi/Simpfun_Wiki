@@ -25,7 +25,7 @@ server.properties不支持热重载配置,不过不知道运行时能不能修�
 
 :::
 
-# allow-cheat
+## allow-cheat
 
 不知道为什么我看到的jvav版文件里没有这个，但是它存在并且很重要。
 
