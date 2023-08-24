@@ -3,7 +3,7 @@
   "position": 400,
   "label": "铁锈战争（RW-HPS）",
   "collapsible": true,
-  "collapsed": false,
+  "collapsed": true,
   "className": "red",
   "link": {
     "type": "generated-index",
