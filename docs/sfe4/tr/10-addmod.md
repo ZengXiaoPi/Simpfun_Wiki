@@ -51,38 +51,6 @@ title: 如何上传并使用mod
 
 ```
 
-5. 返回上层，来到`/.local/share/Terraria/tModLoader`，点击`favorites.json`并编辑，将你目前使用的世界名后面的false改为true，例如，我这里有两个世界，`old`和`zaie`，他们的文件分别为`old.wld`和`zaie.wld`，此时，我就可以这样：
-
-:::caution
-
-如果文件里没有你世界的名字，请你手动添加。
-
-如果你不改变世界名字，直接给文件中的`"SFE4.wld": false`改为`"SFE4.wld": true`就可以。
-
-:::
-
-```json 编辑前
-
-{
-  "World": {
-    "old.wld": false,
-    "zaie.wld": false
-  }
-}
-
-```
-
-```json 编辑后
-
-{
-  "World": {
-    "old.wld": false,
-    "zaie.wld": true
-  }
-}
-
-```
-
-6. 重启服务器，我们再打开，输入modlist（无需斜杠），就可以看到你添加的模组了：
+5. 重启服务器，我们再打开，输入modlist（无需斜杠），就可以看到你添加的模组了：
 
 ![1](/img/pages/AddMod-TR.png)
