@@ -119,7 +119,7 @@ const config = {
             items: [
               {
                 label: '逆天墙',
-                to: '/blog',
+                href: 'http://nt.simpdoc.top'
               },
               {
                 label: 'GitHub',
