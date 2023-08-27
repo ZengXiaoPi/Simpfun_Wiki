@@ -69,7 +69,11 @@ const config = {
             position: 'left',
             label: '主页',
           },
-          {to: '/blog', label: '逆天墙', position: 'left'},
+          {
+            href: 'http://nt.simpdoc.top',
+	    label: '逆天墙', 
+	    position: 'left'
+	  },
           {
             href: 'https://github.com/ZengXiaoPi/Simpfun_Wiki',
             label: 'GitHub',
