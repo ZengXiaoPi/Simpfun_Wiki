@@ -69,7 +69,11 @@ const config = {
             position: 'left',
             label: '主页',
           },
-          {to: '/blog', label: '逆天墙', position: 'left'},
+          {
+            href: 'http://nt.simpdoc.top',
+	    label: '逆天墙', 
+	    position: 'left'
+	  },
           {
             href: 'https://github.com/ZengXiaoPi/Simpfun_Wiki',
             label: 'GitHub',
@@ -105,8 +109,8 @@ const config = {
                 href: 'https://space.bilibili.com/1493209225',
               },
 			  {
-                label: 'Github',
-                href: 'https://github.com/ZengXiaoPi/Simpfun_Wiki',
+                label: 'CloudFlare',
+                href: 'https://www.cloudflare.com',
               },
             ],
           },
@@ -115,7 +119,7 @@ const config = {
             items: [
               {
                 label: '逆天墙',
-                to: '/blog',
+                href: 'http://nt.simpdoc.top'
               },
               {
                 label: 'GitHub',

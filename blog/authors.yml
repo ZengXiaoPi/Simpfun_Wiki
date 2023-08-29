@@ -4,17 +4,8 @@ zxp:
   url: https://github.com/ZengXiaoPi
   image_url: https://q.qlogo.cn/g?b=qq&nk=1768506869&s=100
 
-
 Twelve:
   name: Twelve_eight
   title: ylg一个
   url: https://github.com/Twelve-eight
-  image_url: https://avatars.githubusercontent.com/u/127649305?v=4
-
-# 有点危险其实 你用的QQ的api 源码里就直接暴露QQ号了
-# 虽然他妈F12里全是混淆过的js
-# 虽然这句话也会被放到GitHub里动动手指盒出我的QQ号
-# 好的改了 我的img url用github的头像
-# 话说能不能把头像放到库里面啊
-
-# 删除了出问题的图片。解决问题本身！
+  image_url: https://i0.hdslb.com/bfs/face/dadfe7eadfeba831c3ac8671dfe51cdb11153caf.jpg@240w_240h_1c_1s_!web-avatar-space-header.webp
