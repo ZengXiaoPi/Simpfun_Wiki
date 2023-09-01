@@ -67,7 +67,7 @@ title: 如何导入存档
 最终结果应如下图所示：
 例：此处我上传的新存档文件夹名称为`Fontaine`。
 
-![この光に意志を込めて…貫け！バランス崩壊！](/img/pages/MCBE-Import-Worlds-49.png)
+![この光に意志を込めて…貫け！バランス崩壊！](/img/pages/MCBE-Import-Worlds-9.png)
 
 #### 第三步
 
