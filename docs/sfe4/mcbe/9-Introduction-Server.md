@@ -2,7 +2,7 @@
 title: 服务端的介绍
 ---
 
-本篇文档将讲解BE的各个服务端。
+本篇wiki将介绍BE的各个服务端。
 
 :::tip
 
@@ -139,7 +139,7 @@ Addon：不支持(~~这东西是在Pm似了后才出的~~)
 
 把这个尸体拉出来是因为我想纪念一下。     
 作为携带版最早出的服务端，Pm的历史可以说是极其悠久。  
-但是网络上现存的资料并不多，我只在Github上找到了[最后更新于2015年的存储库](https://github.com/PocketMine/PocketMine-MP)。  
+但是网络上现存的资料并不多，我只在Github上找到了[最后更新于2016年的存储库](https://github.com/PocketMine/PocketMine-MP)。  
 不过我在Github上发现Pm还有一个到现在还在更新的[分支](https://github.com/pmmp/pocketmine-mp)，也是一种传承吧。  
 
 :::
