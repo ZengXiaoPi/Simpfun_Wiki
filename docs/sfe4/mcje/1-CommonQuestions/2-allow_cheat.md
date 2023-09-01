@@ -33,3 +33,4 @@ allow-cheat=falseallow-cheats=false
 将`false`改为`true`并重启服务器即可启用作弊。
 
 *似乎Java版默认没有此项设置？*
+~~Java版默认开启全部权限，所以这一条应该是针对基岩版的，问题是谁把这条写到Java版底下的？~~
