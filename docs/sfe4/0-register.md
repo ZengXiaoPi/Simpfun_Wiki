@@ -2,12 +2,11 @@
 title: 如何注册
 ---
  
-1. 进入官网：[官网](https://simpfun.cn)    
-2. 点击 立即注册  
+1. 进入官网注册链接：[注册](https://simpfun.cn/auth?type=register)
 
 <img src="/img/pages/Register-1.png" width="50%" />
 
-3. 点击注册后输入：帐号、帐号密码、推荐码（可选）  
+2. 点击注册后输入：帐号、帐号密码、推荐码（可选）  
 
 :::info
 
@@ -21,23 +20,21 @@ title: 如何注册
     开发者邀请码列表（点击展开）
   </summary>
 
-- 曾小皮-ZengXiaoPi `1300270` `网页搭建，JE教程和大多数教程`
+- 曾小皮-ZengXiaoPi `1300270` `网页搭建，JE教程和大多数教程` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=1300270)
 
-- ~~群里指点江山的~~Twelve_eight `1301180` `部分教程` ~~and斥巨资9r购置短域名~~
+- Twelve_eight `1301180` `部分教程，提供simpdoc.top域名` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=1301180)
 
-- ~~不能干的~~能干辉 `1300361` `你做了什么来着`
+- 午夜_Midnight `1308824` `部分JE和BE文档` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=1308824)
 
-- ~~sfe老用户~~剑舜 `1301726` `手机SFTP教程`
+- ideafox `1302636` `rw-hps教程` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=1302636)
 
-- ideafox `1302636` `rw-hps教程`
+- 能干辉 `1300361` `你做了什么来着` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=1300361)
 
-- ~~笨蛋~~`1332029` `添加了寻找插件的站点`
+- 剑舜 `1301726` `手机SFTP教程` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=1301726)
 
-- 岚天呀 `1311554` `部分基岩版文档`
+- ~~笨蛋~~ `1332029` `添加了寻找插件的站点` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=1332029)
 
-- 午夜_Midnight `1308824` `部分JE和BE文档`
-
-~~再不开放邀请码我要没饭吃了（曾小皮如是说）~~
+- 岚天呀 `1311554` `部分基岩版文档` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=1311554)
 
 </details>
 
