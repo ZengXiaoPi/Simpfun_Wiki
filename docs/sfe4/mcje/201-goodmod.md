@@ -23,6 +23,7 @@ Simpfun Wiki仅作为推荐用途推荐这些mod，编辑者不保证可能出�
 
 -----
 
+  
 ## 主服务端mod
   
 :::caution 这是什么？
@@ -104,6 +105,7 @@ Quilt：1.19.1——1.20.1
 具体使用方法可参考[这里](https://www.mcmod.cn/class/6241.html)
 
 
-下载链接：[modrinth](https://modrinth.com/mod/easyauth)
+下载链接：
+[modrinth](https://modrinth.com/mod/easyauth)
 
 -----
