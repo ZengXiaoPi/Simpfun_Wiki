@@ -10,7 +10,7 @@ Simpfun Wiki仅作为推荐用途推荐这些mod，编辑者不保证可能出�
 
 :::caution 注意
 
-+ 本文**可能由于更新不及时**导致标注的插件支持版本出现**错误（包括MCBBS也会出现这种情况）**，在确定插件支持版本时请去**curseforge等原下载地址**查看！
++ 本文**可能由于更新不及时**导致标注的插件支持版本出现**错误（包括MCBBS，MC百科也会出现这种情况）**，在确定插件支持版本时请去**curseforge等原下载地址**查看！
 + 本文提到的mod均适用于**Minecraft Java Edition**！
 
 :::
@@ -47,7 +47,7 @@ Simpfun Wiki仅作为推荐用途推荐这些mod，编辑者不保证可能出�
 介绍：
 Geyser实现了跨平台互通，您可以使用此mod实现使用基岩版客户端进入Java版服务器。
 由于两个平台间的差距，会无法实现部分功能。
-#### 事实上，Geyser/支持多种服务端，如Spigot，Velocity等。
+**事实上，Geyser支持多种服务端，如Spigot，Velocity等。**
 
 :::caution 警告
 
