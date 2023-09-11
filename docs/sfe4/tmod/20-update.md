@@ -14,7 +14,7 @@ title: 更新 TModLoader
 
 <details>
     <summary>
-      Nested toggle! Some surprise inside...
+      展开文件列表
     </summary>
 
 文件夹：
@@ -43,6 +43,7 @@ title: 更新 TModLoader
 
 - tModLoader.xml
 
-</summary>
+</details>
+
 
 4. 将刚刚下载的 `TModLoader.zip` 上传，并解压即可。

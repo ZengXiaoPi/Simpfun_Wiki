@@ -8,7 +8,7 @@ title: 开启死亡不掉落
 
 打开服务器控制台>终端
 
-![太简单了 我不做单纯是因为电脑无线网速慢死](https://www.simpfun.me/assets/images/%E7%BB%88%E7%AB%AF%E8%A7%A3%E6%9E%90-d86ed842811934d638a63900d57cf74c.png)
+![《太简单了 我不做单纯是因为电脑无线网速慢死》By Twelve](https://www.simpfun.me/assets/images/%E7%BB%88%E7%AB%AF%E8%A7%A3%E6%9E%90-d86ed842811934d638a63900d57cf74c.png)
 
 输入以下命令(可直接复制，游戏内使用`ctrl+v`粘贴，控制台输入请去掉斜杠)：
 
