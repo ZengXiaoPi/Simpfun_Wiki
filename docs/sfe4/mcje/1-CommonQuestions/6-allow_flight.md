@@ -30,5 +30,5 @@ allow-flight=false
 
 之前QQ群有人还说这玩意改true外挂都不需要绕了，我就想说，真的会有人用这个自带的答辩配置来反作弊？这东西随便来个挂都能绕过去好吧。    
 
-![不懂装懂是这样的](/static/img/pages/MCJE-CommonQuestions-1.jpg)
+![不懂装懂是这样的](/img/pages/MCJE-CommonQuestions-1.jpg)
 
