@@ -16,8 +16,3 @@ title: 开启死亡不掉落
 /gamerule keepInventory true
 ```
 
-:::caution
-
-在Java版的部分服务端中(绝大部分的Bukkit系服务端)，维度是分文件夹存储的，因此你需要在每一个维度都输入一次这个命令来在所有的维度都开启死亡不掉落！
-
-:::
