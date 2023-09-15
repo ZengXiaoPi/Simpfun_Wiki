@@ -4,7 +4,7 @@ title: 为服务器启用作弊
 
 :::info
 
-本文档是隶属于[关于server.properties](../20-serverproperties.md)文档的子文档。
+本文档是隶属于[关于server.properties](../10-server-properties.md)文档的子文档。
 
 看完此文档后想了解更多信息，请阅读父文档。
 
@@ -32,5 +32,5 @@ allow-cheat=false
 
 将`false`改为`true`并重启服务器即可启用作弊。
 
-*似乎Java版默认没有此项设置？*    
-~~Java版默认开启全部权限，所以这一条应该是针对基岩版的，问题是谁把这条写到Java版底下的？~~
+![这个B问题群里天天都有人问](/img/pages/MCBE-CommonQuestions-1.png)
+~~(群友的愤怒)~~
