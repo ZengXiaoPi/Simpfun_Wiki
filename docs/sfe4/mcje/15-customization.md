@@ -2,6 +2,12 @@
 title: start.sh配置及“自定义”选项开服
 ---
 
+:::caution Outdated Content
+
+部分内容已过时，正在等待整修。
+
+:::
+
 :::tip
 
 本文档将介绍如何使用“自定义”预设从头进行Minecraft服务器开服。如果你想将SFE3.1的服务器迁移到SFE4，详见[从 SFE3 迁移到 SFE4](https://www.simpfun.me/docs/%E4%BB%8E%20SFE3%20%E8%BF%81%E7%A7%BB%E5%88%B0%20SFE4)。
