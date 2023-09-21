@@ -36,7 +36,7 @@ motd=SFE4 SERVER
 
 ### MiniMOTD插件
 
-MiniMOTD 是一个基本的 MOTD 插件，兼容 Minecraft 1.18 以上的旧版本（还支持 BungeeCord、Sponge、Velocity和Fabric）。
+MiniMOTD 是一个基本的 MOTD 插件，兼容 Minecraft 1.8 以上的旧版本（还支持 BungeeCord、Sponge、Velocity和Fabric）。
 
 插件可以增加RGB颜色、添加渐变色等。
 
