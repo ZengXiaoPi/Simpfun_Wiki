@@ -54,7 +54,7 @@ title: 从客户端导入存档到服务端
 
 这个包在综合交流群10的群文件里存了一份，Simpbbs上也有[帖子](https://www.simpbbs.com/resources/mod.9/)（←点击即可快捷到达！）
 
-![原来是cloudflare导致我连不上drop的](../../../static/img/pages/MCBE-Import-Worlds-7.png)
+![原来是cloudflare导致我连不上drop的](../../../static/img/pages/MCBE-Import-Worlds-7.jpg)
 
 在游戏内全局资源里启用该资源包，或者给你想导出的存档单独装上。
 
