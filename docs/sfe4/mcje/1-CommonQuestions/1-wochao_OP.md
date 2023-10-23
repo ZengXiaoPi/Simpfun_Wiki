@@ -6,7 +6,7 @@ title: 如何给予玩家op权限
 
 **打开控制台**
 
-![原神怎么你了](https://www.simpfun.me/assets/images/%E7%BB%88%E7%AB%AF%E8%A7%A3%E6%9E%90-d86ed842811934d638a63900d57cf74c.png)
+![原神怎么你了](/img/pages/Terminal.png)
 
 **在输入栏中输入`op 玩家id`并执行**
 

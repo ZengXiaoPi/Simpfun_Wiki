@@ -8,7 +8,7 @@ title: 启用坐标显示
 
 打开控制台
 
-![ターゲット、ロックオン、光よ！](https://www.simpfun.me/assets/images/%E7%BB%88%E7%AB%AF%E8%A7%A3%E6%9E%90-d86ed842811934d638a63900d57cf74c.png)
+![ターゲット、ロックオン、光よ！](/img/pages/Terminal.png)
 
 在控制台输入以下命令：
 
