@@ -8,7 +8,7 @@ title: 设置出生点
 
 找到服务器控制台
 
-![曾小皮艾草](https://www.simpfun.me/assets/images/%E7%BB%88%E7%AB%AF%E8%A7%A3%E6%9E%90-d86ed842811934d638a63900d57cf74c.png)
+![曾小皮艾草](/img/pages/Terminal.png)
 
 在游戏内使用此命令（可直接复制，游戏内`ctrl+v`粘贴）：
 
