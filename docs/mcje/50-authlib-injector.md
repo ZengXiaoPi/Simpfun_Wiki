@@ -46,7 +46,7 @@ title: 进阶文档：使用第三方验证服务器登录
 
 ~~是的，我们又回到`start.sh`文件了（这文件就是配置启动命令和参数的，不回这来是要去哪）~~
 
-下面是一个服务器启动命令示例，它来源于[自定义教程](/docs/sfe4/mcje/customization)
+下面是一个服务器启动命令示例，它来源于[自定义教程](/docs/mcje/15-customization.md)
 
 ```sh
 ${openjdk17} -Xms1024M -Xmx${maxmem}M -jar server-release.jar
@@ -132,6 +132,7 @@ ${openjdk17} -Xms1024M -Xmx${maxmem}M -javaagent:authlib-injector-1.2.3.jar=http
 ![Never gonna run around and desert you](/img/pages/AuthlibInjector-8.png)
 <!--Never gonna make you cry-->
 <!--Never gonna say good bye-->
+<!--Never gonna tell a lie and hurt you-->
 4.此时它会提示你选择一个角色，选择你需要登录的角色即可
 
 ## BakaXL 2.x

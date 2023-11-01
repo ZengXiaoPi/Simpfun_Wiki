@@ -16,7 +16,7 @@ title: 关闭正版验证
 
 进入服务器文件管理，在根目录打开`server.properties`文件
 
-![如果简幻欢服务器进不去，那就是能干辉打胶打到服务器主板上了，静等一段时间即可恢复](../../../../static/img/pages/serverproperties.png)
+![如果简幻欢服务器进不去，那就是能干辉打胶打到服务器主板上了，静等一段时间即可恢复](../../../static/img/pages/serverproperties.png)
 
 在文件中找到`online-mode=true`这一行，将`true`改为`false`即可关闭正版验证。
 

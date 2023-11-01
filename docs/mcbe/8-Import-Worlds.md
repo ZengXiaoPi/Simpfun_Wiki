@@ -25,7 +25,7 @@ title: 从客户端导入存档到服务端
 
 :::
 
-或者也可以选择不压缩，使用[SFTP工具](/docs/sfe4/30-sftp.md)直接上传整个文件夹。
+或者也可以选择不压缩，使用[SFTP工具](/docs/30-sftp.md)直接上传整个文件夹。
 
 ### Windows导出教程
 
@@ -33,20 +33,20 @@ title: 从客户端导入存档到服务端
 
 在游戏内点击此处铅笔（绿色高亮显示）
 
-![不许你们夹带私货，因为我没有](../../../static/img/pages/MCBE-Import-Worlds-3.png)
+![不许你们夹带私货，因为我没有](../../static/img/pages/MCBE-Import-Worlds-3.png)
 
 在存档详情页拉到最下方，如下图
 
-![等待泰坦降落](../../../static/img/pages/MCBE-Import-Worlds-4.png)
+![等待泰坦降落](../../static/img/pages/MCBE-Import-Worlds-4.png)
 
 直接点击“导出世界”并导出即可
 
-![这个情况还真没见过。这样吧，你先在羽丘一年A班或者天文部寻找“高松灯”发现后立即翻她封面是红花的笔记本并找到歌曲“春日影”，询问她歌曲的由来并邀请她一起组乐队，并在她拒绝后告诉她“只要好好努力避免重蹈覆辙不就好了吗”，在她同意后寻找她的前队友一起组队（丰川祥子除外），最后在你们的第一场live中演奏“春日影”。](../../../static/img/pages/MCBE-Import-Worlds-5.png)
+![这个情况还真没见过。这样吧，你先在羽丘一年A班或者天文部寻找“高松灯”发现后立即翻她封面是红花的笔记本并找到歌曲“春日影”，询问她歌曲的由来并邀请她一起组乐队，并在她拒绝后告诉她“只要好好努力避免重蹈覆辙不就好了吗”，在她同意后寻找她的前队友一起组队（丰川祥子除外），最后在你们的第一场live中演奏“春日影”。](../../static/img/pages/MCBE-Import-Worlds-5.png)
 ### iOS导出教程
 
 与安卓端导出教程基本相同。打开“文件”，在我的iPhone/iPad里找到`Minecraft`，进入以下目录：`/Minecraft/games/com.mojang/minecraftWorlds`后根据文件夹内的`levelname.txt`寻找需要导出的存档并将整个乱码文件夹压缩为zip即可。
 
-![nmd，用drop给电脑发图片加载不出来，气死我了](../../../static/img/pages/MCBE-Import-Worlds-6.png)
+![nmd，用drop给电脑发图片加载不出来，气死我了](../../static/img/pages/MCBE-Import-Worlds-6.png)
 
 ### 移动端：使用资源包快捷导出
 
@@ -54,15 +54,15 @@ title: 从客户端导入存档到服务端
 
 这个包在综合交流群10的群文件里存了一份，Simpbbs上也有[帖子](https://www.simpbbs.com/resources/mod.9/)（←点击即可快捷到达！）
 
-![原来是cloudflare导致我连不上drop的](../../../static/img/pages/MCBE-Import-Worlds-7.jpg)
+![原来是cloudflare导致我连不上drop的](../../static/img/pages/MCBE-Import-Worlds-7.jpg)
 
 在游戏内全局资源里启用该资源包，或者给你想导出的存档单独装上。
 
-![不是，你这编号对于排版有问题啊，11跑到1前面](../../../static/img/pages/MCBE-Import-Worlds-10.png)
+![不是，你这编号对于排版有问题啊，11跑到1前面](../../static/img/pages/MCBE-Import-Worlds-10.png)
 
 然后你的游戏就像电脑端一样可以直接导出存档了！
 
-![全部重构一遍有点麻烦，不做了](../../../static/img/pages/MCBE-Import-Worlds-11.png)
+![全部重构一遍有点麻烦，不做了](../../static/img/pages/MCBE-Import-Worlds-11.png)
 
 ### 下载的存档
 

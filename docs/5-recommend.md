@@ -38,4 +38,4 @@ title: 如何推荐/被推荐
 
 ### 被推荐
 
-在 [此教程](/docs/sfe4/register) 查看
+在 [此教程](1-register.md) 查看
