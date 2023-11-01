@@ -32,5 +32,6 @@ allow-cheat=false
 
 将`false`改为`true`并重启服务器即可启用作弊。
 
-![这个B问题群里天天都有人问](/img/pages/MCBE-CommonQuestions-1.png)
+
 ~~(群友的愤怒)~~
+![这个B问题群里天天都有人问](/img/pages/MCBE-CommonQuestions-1.png)

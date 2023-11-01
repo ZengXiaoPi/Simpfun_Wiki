@@ -10,13 +10,6 @@ title: 常见无法连接服务器的错误提示的解决方案
 
 :::
 
-:::caution 待完善
-
-~~别催了在写了~~
-需要收集一些常见错误，如果您有能力请在[Simpbbs](https://www.simpbbs.me/threads/%E5%85%B3%E4%BA%8E%E7%AC%AC%E4%B8%89%E6%96%B9%E6%96%87%E6%A1%A3%E7%9A%84%E6%96%B0%E5%A2%9E%E6%9D%A1%E7%9B%AE%E7%9A%84%E8%AE%A8%E8%AE%BA.79/)上提交一些常见错误，我们在验证后会加速编写到这里。
-
-:::
-
 ## Connection refused: no further information
 
 ![1](/img/pages/MCJE-CannotConnect-1.png)

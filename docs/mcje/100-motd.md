@@ -8,7 +8,7 @@ title: 更改motd和图标来美化服务器
 
 你可以更改服务器的`motd`设置和图标，从而使服务器在服务器列表里更好看一些。
 
-![motd](../../../static/img/pages/motd.png)
+![motd](../../static/img/pages/motd.png)
 
 :::
 
