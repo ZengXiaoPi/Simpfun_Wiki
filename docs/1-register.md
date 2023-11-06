@@ -1,5 +1,5 @@
 ---
-title: 如何注册
+title: 【账号管理】如何注册
 ---
  
 1. 进入官网注册链接：[注册](https://simpfun.cn/auth?type=register)
