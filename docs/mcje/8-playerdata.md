@@ -16,7 +16,7 @@ playerdata文件夹的内容在1.7.6版本受到更改。但是考虑到应该�
 
 ~~实际上就是我懒~~
 
-如果想要了解旧版本内容，详见[minecraft wiki](https://minecraft.fandom.com/zh/wiki/Java%E7%89%88%E4%B8%96%E7%95%8C%E6%A0%BC%E5%BC%8F)
+如果想要了解旧版本内容，详见[minecraft wiki](https://zh.minecraft.wiki/w/Java%E7%89%88%E4%B8%96%E7%95%8C%E6%A0%BC%E5%BC%8F)
 
 :::
 
