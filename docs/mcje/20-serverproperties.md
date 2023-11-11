@@ -4,11 +4,21 @@ title: 关于server.properties
 
 :::tip
 
-server.properties是Minecraft服务器的配置文件，在基岩版服务器和Java版服务器中都存在且承担同样职责（互通服为利用间歇泉插件将基岩版数据翻译为Java版），如果你有什么关于服务器的问题，可以先看看这个文档。
+server.properties是储存多人游戏（Minecraft或Minecraft Classic）服务器所有设置的文件。
 
-以下是对于server.properties中各项设置的介绍和解释，其中多次引用[Minecraft Wiki](https://minecraft.fandom.com/zh/wiki/)。引用内容均用*斜体*标注。
+在编辑server.properties时，行之间的顺序可以打乱，但文件结构不能改变。每一行的等号之前的文本为变量名，你不应该修改这些内容。等号后面为变量的值，你可以按照规则自行编辑。以#开头的行为注释，添加、修改或移除注释行不会对游戏造成影响。
 
-[minecraft wiki上的文档](https://minecraft.fandom.com/zh/wiki/Server.properties)
+保存了server.properties的更改之后，服务端必须重新启动才能使更改生效，另一种选择是在服务器控制台或游戏中使用/reload命令重新加载，这也能获得同样的效果。
+
+如果server.properties文件未列出下文中所有的属性（例如服务端版本更新加入新属性，或该文件还未创建），那么服务器在启动时会重写server.properties补全缺失的属性，并将缺失的属性值设为默认值。
+
+尽管有扩展名，server.properties文件只是一个普通的UTF-8编码文本文件，因此可以使用任何文本编辑器进行编辑，比如Windows上的记事本、macOS上的TextEdit或者Linux上的nano和vim。
+
+*（以上内容引自Wiki）*
+
+以下是对于server.properties中各项设置的介绍和解释，其中多次引用[Minecraft Wiki](https://zh.minecraft.wiki/)。引用内容均用*斜体*标注。
+
+[minecraft wiki上的server.properties介绍，包含Java版和基岩版](https://zh.minecraft.wiki/w/Server.properties)
 :::
 
 :::tip 
@@ -94,7 +104,7 @@ server.properties不支持热重载配置,不过不知道运行时能不能修�
 
 ## enable-jmx-monitoring：公开部分服务器运行参数  
 
-*（“公开具有对象名称和两个属性的 MBean“引自minecraft wiki机翻）和游戏的[tick](https://minecraft.fandom.com/wiki/Tick)值。*
+*（“公开具有对象名称和两个属性的 MBean“引自minecraft wiki机翻）和游戏的[tick](https://zh.minecraft.wiki/w/%E5%88%BB)值。*
 
 为了在Java启动时运行jmx，还需要添加几项启动参数。详见[Oracle给的配置文档](https://docs.oracle.com/javase/8/docs/technotes/guides/management/agent.html)
 
@@ -148,7 +158,7 @@ server.properties不支持热重载配置,不过不知道运行时能不能修�
 
 ## entity-broadcast-range-percentage：实体广播范围百分比
 
-*[wiki](https://minecraft.fandom.com/wiki/Server.properties)：“控制实体在发送到客户端之前需要有多近。较高的值意味着它们将从更远的地方渲染，这可能会导致更多的延迟。这表示为默认值的百分比。例如，设置为 50 将使其像往常一样减半。这模仿了客户端视频设置上的功能（与渲染距离不同，客户端可以自定义渲染距离，只要它在服务器的设置下）。”*
+*[wiki](https://zh.minecraft.wiki/w/Server.properties#Java%E7%89%88_3)：“控制实体在发送到客户端之前需要有多近。较高的值意味着它们将从更远的地方渲染，这可能会导致更多的延迟。这表示为默认值的百分比。例如，设置为 50 将使其像往常一样减半。这模仿了客户端视频设置上的功能（与渲染距离不同，客户端可以自定义渲染距离，只要它在服务器的设置下）。”*
 
 此项默认为`100`，合法值为`10~1000`的整数。
 
@@ -174,7 +184,7 @@ server.properties不支持热重载配置,不过不知道运行时能不能修�
 
 ## gamemode：游戏模式
 
-关于游戏模式的更多信息详见[minecrfat wiki](https://minecraft.fandom.com/wiki/Game_mode)
+关于游戏模式的更多信息详见[minecrfat wiki](https://zh.minecraft.wiki/w/%E6%B8%B8%E6%88%8F%E6%A8%A1%E5%BC%8F)
 
 此项可设定为旧版值`0`（生存），`1`（创造），`2`（冒险）和`3`（旁观）
 
@@ -192,7 +202,7 @@ server.properties不支持热重载配置,不过不知道运行时能不能修�
 
 ## generator-settings：自定义世界生成设置
 
-用于自定义世界生成的设置。遵循[其格式](https://minecraft.fandom.com/wiki/Java_Edition_level_format#generatorOptions_tag_format)并写入相应的 JSON 字符串。
+用于自定义世界生成的设置。有关信息请见[Wiki](https://zh.minecraft.wiki/w/%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%96%E7%95%8C%E7%94%9F%E6%88%90)
 
 此项默认为空`{}`。
 
@@ -272,7 +282,7 @@ Java：此项默认为`world`。
 
   default_1_1：仅限 1.15 及更早版本。与默认值相同，但计为不同的世界类型。
 
-  customized ：自定义，仅限1.15及更早版本，1.13后与normal相同，1.12及以前可用于创建完全自定义的世界。关于自定义的[详细信息](https://minecraft.fandom.com/zh/wiki/%E8%87%AA%E5%AE%9A%E4%B9%89/Java%E7%89%881.13%E5%89%8D)
+  customized ：自定义，仅限1.15及更早版本，1.13后与normal相同，1.12及以前可用于创建完全自定义的世界。关于自定义的[详细信息](https://zh.minecraft.wiki/w/%E8%87%AA%E5%AE%9A%E4%B9%89/Java%E7%89%881.13%E5%89%8D)
   
 :::
 
@@ -297,7 +307,7 @@ Java：此项默认为`world`。
 *摘自wiki：“设置每个tick花费的最大毫秒数。超过该毫秒数时，服务器watchdog插件将停止服务器程序并附带上信息：服务器的一个tick花费了60.00秒（最长也应该只有0.05秒）；判定服务器已崩溃，它将被强制关闭。遇到这种情况的时候，它会调用 System.exit(1)。*
 *译者注：如果你监测服务程序的返回代码，此时返回代码会为1。（习惯上，程序正常退出应当返回0）”  改成-1的话会禁用看门狗（watchdog）插件。*
 
-对于普通玩家没什么用，顶多决定如果服务器真崩了的话玩家要等多少个[tick](https://minecraft.fandom.com/zh/wiki/%E5%88%BB)会收到服务器已关闭的信息。
+对于普通玩家没什么用，顶多决定如果服务器真崩了的话玩家要等多少个[tick/刻](https://zh.minecraft.wiki/w/%E5%88%BB)会收到服务器已关闭的信息。
 
 此项默认为`60000`，可设定值为`0~(2^63 - 1)`之间的整数。
 
@@ -322,7 +332,7 @@ Java：此项默认为`world`。
 
 *wiki：*
 
-*“MOTD 支持[样式代码](https://minecraft.fandom.com/zh/wiki/%E6%A0%B7%E5%BC%8F%E4%BB%A3%E7%A0%81)。*
+*“MOTD 支持[样式代码](https://zh.minecraft.wiki/w/%E6%A0%B7%E5%BC%8F%E4%BB%A3%E7%A0%81)。*
 *MOTD 支持特殊符号，比如"♥"。然而，这些符号需要转换为Unicode转义字符。你可以在[这里](http://www.freeformatter.com/string-utilities.html#charinfo)找到一个转换器。*
 *如果MOTD超过59个字符，服务器列表很可能会返回“通讯错误”。”*
 

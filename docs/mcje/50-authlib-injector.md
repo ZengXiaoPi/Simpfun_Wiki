@@ -117,6 +117,8 @@ ${openjdk17} -Xms1024M -Xmx${maxmem}M -javaagent:authlib-injector-1.2.3.jar=http
 <!--好好好，你人还挺好的嘞-->
 2.点击HMCL左侧的`账户`，在二级页面的左侧选择`LittleSkin`，输入你的用户名和密码进行登录
 ![我给改回来了](/img/pages/AuthlibInjector-4.png)     
+<!--原神启动-->
+<!---->
 3.登录完成后选择一个角色，然后你就可以开始游戏辣
 
 ## BakaXL 3.x

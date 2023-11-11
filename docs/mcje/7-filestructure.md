@@ -14,7 +14,8 @@ title: 服务端文件架构
 
 # 好痛苦，原来wiki里写了部分内容
 
-详见[此处](https://minecraft.fandom.com/zh/wiki/Java%E7%89%88%E4%B8%96%E7%95%8C%E6%A0%BC%E5%BC%8F)，不想搬了
+详见[此处](https://zh.minecraft.wiki/w/Java%E7%89%88%E4%B8%96%E7%95%8C%E6%A0%BC%E5%BC%8F)，不想搬了
+<!--11.12:将fandom wiki改为新wiki-->
 
 ## 通用
 
