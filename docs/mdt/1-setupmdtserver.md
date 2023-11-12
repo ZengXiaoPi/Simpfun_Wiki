@@ -78,7 +78,7 @@ title: 如何像人类一样开像素工厂服务器
 > - 找到**start.sh**并找到**#${openjdk8} -jar server-release.jar**字样
 - 将前面的*#*删除并保存，当然如果您对jdk有要求可以参考上文的预置镜像，例如${openjdk11} -jar server-release.jar
 ```
-注意:上文的命令内的server -release. jar为您上传的文件名，灵活一点
+注意:上文的命令内的server-release.jar为您上传的文件名，灵活一点
 ```
 
 - **第八步**
