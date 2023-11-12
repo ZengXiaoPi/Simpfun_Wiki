@@ -5,7 +5,7 @@ title: 【实例管理】如何使用 SFTP 管理文件
 :::caution
 
 使用SFTP上传文件后，你需要在控制台->实例->文件->工具箱执行 `解决权限和文件名乱码问题`，否则会因权限不足导致服务器运行异常！
-![](https://github.com/shenbimicro233/Simpfun_Wiki/assets/116066110/33644322-aa22-460f-9d05-1170b7064758)
+![9](/static/img/pages/SFTP-9.png)
 
 
 :::
