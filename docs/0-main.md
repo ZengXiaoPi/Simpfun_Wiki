@@ -16,6 +16,8 @@ title: 主页
 
 欢迎您加入我们的编辑。
 
+**手机访问请点击左上角三道杠查看目录。**
+
 ## 本维基贡献者
 
 ![](https://contrib.rocks/image?repo=ZengXiaoPi/Simpfun_Wiki)

@@ -65,13 +65,13 @@ title: 从服务端导入存档到客户端
 
 ### 方法一 将存档打包给游戏识别
 
-此方法在**所有系统**上都适用，所以截图可能来自于不同系统的终端。~~也许Mac OS除外？没用过~~
+此方法在**所有系统**上都适用，所以截图可能来自于不同系统的终端。
 
 将备份文件里的存档目录（如`Bedrock Level`）解压到任意文件夹，然后压缩为.zip格式的压缩包。
 
 ![使い捨てじみた繋がりとか](../../static/img/pages/input-worlds-6.png)
 
-将压缩包后缀名**直接更改**为`.mcworld`，然后打开，打开方式选择`Minecraft`。*（如果弹出“打开为：文档/音乐/视频 等”的窗口，选择文档后选择`Minecraft`）*
+将压缩包后缀名**直接更改**为`.mcworld`，然后打开，打开方式选择`Minecraft`。*（如果弹出“打开为：文档/音乐/视频 等”的窗口，选择文档/其他后选择`Minecraft`）*
 
 ![その場限りの関係だとか](../../static/img/pages/input-worlds-7.png)
 
@@ -95,12 +95,16 @@ title: 从服务端导入存档到客户端
 
 #### Android
 
-在文件里打开以下目录：`Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/`
+在文件管理(推荐使用第三方文件管理器，例如ES，MT等)内打开以下目录：`Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/`
 
 ![何も分からずにいるんだって](/img/pages/MCBE-Import-Worlds-1.png)
 
 将[上一步](#第三步-检查存档内文件格式)中的文件夹`Bedrock Level`直接复制到此文件夹内，打开游戏即可发现存档已经导入。
 
-#### Windows
+#### Windows10/11
 
-不知道，我电脑上没装基岩版，缺的这个Windows导入要么用[方法一](#方法一-将存档打包给游戏识别)要么你们自己补上。Mac OS的话也一样
+在文件资源管理器种打开以下目录`C:\Users\（这里是你电脑的用户名）\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorlds`
+
+![へぇ～いいんじゃないかな？](/img/pages/input-worlds-9.png)
+
+将[上一步](#第三步-检查存档内文件格式)中的文件夹`Bedrock Level`直接复制到此文件夹内，打开游戏即可发现存档已经导入。  
