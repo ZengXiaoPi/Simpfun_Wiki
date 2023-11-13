@@ -11,7 +11,7 @@ title: 必须看的前言
 
 ## 什么是“自定义”预设
 
-"自定义“预设是指只提供运行环境，技术细节均由个人解决的实例镜像，门槛较高。
+`“自定义”预设`是指只提供运行环境，技术细节均由个人解决的实例镜像，门槛较高。
 
 ## “自定义”预设都有哪些？
 
@@ -27,17 +27,17 @@ title: 必须看的前言
 
 ### Python镜像
 
-内置Python3.9.2的一个镜像，运行在Linux系统的Docker下(实际系统为Debian 12.2)，MCDR需要使用此镜像部署。
+运行在Linux系统的Docker下(实际系统为Debian 12.2)，内置Python3.9.2的一个镜像，MCDR需要使用此镜像部署。
 
-:::tip
+:::info 提示
 
-此镜像似乎没有Java，需要自己导入Java使用。
+此镜像似乎没有提供Java，需要自己导入Java使用。
 
 :::
 
 ### Server2019镜像
 
-使用Windows Server 2019的镜像，内置多种运行库，包括`.Net 6.0.20`，`VC++ 2015——2022`，`Python 3.11.5`，`zulu JDK 8.0.382(Java 8)`，`zulu JDK 17.0.8(Java 17)`，如下图所示。且在`start.bat`内已定义Java和Python的路径，直接调用即可。运行基岩版MC服务器的首选，运行Java版MC服务器的备选。
+使用Windows Server 2019的镜像，运行在Windows Docker下。内置多种运行库，包括`.Net 6.0.20`，`VC++ 2015——2022`，`Python 3.11.5`，`zulu JDK 8.0.382(Java 8)`，`zulu JDK 17.0.8(Java 17)`，如下图所示。且在`start.bat`内已定义Java和Python的路径，直接调用即可。运行基岩版MC服务器的首选。
 ![無駄だよ～](/img/pages/CustomServer-in-2.jpg)
 
 :::caution 提示
