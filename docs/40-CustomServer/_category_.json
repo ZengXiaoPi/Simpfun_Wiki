@@ -1,0 +1,14 @@
+{
+  "position": 100,
+  "label": "{CustomServer}",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "【实例管理-进阶教程】使用“自定义”预设开服"
+  },
+  "customProps": {
+    "description": "This description can be used in the swizzled DocCard"
+  }
+}
