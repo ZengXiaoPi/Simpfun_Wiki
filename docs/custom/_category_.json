@@ -1,12 +1,12 @@
 {
-  "position": 100,
-  "label": "【实例管理-进阶教程】使用“自定义”预设开服",
+  "position": 301,
+  "label": "自定义",
   "collapsible": true,
   "collapsed": true,
   "className": "red",
   "link": {
     "type": "generated-index",
-    "title": "【实例管理-进阶教程】使用“自定义”预设开服"
+    "title": "自定义"
   },
   "customProps": {
     "description": "This description can be used in the swizzled DocCard"
