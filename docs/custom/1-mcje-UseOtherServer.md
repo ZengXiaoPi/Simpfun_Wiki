@@ -168,7 +168,7 @@ ${openjdk17} -Xmx1500m -jar BuildTools.jar --rev 版本号
 
 保存完成后启动实例，等待服务端构建完毕。
 
-::: 或者...  
+:::info 或者...  
 
 前往下方镜像站下载已构建完成的Spigot服务端：
 
