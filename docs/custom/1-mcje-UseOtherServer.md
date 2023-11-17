@@ -1,0 +1,132 @@
+---
+title: 【MCJE】使用预设没有的服务端开服
+---
+
+发现你需要的MCJE服务端缺失？那么这份教程正是你所需的！
+
+:::warning 写在最前面的警告
+
++ 如果你打算使用自定义开服的话，请确保你已经具备了一定的开服经验和英文阅读水平。没有这方面的经验不要轻易尝试这部分的内容！  
++ 这篇教程不保证覆盖所有服务端类型。如果您发现某种服务端缺少相关教程，请到Github[提交issue](https://github.com/ZengXiaoPi/Simpfun_Wiki/issues)或者[发起Pull Requests](https://github.com/ZengXiaoPi/Simpfun_Wiki/pulls)。我们欢迎大家参与完善文档。
+:::
+
+此篇教程预计分为多个部分，将分期进行编写。
+
++ Vanilla端/大部分Bukkit系服务端 (已完成)
++ Spigot服务端 ~~（别催了在写了）~~
++ Forge服务端 ~~（别催了在写了）~~
++ Fabric服务端 ~~（别催了在写了）~~
+
+## Vanilla/大部分Bukkit系服务端
+
+Vanilla与大部分Bukkit系服务端较为简单（Spigot除外），此处以**Paper1.19.2**进行演示。服务器使用简幻欢Java(Linux)自定义镜像。
+
+#### 第一步
+
+在[Parer构建站](https://papermc.io/downloads/all)下载对应版本的服务端核心。
+
+![離れ離れの街を繋ぐ列車は行ってしまったね](/img/pages/UseOtherServer-1.png)
+
+其他Bukkit系服务端核心下载地址(没有Spigot，因为它在下一部分)：
+
++ Purpur：[https://purpurmc.org/downloads](https://purpurmc.org/downloads)  
++ Leaves：[https://leavesmc.top/downloads/all](https://leavesmc.top/downloads/all)  
++ Folia(需要手动构建)：[https://github.com/PaperMC/Folia](https://github.com/PaperMC/Folia)  
+
+#### 第二步
+
+上传你下载好的服务端核心到简幻欢的根目录。
+
+确定服务端核心已上传后，**记住文件名（包括后缀名!）**。
+
+打开根目录下的 `start.sh` (在Windows镜像下为`start.cmd`)，添加一行类似下面的命令后保存(不要删除文件里原本的东西，除了最下面那行echo)：
+
+```ini
+${openjdk17} -Xms1024M -Xmx${maxmem}M -jar paper-1.19.2-307.jar nogui
+```
+
+:::info
+
+关于各项参数的说明：
+
+`{openjdk17}`：调用变量`openjdk17`。这个变量在上面的默认内容里被定义过了。
+
+`-Xms1024M`：服务器运行最小内存为1024Mib。你可以更改`1024M`这个值：如果觉得最小运存太大可以改为`512M`或其他值，只要数字部分是4的倍数；如果强迫症不想使用M作为单位，可以改为`1G`，效果同样。
+
+`Xmx${maxmem}M`：服务器运行最大内存为maxmxm M。maxmxm是上文定义的变量，为服务器最大物理内存-1000（单位M）。如果不想要这个~~烦人的~~变量名可以把`${maxmem}`整个改成数字，让它变得和`Xmx`这一项看起来一样。**注：`Xmx`与`Xms`均不要设为超出实例运行内存上限的值，也不要设反了让最大值比最小值小，会导致服务器无法启动！**
+
+`-jar`：告诉Java你要启动jar文件。此项不要调整。
+
+`paper-1.19.2-307.jar`：服务器核心名称，**改成自己的，包括刚才让你记的后缀名！！**
+
+1.16.5及以下版本的服务端请将`openjdk17`改为`openjdk8`(或者是`openjdk11`)。
+
+:::
+
+如下图所示
+![無くした言葉を知らないなら　ポケットで握りしめて](/img/pages/UseOtherServer-2.png)
+
+#### 第三步
+
+回到`终端`界面，点击右上角的`启动`，并等待文件下载完成。
+
+下载完成后终端会输出类似下面的提示并停止运行：
+
+```text
+[15:44:52 WARN]: Failed to load eula.txt
+[15:44:52 INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+```
+
+#### 第四步
+
+进入`文件`页面，打开根目录下的`eula.txt`。
+
+```ini
+#By changing the setting below to TRUE you are indicating your agreement to our EULA (https://aka.ms/MinecraftEULA).
+#Fri Nov 17 15:44:52 CST 2023
+eula=false
+```
+
+将其中的`false`改为`true`。
+
+:::warning 提示
+
+将eula中的`false`改为`true`即视为你已阅读并同意[《MINECRAFT 最终用户许可协议(EULA)》](https://www.minecraft.net/zh-hans/eula)!
+
+:::
+
+回到`终端`界面，点击右上角的`启动`，等待服务器生成文件。
+看到类似以下的提示即可关闭服务端：
+
+```text
+[15:58:15 INFO]: Done (34.635s)! For help, type "help"
+```
+
+#### 第五步
+
+再次进入`文件`页面，打开根目录下的`server.properties`。  
+
+简幻欢在上一步启动服务端生成文件时已自动修改`server-ip`为`0.0.0.0`，`server-port`为你实例分配到的端口号，因此可以不用管这两个。  
+
+如果你或者你的朋友没有正版账户，请把`online-mode`的值由`true`改为`false`。  
+
+**更多关于服务器设置的配置请查看[这篇文档](../mcje/20-serverproperties.md)。**
+
+Vanilla服务端无法装载mod/插件。
+Bukkit系服务端需要装载插件就将插件放到`/plugins`文件夹。
+
+需要更换存档请参考[这篇文档](../mcje/7-filestructure.md)。
+
+现在你已经配置好服务端了，去进行愉快的游戏吧！
+
+## Spigot服务端
+
+~~（别催了在写了）~~
+
+## Forge服务端
+
+~~（别催了在写了）~~
+
+## Fabric服务端
+
+~~（别催了在写了）~~
