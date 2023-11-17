@@ -19,9 +19,9 @@ title: 常见无法连接服务器的错误提示的解决方案
 
 ## Connection refused: no further information
 
-![1](/img/pages/MCJE-CannotConnect-1.png)
+![沈むように溶けてゆくように](/img/pages/MCJE-CannotConnect-1.png)
 
-~~坤翻~~ 机翻：连接被拒绝：没有进一步的信息
+翻译：`连接被拒绝：没有进一步的信息`
 
 常见原因：
 + 服务端侧：
@@ -32,5 +32,21 @@ title: 常见无法连接服务器的错误提示的解决方案
   + 客户端地址输错（包括但不限于开头有空格，冒号用成了全角字符）
   + 没有联网
   + DNS炸了
+
+## Internal Exception: Invalid characters in username
+
+![二人だけの空が広がる夜に](/img/pages/MCJE-CannotConnect-2.png)
+
+错误全文：`Internal Exception: java.langillegalstateException: Invalid characters in username`
+
+翻译：`内部异常：java.langillegalstateException：用户名中的字符无效`
+
+原因：
++ 客户端侧：
+  + 在1.18及更高的版本中，玩家用户名内存在除了英文、数字、下划线以外的其他字符(例如中文)
+  
+解决方案：
++ 更改用户名
+
 
 待补充......
