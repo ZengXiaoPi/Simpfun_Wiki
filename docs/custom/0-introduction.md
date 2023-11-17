@@ -4,9 +4,9 @@ title: 必须看的前言
 
 :::warning 写在最前面的警告
 
-如果你打算使用自定义开服的话，请确保你已经具备了一定的开服经验和英文阅读水平。
-没有这方面的经验不要轻易尝试这部分的内容！
-
++ 如果你打算使用自定义开服的话，请确保你已经具备了一定的开服经验和英文阅读水平。
++ 没有这方面的经验不要轻易尝试这部分的内容！
++ 我们欢迎大家参与完善文档。请到Github[提交issue](https://github.com/ZengXiaoPi/Simpfun_Wiki/issues)或者[发起Pull Requests](https://github.com/ZengXiaoPi/Simpfun_Wiki/pulls)。
 :::
 
 ## 什么是“自定义”预设
