@@ -6,7 +6,7 @@
   "className": "red",
   "link": {
     "type": "generated-index",
-    "title": "Minecraft JE常见问题"
+    "title": "Minecraft JE 常见问题"
   },
   "customProps": {
     "description": "This description can be used in the swizzled DocCard"
