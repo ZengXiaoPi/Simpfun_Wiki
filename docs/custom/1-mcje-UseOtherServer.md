@@ -10,12 +10,12 @@ title: 使用预设没有的我的世界服务端开服
 + 这篇教程不保证覆盖所有服务端类型。如果您发现某种服务端缺少相关教程，请到Github[提交issue](https://github.com/ZengXiaoPi/Simpfun_Wiki/issues)或者[发起Pull Requests](https://github.com/ZengXiaoPi/Simpfun_Wiki/pulls)。我们欢迎大家参与完善文档。
 :::
 
-此篇教程预计分为多个部分，将分期进行编写。**电脑访问的用户请使用右侧目录栏快速跳转。**
+此篇教程分为四个部分，**电脑访问的用户请使用右侧目录栏快速跳转。**
 
-+ Vanilla端/大部分Bukkit系服务端 (已完成)
-+ Spigot服务端 (已完成)
-+ Forge服务端 (已完成)
-+ Fabric服务端 ~~（别催了在写了）~~
++ Vanilla端/大部分Bukkit系服务端
++ Spigot服务端
++ Forge服务端
++ Fabric服务端
 
 ## Vanilla/大部分Bukkit系服务端
 
