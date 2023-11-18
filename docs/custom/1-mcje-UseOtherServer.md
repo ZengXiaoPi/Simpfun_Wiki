@@ -346,11 +346,17 @@ ${openjdk17} -server -Xms1024m -Xmx${maxmem}M @user_jvm_args.txt @libraries/net/
 
 ### 第三步：同意EULA
 
-打开根目录下的`eula.txt`。
+启动服务器，稍微等待一会后会出现类似如下的提示并关闭服务器：
+
+```text
+[16:30:06] [main/INFO] [minecraft/Main]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+```
+
+转到`文件`页面，打开根目录下的`eula.txt`。
 
 ```ini
 #By changing the setting below to TRUE you are indicating your agreement to our EULA (https://aka.ms/MinecraftEULA).
-#Fri Nov 17 15:44:52 CST 2023
+#Sat Nov 18 16:28:45 CST 2023
 eula=false
 ```
 
