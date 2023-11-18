@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft 服务器启动命令生成器</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        input, select, checkbox {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #modifiedCommand {
+            margin-top: 20px;
+            color: #333;
+            white-space: pre-line;
+        }
+
+        #copyConfirmation {
+            margin-top: 10px;
+            color: #45a049;
+        }
+
+        #error {
+            margin-top: 10px;
+            color: #ff0000;
+        }
+
+        #info {
+            margin-top: 10px;
+            color: #555;
+        }
+
+        #authlibPathInput,
+        #authServerInput {
+            display: none;
+        }
+    </style>
+</head>
+<body background="/static/img/pages/minecraftBat.png"
+style="background-size:100%;
+background-attachment: cover;">
+
+<h1>Minecraft 服务器启动命令生成器</h1>
+
+<label for="javaPath">Java路径（留空自动使用path环境中的java变量）：</label>
+<input type="text" id="javaPath" placeholder="例如：C:/java/java21/bin/java.exe，确保路径指向Java.exe">
+
+<label for="maxMemory">最大内存-Xmx（单位：M，默认：2048）：</label>
+<input type="text" id="maxMemory" placeholder="填写数字，例如：2048">
+
+<label for="minMemory">最小内存-Xms（单位：M，默认：1024）：</label>
+<input type="text" id="minMemory" placeholder="填写数字，例如：1024">
+
+<label for="coreType">服务器运行核心：</label>
+<select id="coreType">
+    <option value="jar">使用.jar核心启动</option>
+</select>
+
+<label for="corePath">核心文件路径（仅路径，不带文件后缀）：</label>
+<input type="text" id="corePath" placeholder="例如：C:/path/to/Spigot-1.20.2-3941">
+
+<label for="enableAuthlib">启用第三方登录：</label>
+<input type="checkbox" id="enableAuthlib" onchange="toggleAuthlibInputs()">
+
+<div id="authlibPathInput">
+    <label for="authlibPath">Authlib-Injector文件路径（仅路径，不带文件后缀）：</label>
+    <input type="text" id="authlibPath" placeholder="例如：C:/path/to/authlib-injector">
+</div>
+
+<label for="authServer">选择第三方验证服务器：</label>
+<select id="authServer" onchange="toggleAuthServerInput()">
+    <option value="https://api.mojang.com">Mojang（官方验证服务器）</option>
+    <option value="https://littleskin.cn/api/yggdrasil">LittleSkin（LittleSkin验证服务器）</option>
+    <option value="other">其他</option>
+</select>
+
+<div id="authServerInput">
+    <label for="otherAuthServer">其他验证服务器地址：</label>
+    <input type="text" id="otherAuthServer" placeholder="例如：https://example.com/authserver">
+</div>
+
+<button onclick="generateModifiedCommand()">生成启动命令</button>
+
+<p id="error"></p>
+<div id="modifiedCommand"></div>
+<p id="copyConfirmation"></p>
+<p id="info"></p>
+
+<script>
+function generateModifiedCommand() {
+    var javaPath = document.getElementById("javaPath").value;
+    var maxMemory = document.getElementById("maxMemory").value || "2048";
+    var minMemory = document.getElementById("minMemory").value || "1024";
+    var coreType = document.getElementById("coreType").value;
+    var corePath = document.getElementById("corePath").value;
+    var enableAuthlib = document.getElementById("enableAuthlib").checked;
+    var authlibPath = document.getElementById("authlibPath").value;
+    var authServer = document.getElementById("authServer").value;
+    var otherAuthServer = document.getElementById("otherAuthServer").value;
+
+    // 检查必填项
+    if (!corePath) {
+        showError("核心文件路径为必填项");
+        return;
+    }
+
+    // 检查如果启用第三方登录，是否填写authlib-injector文件路径
+//    if (enableAuthlib == true){
+//        if (!authlibPath) {
+//            showError("请填写Authlib-Injector文件路径");
+//           return;
+//        }
+//        return;
+//    }
+
+    // 构建Java命令部分
+    var javaCommand = javaPath ? `"${javaPath}"` : 'java';
+
+    // 提示用户是否添加/java
+    if (javaPath && !javaPath.toLowerCase().endsWith("java.exe")) {
+        showError("请确保Java路径指向java.exe。");
+    }
+
+    // 构建核心文件路径及后缀
+    var coreFile = coreType === 'jar' ? corePath + '.jar' : corePath + '.txt';
+
+    // 构建Authlib-Injector文件路径及后缀
+    var authlibFile = `${authlibPath}`;
+
+    // 构建第三方验证服务器参数
+    var authServerOption = '';
+    if (authServer === 'other' && otherAuthServer) {
+        authServerOption = `-javaagent:${authlibFile}.jar=${otherAuthServer}`;
+    } else if (authServer !== 'other') {
+        authServerOption = `-javaagent:${authlibFile}.jar=${authServer}`;
+    }
+
+    // 验证第三方登录是否启用并构建修改后的启动命令
+    if (enableAuthlib == true){
+    var modifiedCommand = `${javaCommand} -Xmx${maxMemory}M -Xms${minMemory}M ${authServerOption} -jar ${coreFile}`;
+    } else var modifiedCommand = `${javaCommand} -Xmx${maxMemory}M -Xms${minMemory}M -jar ${coreFile}`;
+
+// 显示生成的修改后的启动命令
+var modifiedCommandElement = document.getElementById("modifiedCommand");
+modifiedCommandElement.innerHTML = "<p>启动命令:</p><pre>" + modifiedCommand + "</pre>";
+
+// 添加复制按钮
+var copyButton = document.getElementById("copyButton");
+if (!copyButton) {
+    copyButton = document.createElement("button");
+    copyButton.id = "copyButton";
+    copyButton.innerText = "复制命令";
+    copyButton.addEventListener("click", function() {
+        copyToClipboard(modifiedCommand);
+    });
+
+    modifiedCommandElement.appendChild(copyButton);
+}
+
+// 清空错误提示
+clearError();
+// 显示复制成功提示
+showCopyConfirmation();
+}
+
+function toggleAuthlibInputs() {
+var authlibPathInput = document.getElementById("authlibPathInput");
+authlibPathInput.style.display = document.getElementById("enableAuthlib").checked ? "block" : "none";
+}
+
+function toggleAuthServerInput() {
+var authServerInput = document.getElementById("authServerInput");
+authServerInput.style.display = document.getElementById("authServer").value === "other" ? "block" : "none";
+}
+
+function showError(errorMessage) {
+var errorElement = document.getElementById("error");
+errorElement.innerText = errorMessage;
+}
+
+function clearError() {
+var errorElement = document.getElementById("error");
+errorElement.innerText = "";
+}
+
+function showCopyConfirmation() {
+var copyConfirmationElement = document.getElementById("copyConfirmation");
+copyConfirmationElement.innerText = "已复制到剪贴板";
+// 清空提示
+setTimeout(function() {
+    copyConfirmationElement.innerText = "";
+}, 3000); // 显示3秒后清空
+}
+
+function showInfo(infoMessage) {
+var infoElement = document.getElementById("info");
+infoElement.innerText = infoMessage;
+}
+
+function copyToClipboard(text) {
+var textarea = document.createElement("textarea");
+textarea.value = text;
+document.body.appendChild(textarea);
+textarea.select();
+document.execCommand('copy');
+document.body.removeChild(textarea);
+// 显示复制成功提示
+showCopyConfirmation();
+}
+</script>
+
+</body>
+</html>
+
