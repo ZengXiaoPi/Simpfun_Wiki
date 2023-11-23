@@ -35,3 +35,11 @@ title: 如何增加Mod
 2. 进入`/mods`文件夹
 
 3. 上传mod文件即可
+  
+:::caution 注意
+
+fabric服务端默认**不存在**fabric-api，你应该从下方链接获取并放到 `mods` 文件夹：
+
+[点击下载](https://modrinth.com/mod/fabric-api/)
+
+:::
