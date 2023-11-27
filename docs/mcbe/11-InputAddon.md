@@ -17,13 +17,13 @@ title: 如何添加Addon(附加包)
 
 :::info 提示
 
-编者在写这篇文档时简幻欢的LLBDS实例无法创建（当前CPU级别组无满足需求的节点），因此本篇文档的部分配图将使用Windows桌面窗口演示。
+本篇文档的部分配图将使用Windows桌面窗口演示。
 
 :::
 
 :::warning 提示
 
-+ 基岩版没有`模组`的概念，其修改或新加内容的手段叫做叫做**Addon(附加包)**，请不要与Java版的**mod(模组)**混淆！
++ 基岩版没有`模组`的概念，其修改或新加内容的手段叫做叫做**Addon(附加包)**，请不要与Java版的 **mod(模组)** 混淆！
 + 在提问时请正确的将基岩版的`修改或新加内容的手段`称作**Addon 或 附加包**，以便解答者快速判别你所使用的版本！
 
 :::
@@ -57,23 +57,26 @@ title: 如何添加Addon(附加包)
 
 :::warning 警告
 
-这种方法无法导入文件过大的addon！如果你需要导入比较大的addon，请考虑使用第二种方式！
+这种方法无法导入文件过大的addon！如果你需要导入比较大的addon，请考虑使用第二/三种方式！
 
 :::
 
 当你使用的服务端为LLBDS时，可以通过LiteLoader官方提供的`Addon安装器`直接安装（这个东西是直接内嵌在LiteLoaderBDS内的，无需额外下载）。  
 
 #### 第一步   
+
 准备好你需要安装的Addon。  
 关闭服务器。  
 
 #### 第二步   
+
 在简幻欢控制台的`文件`页面，转到`/plugins/AddonsHelper`文件夹。   
 
 ![草，忘了歌词了](/img/pages/MCBE-InputAddon-2.png)   
 ~~请忽略掉歌词awa~~   
 
 #### 第三步  
+
 将你需要安装的Addon上传至这个文件夹中。    
 
 :::caution 再次警告
@@ -84,6 +87,7 @@ title: 如何添加Addon(附加包)
 ![其实我是故意的](/img/pages/MCBE-InputAddon-3.png)  
 
 #### 第四步
+
 回到终端界面，重新开服，并查看终端窗口中是否出现类似下图红框内的输出，如果出现了，则证明导入成功。   
 
 ![Windows赛高！](/img/pages/MCBE-InputAddon-4.png)  
@@ -96,7 +100,54 @@ title: 如何添加Addon(附加包)
 :::
 
 
-## 方法二：替换世界文件夹
+## 方法二：手动导入
+
+:::caution 提示
+
+适用服务端：BDS，LLBDS  
+不适用服务端：所有Nukkit系服务端  
+
+挺麻烦的，如果你是新建的服务器/世界为啥不试试第三种方法？
+
+~~byd懒得配图了，方法二会用的自己用去，不会用的自己学。~~
+
+:::
+
+#### 第一步
+
+准备好你需要安装的Addon，并将Addon的行为包与资源包分离出来。
+关闭服务器。
+
+#### 第二步
+
+在简幻欢控制台的`文件`页面，转到`/worlds/<你的存档名字>/`，**先检查当前存档根目录下是否有`world_behavior_packs.json`文件和`world_resource_packs.json`文件(如果没有的话请自行创建)**，然后再找到`behavior_packs`和`resource_packs`这俩文件夹。
+
+#### 第三步
+
+将addon的行为包放入`behavior_packs`文件夹，将addon的资源包放入`resource_packs`文件夹。
+
+将行为包的uuid与版本号写入`world_behavior_packs.json`文件，再将资源包的uuid与版本号写入`world_resource_packs.json`文件。
+
+格式如下图所示：
+
+![这方法是我从蓝天云那边借鉴的，欸嘿](/img/pages/MCBE-InputAddon-7.png)
+
+:::info 提示
+
+uuid与版本号在哪里？
+
+在资源包/行为包的`manifest.json`内，如下图所示，红框内为uuid，绿框内为版本号：
+
+![shabi腾讯我csndm](/img/pages/MCBE-InputAddon-8.png)
+
+:::
+
+#### 第四步
+
+回到终端界面，重新开服，并检查addon是否正常加载。
+
+
+## 方法三：替换世界文件夹
 
 :::caution 提示
 
@@ -112,18 +163,23 @@ title: 如何添加Addon(附加包)
 :::
 
 #### 第一步   
+
 将你需要安装的addon先导入本地客户端，并创建一个新世界安装addon。    
 各个系统导入与安装方法请自行搜索教程。   
 
 #### 第二步   
+
 将整个存档**文件夹**导出并上传至服务器的`worlds`文件夹，并**记下存档文件夹的名称**(**尽量使用英文**)。   
-各个系统的存档导出方法请自行搜索教程。  
+
+[从客户端导出存档并上传至服务器的方法点这里。](./7-upload-worlds.md)  
+
 例：此处我上传的新存档文件夹名称为`Fontaine`。  
 
-![鸽子还不赶紧补充库存](/img/pages/MCBE-InputAddon-5.png)  
+![我是⑨](/img/pages/MCBE-InputAddon-5.png)  
 ~~(请忽略这是个Windows窗口的事实，你把它想象成简幻欢的控制台就行了)~~  
 
 #### 第三步
+
 回到服务器根目录，打开`server.properties`，找到下面这行配置：     
 ```
 level-name=Bedrock level
@@ -135,4 +191,5 @@ level-name=Bedrock level
 ![Fontaine的中文是枫丹，原神启动！](/img/pages/MCBE-InputAddon-6.png)  
 
 #### 第四步
+
 回到终端界面，重新开服，并检查世界是否正常加载。  
