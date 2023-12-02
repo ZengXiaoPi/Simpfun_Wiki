@@ -18,12 +18,12 @@ title: 服务端的介绍
 
 ### 省流版表格
 
-|**服务端**|**插件**|**介绍**|
- | ---- | ---- | ---- |
-|BDS|**不兼容**|官方服务端，**最稳定**，**但是不兼容插件**|
-|LiteLoaderBDS|**兼容(.dll/.js)**|插件服务端，**仅支持Windows上使用**|
-|Nukkit系服务端|**兼容(.jar)**|使用 Java 编写，拥有强大的多线程性能，**但不推荐一般生存使用**|
-|PocketMine/PocketMine-MP| **兼容** | 使用PHP编写，(PE)BE最开始的服务端，现在国内基本已查无此端|
+|**服务端**|**插件**|**介绍**|**下载**|
+ | ---- | ---- | ---- | --- |
+|BDS|**不兼容**|官方服务端，**最稳定**，**但是不兼容插件**|[点击下载](https://www.minecraft.net/zh-hans/download/server/bedrock)|
+|LiteLoaderBDS|**兼容(.dll/.js)**|插件服务端，**仅支持Windows上使用**|[安装方法及下载](https://docs.litebds.com/zh-Hans/#/Usage?id=%f0%9f%92%bb-%e5%ae%89%e8%a3%85liteloaderbds)
+|Nukkit系服务端|**兼容(.jar)**|使用 Java 编写，拥有强大的多线程性能，**但不推荐一般生存使用**||
+|PocketMine/PocketMine-MP| **兼容** | 使用PHP编写，(PE)BE最开始的服务端，现在国内基本已查无此端||
 
 -----
 
