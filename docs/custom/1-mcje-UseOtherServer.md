@@ -295,6 +295,7 @@ Spigot服务端需要装载插件就将插件放到`/plugins`文件夹。
 ~~要我说这改的就是托史~~  
 此部分仅介绍1.17.1+的Forge服务端安装方式。
 
+啥？~~你还是1.12.2钉子户？~~你还在使用老版本？看[这篇文档](./2-mcje-ForgeOldVersionServer.md)
 :::
 
 ### 第一步：构建服务端
@@ -403,7 +404,7 @@ eula=false
 
 **更多关于服务器设置的配置请查看[这篇文档](../mcje/20-serverproperties.md)。**
 
-Spigot服务端需要装载插件就将插件放到`/plugins`文件夹。
+<!-- Spigot服务端需要装载插件就将插件放到`/plugins`文件夹。 -->
 
 需要更换存档请参考[这篇文档](../mcje/7-filestructure.md)。
 

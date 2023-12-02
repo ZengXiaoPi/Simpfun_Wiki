@@ -36,6 +36,8 @@ title: 【账号管理】如何注册
 
 - 岚天呀 `1311554` `部分基岩版文档` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=1311554)
 
+- CatVer `187480446` `部分自定义文档` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=187480446)
+
 </details>
 
 :::
