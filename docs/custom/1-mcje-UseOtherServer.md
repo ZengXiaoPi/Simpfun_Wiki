@@ -1,5 +1,5 @@
 ---
-title: 使用预设没有的我的世界服务端开服
+title: 使用预设没有的MCJE服务端开服
 ---
 
 发现你需要的MCJE服务端缺失？那么这份教程正是你所需的！
@@ -12,12 +12,12 @@ title: 使用预设没有的我的世界服务端开服
 
 此篇教程分为四个部分，**电脑访问的用户请使用右侧目录栏快速跳转。**
 
-+ Vanilla端/大部分Bukkit系服务端
++ Vanilla端/大部分Bukkit系服务端/混合端
 + Spigot服务端
 + Forge服务端
 + Fabric服务端
 
-## Vanilla/大部分Bukkit系服务端
+## Vanilla/大部分Bukkit系服务端/混合端
 
 Vanilla与大部分Bukkit系服务端较为简单（Spigot除外），此处以**Paper1.19.2**进行演示。服务器使用简幻欢Java(Linux)自定义镜像。
 
@@ -32,21 +32,33 @@ Vanilla与大部分Bukkit系服务端较为简单（Spigot除外），此处以*
 Vanilla(原版)服务端下载：
 
 + 官方(不建议，只能下载到最新版本)：[https://www.minecraft.net/zh-hans/download/server](https://www.minecraft.net/zh-hans/download/server)
-+ 国内镜像站(最低仅有1.16.5)：[https://www.fastmirror.net/#/download/Vanilla](https://www.fastmirror.net/#/download/Vanilla?coreVersion=release)
++ 无极镜像(CN，最低1.16.5)：[https://www.fastmirror.net/#/download/Vanilla](https://www.fastmirror.net/#/download/Vanilla?coreVersion=release)
 + 国外镜像站(最低1.2.5，下载的时候点文件名，别点create a server)：[https://getbukkit.org/download/vanilla](https://getbukkit.org/download/vanilla)
 
 其他Bukkit系服务端核心下载地址(没有Spigot，因为它在下一部分)：
 
 + Paper
-  + 国内镜像站：[https://www.fastmirror.net/#/download/Paper](https://www.fastmirror.net/#/download/Paper)
+  + 无极镜像(CN)：[https://www.fastmirror.net/#/download/Paper](https://www.fastmirror.net/#/download/Paper)
 + Purpur
   + 官方：[https://purpurmc.org/downloads](https://purpurmc.org/downloads)
-  + 国内镜像站：[https://www.fastmirror.net/#/download/Purpur](https://www.fastmirror.net/#/download/Purpur)  
+  + 无极镜像(CN)：[https://www.fastmirror.net/#/download/Purpur](https://www.fastmirror.net/#/download/Purpur)  
 + Leaves：
   + 官方：[https://leavesmc.top/downloads/all](https://leavesmc.top/downloads/all)
 + Folia：
   + 官方(需要手动构建)：[https://github.com/PaperMC/Folia](https://github.com/PaperMC/Folia)  
-  + 国内镜像站(已构建好)：[https://www.fastmirror.net/#/download/Folia](https://www.fastmirror.net/#/download/Folia)
+  + 无极镜像(CN，已构建好)：[https://www.fastmirror.net/#/download/Folia](https://www.fastmirror.net/#/download/Folia)
+
+混合端下载地址：
+
++ CatServer
+  + Github：[https://github.com/Luohuayu/CatServer/releases](https://github.com/Luohuayu/CatServer/releases)
+  + 无极镜像(CN)：[https://www.fastmirror.net/#/download/CatServer](https://www.fastmirror.net/#/download/CatServe)
++ Arclight
+  + Github：[https://github.com/IzzelAliz/Arclight/releases](https://github.com/IzzelAliz/Arclight/releases)
+  + 无极镜像(CN)：[https://www.fastmirror.net/#/download/Arclight](https://www.fastmirror.net/#/download/Arclight)
++ Mohist
+  + 官方：[https://new.mohistmc.com/downloadSoftware?project=mohist](https://new.mohistmc.com/downloadSoftware?project=mohist)
+  + 无极镜像(CN)：[https://www.fastmirror.net/#/download/Mohist](https://www.fastmirror.net/#/download/Mohist)
 
 :::
 
@@ -79,8 +91,6 @@ ${openjdk17} -server -Xms1024M -Xmx${maxmem}M -jar paper-1.19.2-307.jar nogui
 `paper-1.19.2-307.jar`：服务端核心名称，**改成自己上传的，包括刚才让你记的后缀名！！**
 
 `nogui`：不启用MC服务端自带的一个GUI窗口，在面板服/命令行环境运行服务端时不能删！
-
-
 
 :::
 
@@ -155,23 +165,6 @@ Spigot端由于其[历史原因](https://zhuanlan.zhihu.com/p/446941433)，官�
 
 ![あがいた息を捨てて延びる今日は眠って誤魔化せ](../../static/img/pages/UseOtherServer-3.png)
 
-**如果你有电脑：**
-
-将`BuildTools.jar`挪到一个空文件夹，并新建一个文本文档，重命名为`build.bat`(删掉原本的.txt后缀)，并将以下内容写入进此bat文件：
-
-```text
-"C:\Program Files\Zulu\zulu-21\bin\java.exe" -Xmx1500m -jar BuildTools.jar --rev 版本号
-pause
-```
-
-"C:\Program Files\Zulu\zulu-21\bin\java.exe"请换成你的java.exe所在目录。
---rev后的版本号换成你想构建的那个版本，例如`1.19.3`，当设置为`latest`时构建最新版本。  
-保存完成后即可双击此bat文件，等待服务端构建完毕。  
-
-构建完成后将服务端上传至实例文件的根目录。  
-
-**如果你没有电脑：**  
-
 将`BuildTools.jar`上传至实例文件的根目录，并在根目录下的`start.sh`文件内添加一行下面的命令后保存(不要删除start.sh自带的东西，echo那一行除外)：
 
 ```text
@@ -187,14 +180,12 @@ ${openjdk17} -Xmx1500m -jar BuildTools.jar --rev 版本号
 
 前往下方镜像站下载已构建完成的Spigot服务端：
 
-+ Fastmirror(国内站)：[https://www.fastmirror.net/#/download/Spigot](https://www.fastmirror.net/#/download/Spigot)
++ 无极镜像(CN)：[https://www.fastmirror.net/#/download/Spigot](https://www.fastmirror.net/#/download/Spigot)
 + Getbukkit(国外站，下载的时候点文件名，别点create a server)：[https://getbukkit.org/download/spigot](https://getbukkit.org/download/spigot)
 
 :::
 
 ### 第二步：调整命令
-
-确定服务端核心已上传后，**记住文件名（包括后缀名!）**。
 
 打开根目录下的 `start.sh` (在Windows镜像下为`start.cmd`)，先把第一步添加的这行命令删除：
 
@@ -222,7 +213,7 @@ ${openjdk17} -server -Xms1024M -Xmx${maxmem}M -jar Spigot-1.20.2-3941.jar nogui
 
 `-jar`：告诉Java你要启动jar文件。此项不要调整。
 
-`Spigot-1.20.2-3941.jar`：服务端核心名称，**改成自己上传的，包括刚才让你记的后缀名！！**
+`Spigot-1.20.2-3941.jar`：服务端核心名称，**改成构建的/自己上传的，包括刚才让你记的后缀名！！**
 
 `nogui`：不启用MC服务端自带的一个GUI窗口，在面板服/命令行环境运行服务端时不能删！
 
@@ -287,7 +278,7 @@ Spigot服务端需要装载插件就将插件放到`/plugins`文件夹。
 
 现在你已经配置好服务端了，去进行愉快的游戏吧！
 
-## Forge服务端
+## Forge/NeoForge服务端
 
 :::caution 提示
 
@@ -295,13 +286,29 @@ Spigot服务端需要装载插件就将插件放到`/plugins`文件夹。
 ~~要我说这改的就是托史~~  
 此部分仅介绍1.17.1+的Forge服务端安装方式。
 
+啥？~~你还是1.12.2钉子户？~~你还在使用老版本？看[这篇文档](2-mcje-ForgeOldVersionServer.md)
 :::
 
 ### 第一步：构建服务端
 
+Forge：
+
 打开[Forge官网](https://files.minecraftforge.net/net/minecraftforge/forge/)，选择你需要的版本的Forge安装器进行下载，此处以1.17.1为例，点击红圈处下载Forge安装器。
 
 ![一人きり　路地裏は決して急がないで](../../static/img/pages/UseOtherServer-7.png)
+
+:::info 提示
+
+Forge官网下载会有广告 ，而且这个广告国内不加载导致你下不了，所以...  
+无极镜像(CN)：[https://www.fastmirror.net/#/download/Forge](https://www.fastmirror.net/#/download/Forge)
+
+:::
+
+NeoForge：
+
+打开[NeoForge官网](https://neoforged.net/)，选择你需要的版本的NeoForge安装器进行下载，1.20.1的为上面的那个，1.20.2的测试版为下面的那个。
+
+![Anywhere I go I’ll miss you](../../static/img/pages/UseOtherServer-12.png)
 
 下载完成后将其上传至实例文件的根目录。
 
@@ -328,14 +335,14 @@ You can delete this installer file now if you wish
 
 转到`文件`界面，打开根目录下自动生成的`run.sh`，复制类似下方的命令(最前面的java不用复制)：
 
-```
+```shell
 @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.17.1-37.1.1/unix_args.txt "$@"
 ```
 
 打开`start.sh`，删除第一步中添加的命令，防止重新构建毁坏服务端，并添加一行类似下方的命令后保存：
 
-```
-${openjdk17} -server -Xms1024m -Xmx${maxmem}M @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.17.1-37.1.1/unix_args.txt "$@" nogui
+```shell
+${openjdk17} -server -Xms1024m -Xmx${maxmem}M @libraries/net/minecraftforge/forge/1.17.1-37.1.1/unix_args.txt "$@" nogui
 ```
 
 :::info
@@ -350,7 +357,7 @@ ${openjdk17} -server -Xms1024m -Xmx${maxmem}M @user_jvm_args.txt @libraries/net/
 
 `-Xmx${maxmem}M`：服务器运行最大内存为maxmxm M。maxmxm是上文定义的变量，为服务器最大物理内存-1000（单位M）。如果不想要这个~~烦人的~~变量名可以把`${maxmem}`整个改成数字，让它变得和`Xmx`这一项看起来一样。**注：`Xmx`与`Xms`均不要设为超出实例运行内存上限的值，也不要设反了让最大值比最小值小，会导致服务器无法启动！**
 
-`@user_jvm_args.txt @libraries/net/minecraftforge/forge/1.17.1-37.1.1/unix_args.txt "$@"`：这个命令是用于启动 Minecraft Forge 1.17.1-37.1.1 的一系列参数设置。它包括引用用户定义的 JVM 参数文件和 Forge 所需的 UNIX 系统下启动参数文件，然后将这些参数传递给 Forge 的执行命令。不同Forge版本此参数里的版本号不同。
+`@libraries/net/minecraftforge/forge/1.17.1-37.1.1/unix_args.txt "$@"`：这个命令是用于启动 Minecraft Forge 1.17.1-37.1.1 的一系列参数设置。它包括引用用户定义的 JVM 参数文件和 Forge 所需的 UNIX 系统下启动参数文件，然后将这些参数传递给 Forge 的执行命令。不同Forge版本此参数里的版本号不同。
 
 `nogui`：不启用MC服务端自带的一个GUI窗口，在面板服/命令行环境运行服务端时不能删！
 
@@ -403,7 +410,7 @@ eula=false
 
 **更多关于服务器设置的配置请查看[这篇文档](../mcje/20-serverproperties.md)。**
 
-Spigot服务端需要装载插件就将插件放到`/plugins`文件夹。
+<!-- Spigot服务端需要装载插件就将插件放到`/plugins`文件夹。 -->
 
 需要更换存档请参考[这篇文档](../mcje/7-filestructure.md)。
 
@@ -440,7 +447,7 @@ ${openjdk17} -jar <构建器文件名>.jar server -mcversion <MC版本号> -down
 
 打开根目录下的 `start.sh` (在Windows镜像下为`start.cmd`)，**先把第一步添加的那行命令删除**，然后再添加一行类似下面的命令后保存(不要删除文件里原本的东西，除了最下面那行echo)：
 
-```ini
+```shell
 ${openjdk17} -server -Xms1024M -Xmx${maxmem}M -jar fabric-server-launch.jar -nogui
 ```
 
@@ -510,8 +517,6 @@ eula=false
 如果你或者你的朋友没有正版账户，请把`online-mode`的值由`true`改为`false`。  
 
 **更多关于服务器设置的配置请查看[这篇文档](../mcje/20-serverproperties.md)。**
-
-Spigot服务端需要装载插件就将插件放到`/plugins`文件夹。
 
 需要更换存档请参考[这篇文档](../mcje/7-filestructure.md)。
 
