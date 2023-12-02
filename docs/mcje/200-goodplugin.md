@@ -269,14 +269,14 @@ Vault只提供功能支持，具体的功能实现需要额外的插件（[这�
 :::tip
 
 为了方便此栏目的后续编写，Sponge API版本与MC版本对应关系将在下方列出：
-API4.x:1.8.x
-API5.x:1.9-1.10.2
-API6.x:1.11，1.11.2
-API7.x:1.12.x
-API8.x:1.15.2-1.16.5
-API9:1.17-1.18.2
-API10:1.19.2-1.19.4
-API11:1.20.x
++ API4.x:1.8.x
++ API5.x:1.9-1.10.2
++ API6.x:1.11，1.11.2
++ API7.x:1.12.x
++ API8.x:1.15.2-1.16.5
++ API9:1.17-1.18.2
++ API10:1.19.2-1.19.4
++ API11:1.20.x
 
 :::
 
@@ -301,7 +301,7 @@ API版本：7，8
 
 + 安装后，原版op完全禁用
 
-+ 权限节点格式从类似example.permission.*变成example.permission，不再允许”*”节点，同时取消父子权限集。（比如不允许example.user代替很多个example.permission1，example.permission2等等）
++ 权限节点格式从类似example.permission.✳变成example.permission，不再允许”✳”节点，同时取消父子权限集。（比如不允许example.user代替很多个example.permission1，example.permission2等等）
 
 下载链接：
 [LuckPerms官网](https://luckperms.net) ｜ [Sponge Ore](https://ore.spongepowered.org/Luck/LuckPerms)
@@ -366,7 +366,7 @@ API版本：8,10
 
 介绍：非常出名的跨版本插件，安装以上插件，你可以让不同版本的客户端进入服务端。
 
-:::caution
+:::info 吐槽
 
 Sponge版Via对高版本API兼容性…真不好说
 
