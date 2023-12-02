@@ -11,15 +11,16 @@ title: 如何选择服务端（实例服务端）？
 - 如果你需要游玩 `Fabric` 模组，则我建议你使用 `Fabric` 服务端。
 - **若您实在不理解上方的内容，可以查看下方的表格方便理解：**
 
-|**服务端**|**插件**|**模组**|**介绍**|  
-| ---- | ---- | ---- |  ---- |
-|Forge|**不兼容**|**兼容(Forge)**|模组服务端，**仅兼容Forge模组**|
-|Fabric|**不兼容**|**兼容(Fabric)**|模组服务端，**仅兼容Fabiric模组**|  
-|Vanilla|**不兼容**|**不兼容**|官方服务端，**最稳定**，**但是不兼容插件/模组**|  
-|Arclight|**兼容(Bukkit插件)**|**兼容(Forge)**|通过Mixin实现插件加载的混合服务端，支持Minecraft `1.14.4`及以上的版本，在1.18+比其他混合端更稳定一些|  
-|CatServer|**兼容(Bukkit插件)**|**兼容(Forge)**|混合服务端，支持Minecraft `1.12.2`，`1.16.5`，`1.18.2`|  
-|SpongeForge|**兼容(Sponge插件)**|**兼容(Forge)**|混合服务端，**支持SpongeForge插件**，通常安装在mods文件夹|  
-|Folia|**兼容(Bukkit插件)**|**不兼容**|插件服务端，**多线程**，**目前兼容插件较少，且不稳定**|  
-|Paper|**兼容(Bukkit插件)**|**不兼容**|插件服务端，**修复部分原版特性**，**稳定**，**萌新之友**|  
-|Purpur|**兼容(Bukkit插件)**|**不兼容***|插件服务端，**可自定义修复哪些原版特性**，**稳定**|  
-|Spigot|**兼容(Bukkit插件)**|**不兼容**|插件服务端，**兼容性较好**|  
+|**服务端**|**插件**|**模组**|**介绍**|**下载**|  
+| ---- | ---- | ---- |  ---- | --- |
+|Forge|**不兼容**|**兼容(Forge)**|模组服务端，**仅兼容Forge模组**|[点击下载](https://files.minecraftforge.net/net/minecraftforge/forge/)|
+|Fabric|**不兼容**|**兼容(Fabric)**|模组服务端，**仅兼容Fabiric模组**|[点击下载](https://fabricmc.net/use/server/)|  
+|Vanilla|**不兼容**|**不兼容**|官方服务端，**最稳定**，**但是不兼容插件/模组**|[点击下载](https://www.minecraft.net/zh-hans/download/server)|  
+|Arclight|**兼容(Bukkit插件)**|**兼容(Forge)**|通过Mixin实现插件加载的混合服务端，支持Minecraft `1.14.4`及以上的版本，在1.18+比其他混合端更稳定一些|[点击下载](https://www.mcmod.cn/download/3060.html)|  
+|Mohist|**兼容(Bukkit插件)**|**兼容(Forge)**|混合服务端，支持Minecraft `1.12.2`，`1.20.X`，`1.18.2`，`1.7.10` 等多个版本。|[点击下载](https://mohistmc.com/download/)|  
+|CatServer|**兼容(Bukkit插件)**|**兼容(Forge)**|混合服务端，支持Minecraft `1.12.2`，`1.16.5`，`1.18.2`|[点击下载](https://catmc.org/)|  
+|SpongeForge|**兼容(Sponge插件)**|**兼容(Forge)**|混合服务端，**支持SpongeForge插件**，通常安装在mods文件夹|[点击下载](https://spongepowered.org/downloads/)|  
+|Folia|**兼容(Bukkit插件)**|**不兼容**|插件服务端，**多线程**，**目前兼容插件较少，且不稳定**|[构建方法及下载](https://simpfun.icu/d/94)|  
+|Paper|**兼容(Bukkit插件)**|**不兼容**|插件服务端，**修复部分原版特性**，**稳定**，**萌新之友**|[点击下载](https://papermc.io/downloads/paper)|  
+|Purpur|**兼容(Bukkit插件)**|**不兼容***|插件服务端，**可自定义修复哪些原版特性**，**稳定**|[点击下载](https://purpurmc.org/downloads)|  
+|Spigot|**兼容(Bukkit插件)**|**不兼容**|插件服务端，**兼容性较好**|[点击下载](https://getbukkit.org/download/spigot)|  
