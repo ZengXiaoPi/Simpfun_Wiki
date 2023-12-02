@@ -111,10 +111,10 @@ eula=false
 
 如果你或者你的朋友没有正版账户，请把`online-mode`的值由`true`改为`false`。  
 
-**更多关于服务器设置的配置请查看[这篇文档](/docs/mcje/20-serverproperties.md)。**
+**更多关于服务器设置的配置请查看[这篇文档](https://simpdoc.top/docs/mcje/serverproperties)。**
 
 <!-- Spigot服务端需要装载插件就将插件放到`/plugins`文件夹。 -->
 
-需要更换存档请参考[这篇文档](/docs/mcje/7-filestructure.md)。
+需要更换存档请参考[这篇文档](https://simpdoc.top/docs/mcje/filestructure)。
 
 现在你已经配置好服务端了，去进行愉快的游戏吧！
