@@ -150,4 +150,5 @@ BakaXL 2 已停更，WinXP~Win8.1建议使用兼容更好的HMCL
 
 # 推荐的第三方登录验证服务器
 
-[LittleSkin](https://littleskin.cn/) —— 国内首选，目前为国内第一大的第三方皮肤站(因为Skinme寄了)
+[LittleSkin](https://littleskin.cn/) —— 国内首选，目前为国内第一大的第三方皮肤站(因为Skinme寄了)  
+~~当然如果你技术太6可以试试自己搭建[Blessing Skin](https://blessing.netlify.app/setup.html),如果你是新手当作没有把....~~
