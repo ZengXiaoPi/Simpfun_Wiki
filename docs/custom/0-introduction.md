@@ -13,6 +13,8 @@ title: 必须看的前言
 
 `“自定义”预设`是指只提供运行环境，技术细节均由个人解决的实例镜像，门槛较高。
 
+服务器在创建后，根目录下只有一个`start.sh`(Linux)或`start.bat`(Windows)。
+
 ## “自定义”预设都有哪些？
 
 简幻欢SFE4目前提供3种类型的自定义预设，分别是 `Java多版本镜像`(Linux)， `Python镜像`(Linux)，`Server2019镜像`(Windows)，如下图所示。
@@ -31,7 +33,9 @@ title: 必须看的前言
 
 :::info 提示
 
-此镜像似乎没有提供Java，需要自己导入Java使用。
+此镜像没有提供Java，需要自己导入Java使用。
+
+不过第三方镜像里有配置好了Java的MCDR可以用（
 
 :::
 
@@ -45,3 +49,70 @@ title: 必须看的前言
 Windows的镜像无法和其他Linux镜像互转重装，只能重装为使用Windows的镜像！
 
 :::
+
+## 我在什么时候需要使用自定义镜像？
+
+:::warning 警告
+
+在简幻欢，我们专注于提供游戏服务器的支持和服务。请注意，我们的平台仅适用于游戏服务器的搭建，若发现在此建立其他服务（如网站，网盘等），我们将关闭您的服务器并永久封禁您的账户。
+
+:::
+
+例子：
+
+MCJE：当简幻欢缺失了你需要的游戏版本时，或者你需要开整合包服务器时，需要使用自定义镜像。
+
+MCBE：当简幻欢缺失了你需要的游戏版本时，需要使用自定义镜像。
+
+## 默认的启动脚本
+
+:::info 提示
+
+这部分写的是Windows镜像下和Linux镜像下默认的`seart.cmd`/`start.sh`，如果你“一不小心”把默认的删了就可以来这里恢复。
+
+### Linux(start.sh)
+
+```bash
+#!/bin/bash
+
+#启动变量说明，修改前务必查看
+#https://www.yuque.com/simpfun/sfe/startup
+
+openjdk8="/usr/bin/jdk/jdk1.8.0_361/bin/java"
+openjdk11="/usr/bin/jdk/jdk-11.0.18/bin/java"
+openjdk17="/usr/bin/jdk/jdk-17.0.6/bin/java"
+openjdk19="/usr/bin/jdk/jdk-19.0.2/bin/java"
+
+maxmem=$((SERVER_MEMORY - 1000))
+
+# 示例：使用JDK17 启动server-release.jar 
+#${openjdk17} -Xms1024M -Xmx${maxmem}M -jar server-release.jar nogui
+```
+
+### Windows(start.cmd)
+
+```bat
+::启动变量说明，修改前务必查看
+::https://www.yuque.com/simpfun/sfe/startup
+SET JDK17=C:/jdk17/bin/java.exe
+SET JDK8=C:/jdk8/bin/java.exe
+SET PYTHON3=C:/python3/python.exe
+
+:: 设置更小的最大内存，防服务端因内存溢出崩溃
+SET /A MAX_MEMORY=%SERVER_MEMORY%-1500
+
+::本镜像含有运行库
+:: .Net 6.0.20
+:: VC++ 2015-2022
+:: Python 3.11.5
+:: Zulu 8.72.0.17-ca-jdk8.0.382-win_x64
+:: Zulu 17.44.15-ca-jdk17.0.8-win_x64
+
+::示例，去掉双引号生效
+
+::启动一个Java17 服务端，核心名称为server-release.jar
+::%JDK17% -Xms2G -Xmx%MAX_MEMORY%M -jar server-release.jar
+
+::启动一个Java8 服务端，核心名称为server-release.jar
+::%JDK8% -Xms2G -Xmx%MAX_MEMORY%M -jar server-release.jar
+```
