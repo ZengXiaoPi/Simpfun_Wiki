@@ -266,9 +266,23 @@ Vault只提供功能支持，具体的功能实现需要额外的插件（[这�
 
 ## Sponge插件
 
+:::tip
+
+为了方便此栏目的后续编写，Sponge API版本与MC版本对应关系将在下方列出：
+API4.x:1.8.x
+API5.x:1.9-1.10.2
+API6.x:1.11，1.11.2
+API7.x:1.12.x
+API8.x:1.15.2-1.16.5
+API9:1.17-1.18.2
+API10:1.19.2-1.19.4
+API11:1.20.x
+
+:::
+
 ### WorldEdit
 
-API版本：7.1（1.12.2），8.1（1.16.5），11（1.20）
+API版本：7.1，8.1，11
 
 标签：`管理` `安全` `信息`  
 
@@ -279,77 +293,151 @@ API版本：7.1（1.12.2），8.1（1.16.5），11（1.20）
 
 ### Luckperms
 
-API版本：7,8，1.12.2-1.16.5
+API版本：7，8
 
-Luckperms是一个轻量的，高效的权限管理插件。由于Sponge服务端权限系统设计，Luckperms的Sponge版与bukkit有很多不同。
+标签：`管理` `信息`
 
-- 安装后，原版op完全禁用
+介绍：Luckperms是一个轻量的，高效的权限管理插件。由于Sponge服务端权限系统设计，Luckperms的Sponge版与bukkit有很多不同。
 
-- 权限节点格式从类似example.permission.✳️变成example.permission，不再允许”✳️”节点，同时取消父子权限集。（比如不允许example.user代替很多个example.permission1，example.permission2等等）
++ 安装后，原版op完全禁用
 
-原帖链接：[LuckPerms官网](https://luckperms.net) [Sponge Ore](https://ore.spongepowered.org/Luck/LuckPerms)
++ 权限节点格式从类似example.permission.*变成example.permission，不再允许”*”节点，同时取消父子权限集。（比如不允许example.user代替很多个example.permission1，example.permission2等等）
 
-### Locate API（API7,8,10，1.12.2-1.19）
+下载链接：
+[LuckPerms官网](https://luckperms.net) ｜ [Sponge Ore](https://ore.spongepowered.org/Luck/LuckPerms)
 
-强大的前置插件，有一些sponge的优秀插件（例如CommandPacks）依赖于它。
+### Locate API
 
-下载链接：[Sponge Ore](https://ore.spongepowered.org/Semenkovsky_Ivan/LocaleAPI)
+API版本：7,8,10
 
-### Nucleus（API5,6,7,8，1.9.4-1.16.5）
+标签：`前置API`
 
-Nucleus是一个在Sponge平台上面非常优秀的基础指令包插件。提供了bukkit插件EssentialsX里面绝大部分的指令，使得原Ess用户入门Nucleus更加容易，同时提供了原Ess没有实现的一部分功能（例如内置多世界）等。
-注：Nucleus疑似停更，但是仍然是值得推荐的。
+介绍：前置插件，有一些sponge的优秀插件（例如CommandPacks）依赖于它。
 
-原帖链接：[Sponge Ore](https://ore.spongepowered.org/Nucleus/Nucleus)
+下载链接：
+[Sponge Ore](https://ore.spongepowered.org/Semenkovsky_Ivan/LocaleAPI)
 
-### CommandPacks（API8,10，1.16.5-1.19）
+### Nucleus
+
+API版本：5，6，7，8
+
+标签：`管理` `信息` `生存`
+
+介绍：Nucleus是一个在Sponge平台上面非常优秀的基础指令包插件。提供了bukkit插件EssentialsX里面绝大部分的指令，使得原Ess用户入门Nucleus更加容易，同时提供了原Ess没有实现的一部分功能（例如内置多世界）等。
+
+:::tip
+
+Nucleus疑似停更，但是仍然是值得推荐的
+
+:::
+
+原帖链接：
+[Sponge Ore](https://ore.spongepowered.org/Nucleus/Nucleus)
+
+### CommandPacks
+
+API版本：8,10
 
 前置插件：Locate API
 
+标签：`管理` `信息` `生存`
+
 与Nucleus相同，同样是非常优秀的类Ess基础插件，尽管指令比Nucleus略少，但是它支持高版本API。
 
-下载链接：[Sponge Ore](https://ore.spongepowered.org/Semenkovsky_Ivan/CommandPack)
+下载链接：
+[Sponge Ore](https://ore.spongepowered.org/Semenkovsky_Ivan/CommandPack)
 
-### MusicTogether（API7，1.12.2）
+### MusicTogether
 
-可以看作是AllMusic的Sponge版。支持网易云等平台点歌。
-注：需要客户端模组配合
+API版本：7.2
 
-下载链接：[mcbbs](https://www.mcbbs.net/thread-993146-1-1.html)
+标签：`娱乐` `音乐`
 
-### ViaVersion/ViaBackward/ViaRewind（API8,10，1.16.5-1.19）
+介绍：可以看作是AllMusic的Sponge版。支持网易云等平台点歌。**需要客户端模组配合。**
 
-非常出名的跨版本插件，安装以上插件，你可以让不同版本的客户端进入服务端。
-注：Sponge版Via对高版本API兼容性…真不好说
+下载链接：
+[mcbbs](https://www.mcbbs.net/thread-993146-1-1.html)
 
-下载链接：[Jenkins](https://ci.viaversion.com)
+### ViaVersion/ViaBackward/ViaRewind
 
-### MiniMotd（API7,8，1.12.2与1.16.5）
+API版本：8,10
 
-强大且轻量的插件，支持渐变色motd（1.16以上的特性），假玩家数量等。而且使用起来比较简单，容易上手。
-注：虽然modrinth帖说他支持API9,10,11，但是其实不行，仍然只支持API7和8。
+标签：`共游` `跨版本` `实用`
 
-原帖链接：[modrinth](https://modrinth.com/plugin/minimotd)
+介绍：非常出名的跨版本插件，安装以上插件，你可以让不同版本的客户端进入服务端。
 
-### Geyser（API8-11，1.16.5-1.20.1）
+:::caution
 
-开互通服的对这个插件应该不陌生，这是能允许基岩玩家进入Java服的实用插件，而且一直都有Sponge版。
+Sponge版Via对高版本API兼容性…真不好说
 
-下载链接：[Jenkins](https://ci.geysermc.org)
+:::
 
-### Pore/PoreRT（Pore本体API4，1.8.x，PoreRT为API6，1.11.2）
+下载链接：
+[Jenkins](https://ci.viaversion.com)
 
-我之前的帖子曾经讲过Pore插件，一个基于lapis api的插件，使得Sponge服务端运行bukkit插件成为可能，安装插件后在根目录创建bukkit-plugins文件夹（PoreRT则是plugins文件夹），把bukkit插件扔入即可安装bukkit插件。
-PoreRT是Pore的社区重制版，但我暂无资源，因此不知道它实际表现。
-**警告：混合Sponge和Bukkit会降低服务端稳定性和兼容性，同时也不推荐。**
+### MiniMotd
 
-搬运帖链接：[简幻欢icu论坛](https://simpfun.icu/d/33/2)
+API版本：7,8
 
-### Bonge（API7,8，1.12.2和1.16.5）
+标签：`娱乐` `信息`
 
-Bonge是一个新的，支持客户端SpongeForge的项目，旨在Sponge服务端运行bukkit插件。他的名字一眼就看出是B(ukkit)(Sp)onge，因此很好辨认。将插件装入mods/plugins或者plugins目录即可。
+介绍：还在嫌原版的motd一点新意都没有？这款插件可自定义假玩家以及RGB颜色的MOTD，支持彩虹渐变（1.16+），还支持随机服务器图标！它还可以设置最大人数比在线人数始终多x，这是可以自行设置多多少的！
+
+:::caution
+
+部分修改Tab界面的插件，部分修改计分板的插件也提供修改motd的功能，在使用此插件前请注意相关插件的motd配置是否已关闭！
+另外，虽然modrinth帖说他支持API9,10,11，但是其实不行，仍然只支持API7和8。
+
+:::
+
+原帖链接：
+[modrinth](https://modrinth.com/plugin/minimotd)
+
+### Geyser
+
+API版本：8，10，11
+
+标签：`互通` `共游` `实用`
+
+介绍：开互通服的对这个插件应该不陌生，这是能允许基岩玩家进入Java服的实用插件，而且一直都有Sponge版。
+
+下载链接：
+[Jenkins](https://ci.geysermc.org)
+
+### Pore/PoreRT
+
+Pore本体API版本：4
+PoreRT的API版本：6
+
+标签：`前置API` `混合` `不稳定`
+
+介绍：一个基于lapis api的插件，使得Sponge服务端运行bukkit插件成为可能，安装插件后在根目录创建bukkit-plugins文件夹（PoreRT则是plugins文件夹），把bukkit插件扔入即可安装bukkit插件。
+PoreRT是Pore的社区重制版
+
+:::warning 警告
+
+混合Sponge和Bukkit会降低服务端稳定性和兼容性，同时也不推荐安装此类插件。
+
+:::
+
+搬运帖链接：
+[简幻欢icu论坛](https://simpfun.icu/d/33/2)
+
+### Bonge
+
+API版本：7,8
+
+标签：`前置API` `混合` `不稳定`
+
+介绍：Bonge是一个新的，支持客户端SpongeForge的项目，旨在Sponge服务端运行bukkit插件。他的名字一眼就看出是B(ukkit)(Sp)onge，因此很好辨认。将插件装入mods/plugins或者plugins目录即可。
 这个插件的1.x版本为API7，而2.0版本支持API8，但是2.0支持的却是1.14bukkit插件。
 注：2.0版本的插件请自行构建。
-**警告：混合Sponge和Bukkit会降低服务端稳定性和兼容性，同时也不推荐。**
 
-原帖链接：[Github](https://github.com/SoakProject/BongeLegacy)
+:::warning 警告
+
+混合Sponge和Bukkit会降低服务端稳定性和兼容性，同时也不推荐安装此类插件。
+
+:::
+
+Github链接：
+[Github](https://github.com/SoakProject/BongeLegacy)
