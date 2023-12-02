@@ -1,13 +1,21 @@
 ---
-title: 老版本forge服务端开服
+title: MCJE旧版本forge服务端开服
 ---
 
+什么年代了还用旧版，旧版都不更新了啊（
 
 ### 第一步：构建服务端
 
 打开[Forge官网](https://files.minecraftforge.net/net/minecraftforge/forge/)，选择你需要的版本的Forge安装器进行下载，此处以1.12.2为例，点击箭头处下载Forge安装器。
 
 ![一人きり　路地裏は決して急がないで](../../static/img/pages/forgeoldversionserver-1.png)
+
+:::info 提示
+
+Forge官网下载会有广告 ，而且这个广告国内不加载导致你下不了，所以...  
+无极镜像(CN)：[https://www.fastmirror.net/#/download/Forge](https://www.fastmirror.net/#/download/Forge)
+
+:::
 
 下载完成后将其上传至实例文件的根目录。
 
@@ -29,24 +37,20 @@ The server installed successfully
 You can delete this installer file now if you wish
 ```
 
-
 ### 第二步：调整启动命令
 
 打开`start.sh`，删除第一步中添加的命令，防止重新构建毁坏服务端，并添加一行类似下方的命令后保存：
 
-<!-- ```
-${openjdk17} -server -Xms1024m -Xmx${maxmem}M @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.17.1-37.1.1/unix_args.txt "$@" nogui
-``` -->
 `[服务端名字]`是指例如下面目录![yuanshen.com](../../static/img/pages/forgeoldversionserver-3.png)
-中的`forge-x.x.x-x.x.x.x.jar`，在上面目录为`forge-1.12.2-14.23.5.2860.jar`
+中的`forge-x.x.x-x.x.x.x.jar`，在上面目录为`forge-1.12.2-14.23.5.2860.jar`。
 
-:::warning 提示
+:::caution 提示
 
 不要试图启动`minecraft_server.x.x.x.jar`，不然喜提不加载mod（
 
 :::
 
-```
+```shell
 ${openjdk8} -server -Xms1024M -Xmx${maxmem}M -Dfile.encoding=UTF-8 -Duser.language=zh -Duser.country=CN -jar [服务端名字] nogui
 ```
 
@@ -111,10 +115,8 @@ eula=false
 
 如果你或者你的朋友没有正版账户，请把`online-mode`的值由`true`改为`false`。  
 
-**更多关于服务器设置的配置请查看[这篇文档](https://simpdoc.top/docs/mcje/serverproperties)。**
+**更多关于服务器设置的配置请查看[这篇文档](../mcje/20-serverproperties.md)。**
 
-<!-- Spigot服务端需要装载插件就将插件放到`/plugins`文件夹。 -->
-
-需要更换存档请参考[这篇文档](https://simpdoc.top/docs/mcje/filestructure)。
+需要更换存档请参考[这篇文档](../mcje/7-filestructure.md)。
 
 现在你已经配置好服务端了，去进行愉快的游戏吧！
