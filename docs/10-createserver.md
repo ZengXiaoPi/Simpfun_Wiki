@@ -31,9 +31,15 @@ MinecraftJE：Minecraft Java版
 
 :::
 
+:::info
+
+您可以点击下图右上角的的第三方镜像，获取由第三方开发者提供的实例！
+
+:::
+
 ![3](/img/pages/CreateServer-3.png)
 
-4. 选择`实例服务端`
+1. 选择`实例服务端`
 
 :::caution
 
