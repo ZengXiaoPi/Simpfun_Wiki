@@ -36,9 +36,11 @@ title: 进阶文档：使用第三方验证服务器登录
 
 ## 下载authlib-injector插件并上传到服务器
 
-到[authlib-injector的官网](https://authlib-injector.yushi.moe/)下载。点进去默认是最新的1.2.3版本，下这个就行。
+1. 从[authlib-injector的官网](https://authlib-injector.yushi.moe/)下载。
 
 ![全然わかんない 全然わかんない 全然わかんない~本当くだんない 本当くだんない 本当くだんない](/img/pages/AuthlibInjector-1.png)
+
+2. 从[Simpfun GitLab](https://gitlab.simpfun.me/ZengXiaoPi/simpfun_wiki_res/-/raw/main/authlib-injector-1.2.4.jar?inline=false)下载。
 
 下载后扔到与`start.sh`同级的目录。
 
@@ -65,12 +67,12 @@ ${openjdk17} -Xms1024M -Xmx${maxmem}M -jar server-release.jar
 以下是一个`-javaagent`参数示例：
 
 ```sh
--javaagent:authlib-injector-1.2.3.jar=https://littleskin.cn/api/yggdrasil 
+-javaagent:authlib-injector-1.2.4.jar=https://littleskin.cn/api/yggdrasil 
 ```
 
 它表示：
 
-  使用名为`authlib-injector-1.2.3.jar`的文件进行第三方登录；
+  使用名为`authlib-injector-1.2.4.jar`的文件进行第三方登录；
   
   第三方登录文件与服务器核心处在同一目录下；
   
@@ -85,7 +87,7 @@ ${openjdk17} -Xms1024M -Xmx${maxmem}M -jar server-release.jar
 将`-javaagent`参数正确插入后，该命令如下：
 
 ```sh
-${openjdk17} -Xms1024M -Xmx${maxmem}M -javaagent:authlib-injector-1.2.3.jar=https://littleskin.cn/api/yggdrasil -jar server-release.jar
+${openjdk17} -Xms1024M -Xmx${maxmem}M -javaagent:authlib-injector-1.2.4.jar=https://littleskin.cn/api/yggdrasil -jar server-release.jar
 ```
 
 注：此项二级标题下的内容部分参考[Blessing Skin 用户手册-为游戏服务端加载authlib-injector](https://blessing.netlify.app/yggdrasil-api/authlib-injector.html#%E4%B8%BA%E6%B8%B8%E6%88%8F%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%8A%A0%E8%BD%BD-authlib-injector)，同时该文档同样介绍了如何为游戏服务端加载authlib-injector，如果理解此文档有障碍，不妨去该文档看看。
