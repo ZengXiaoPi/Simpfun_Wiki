@@ -12,11 +12,11 @@ title: 启用坐标显示
 
 在控制台输入以下命令：
 
-```
+```text
 gamerule showcoordinates true
 ```
-**注：需要启用作弊**
 
+**注：需要启用作弊**
 
 ## 方法B：修改配置文件
 
@@ -33,6 +33,7 @@ gamerule showcoordinates true
 ```ini
 op-permission-level=4
 ```
+
 如图所示
 
 ![揺るがぬ意志で、光よ！](/img/pages/MCBE-CommonQuestions-2.png)

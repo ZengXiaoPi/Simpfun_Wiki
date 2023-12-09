@@ -4,13 +4,24 @@ title: 从客户端导入存档到服务端
 
 本篇wiki将会教你如何往基岩版服务端导入存档。
 
+:::caution 提示
+
+适用服务端：BDS，LLBDS
+
+不适用服务端：Nukkit系，Pocketmine系等
+
+:::
+
 -----
 
 ## 从客户端导出
 
 ### Android导出教程
-由于谷歌对App做出了限制，在BE1.18后，"外部存储"的存储目录被移动至`Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/`下。   
-如果是您本地创建的存档，其文件夹名称将会是一串无规则`英文字符or数字+等号(=)`，如下图所示。  
+
+由于谷歌对App做出了限制，在BE1.18后，"外部存储"的存储目录被移动至`Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/`下。
+
+如果是您本地创建的存档，其文件夹名称将会是一串无规则`英文字符or数字+等号(=)`，如下图所示。
+
 请打开文件夹内的`levelname.txt`查看存档名，确保你选择的是需要导出的存档。
 
 ![勇者よ。光があなたと共にあらんことを](/img/pages/MCBE-Import-Worlds-1.png)
@@ -42,6 +53,7 @@ title: 从客户端导入存档到服务端
 直接点击“导出世界”并导出即可
 
 ![这个情况还真没见过。这样吧，你先在羽丘一年A班或者天文部寻找“高松灯”发现后立即翻她封面是红花的笔记本并找到歌曲“春日影”，询问她歌曲的由来并邀请她一起组乐队，并在她拒绝后告诉她“只要好好努力避免重蹈覆辙不就好了吗”，在她同意后寻找她的前队友一起组队（丰川祥子除外），最后在你们的第一场live中演奏“春日影”。](../../static/img/pages/MCBE-Import-Worlds-5.png)
+
 ### iOS导出教程
 
 与安卓端导出教程基本相同。打开“文件”，在我的iPhone/iPad里找到`Minecraft`，进入以下目录：`/Minecraft/games/com.mojang/minecraftWorlds`后根据文件夹内的`levelname.txt`寻找需要导出的存档并将整个乱码文件夹压缩为zip即可。
@@ -74,7 +86,7 @@ title: 从客户端导入存档到服务端
 
 在往文件管理里扔存档之前，你应该先检查一下存档文件结构是否正确。
 
-基岩版存档内有最少7项、最多（我见过的最多）12项文件/文件夹，只有符合这个格式的存档能被游戏识别（所有端都一样）。如下表（斜体表示不必须）
+基岩版存档内有最少7项、最多（我见过的最多）12项文件/文件夹，只有符合这个格式的存档能被游戏识别。如下表（斜体表示非必须）
 
 | 文件或文件夹 | 说明 |
 | :--- | :--- |
@@ -101,25 +113,28 @@ title: 从客户端导入存档到服务端
 
 ### 第二步
 
-上传存档（或存档压缩包），如果上传的是压缩包，在上传完毕后解压。
-最终结果应如下图所示：
+上传存档文件夹（或存档压缩包），如果上传的是压缩包，在上传完毕后解压。  
+如果压缩包后缀名为`.mcworld`，请将其改为`.zip`。  
+
+最终结果应如下图所示：  
 例：此处我上传的新存档文件夹名称为`Fontaine`。
 
 ![この光に意志を込めて…貫け！バランス崩壊！](/img/pages/MCBE-Import-Worlds-9.png)
 
 ### 第三步
 
-回到服务器根目录，打开`server.properties`，找到下面这行配置：     
+回到服务器根目录，打开`server.properties`，找到下面这行配置：
+
 ```
 level-name=Bedrock level
 # Allowed values: Any string without semicolon symbol or symbols illegal for file name: /\n\r\t\f`?*\\<>|\":
 ```
-将其中的`Bedrock level`更改为你上传的存档文件夹的名字。  
-例：在上一步中我上传的存档文件夹名为`Fontaine`，那么我就需要把`Bedrock level`更改为`Fontaine`，如下图所示：   
 
-![勇気。それは最高の魔法です。](/img/pages/MCBE-InputAddon-6.png)   
+将其中的`Bedrock level`更改为你上传的存档文件夹的名字。  
+例：在上一步中我上传的存档文件夹名为`Fontaine`，那么我就需要把`Bedrock level`更改为`Fontaine`，如下图所示：
+
+![勇気。それは最高の魔法です。](/img/pages/MCBE-InputAddon-6.png)
 
 ### 第四步
 
 回到终端界面，开启服务器，查看存档是否正确导入。  
-

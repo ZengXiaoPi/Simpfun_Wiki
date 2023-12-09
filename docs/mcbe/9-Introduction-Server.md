@@ -12,29 +12,31 @@ title: 服务端的介绍
 
 :::caution 提示
 
-排序按A-Z排序，不分先后（不是越靠前越好）
+排序按A-Z排序，不分先后（不是越靠前越好）！
 
 :::
 
 ### 省流版表格
 
-|**服务端**|**插件**|**介绍**|**下载**|
- | ---- | ---- | ---- | --- |
-|BDS|**不兼容**|官方服务端，**最稳定**，**但是不兼容插件**|[点击下载](https://www.minecraft.net/zh-hans/download/server/bedrock)|
-|LiteLoaderBDS|**兼容(.dll/.js)**|插件服务端，**仅支持Windows上使用**|[安装方法及下载](https://docs.litebds.com/zh-Hans/#/Usage?id=%f0%9f%92%bb-%e5%ae%89%e8%a3%85liteloaderbds)
-|Nukkit系服务端|**兼容(.jar)**|使用 Java 编写，拥有强大的多线程性能，**但不推荐一般生存使用**||
-|PocketMine/PocketMine-MP| **兼容** | 使用PHP编写，(PE)BE最开始的服务端，现在国内基本已查无此端||
+|**服务端**|**插件**|**介绍**|
+| ---- | ---- | ---- |
+|Bedrock Dedicated Server(BDS)|**不兼容**|官方服务端，**不兼容插件**|
+|LiteLoaderBDS/LeviLamina|**兼容(.dll/.js)**|加载器式插件服务端，**仅支持Windows上使用**|
+|Nukkit系服务端|**兼容(.jar)**|使用 Java 编写，拥有强大的多线程性能，**但不推荐一般生存使用**|
+|PocketMine/PocketMine-MP| **兼容** | 使用PHP编写，(PE)BE最开始的服务端，现在国内基本已查无此端|
 
 -----
 
-### Bedrock Server(原版BDS)
+### Bedrock Dedicated Server(原版BDS)
+
+目前状态：活跃
 
 插件：不支持
 
 Addon：兼容
 
 介绍：
-官方服务端，最稳定，但是**不兼容插件**。 
+原版BDS，目前**仍然处于早期Alpha测试阶段**，**不兼容插件**。目前仅支持64位设备。
 
 :::info 编者有话说
 
@@ -44,20 +46,67 @@ Addon：兼容
 
 :::
 
+:::caution 提示
+
+原版BDS问题很多，包括但不限于——
+
++ 经常会出现各种漏洞，且官方修复恶性漏洞的积极性非常低。
++ BDS在某些多核多线程低频率的服务器CPU上的性能表现不佳，反而单核性能更强的高主频消费级CPU更适合BDS。
++ 在高负载的情况下（例如大量生物实体堆积/加载复杂区块），有时会出现服务器突然卡顿但是CPU占用率很低的情况。
+
+:::
+
 -----
 
-### LiteLoaderBDS
+### LeviLamina（LL3）
 
-插件：兼容 (`.dll`，`.js`)   
+目前状态：活跃
 
-Addon：兼容   
+插件：理论兼容，实际为0
 
-介绍：
-第三方插件端，由国人开发，基于官方BDS修改而来，目前主流的生存插件端。经过较长时间的发展已趋于稳定，可以用于生产环境。     
+Addon：兼容
+
+介绍：  
+轻量级、模块化和多功能的Minecraft Bedrock Server BDS插件加载器，曾被称为LiteLoaderBDS。
+
+[LeviLamina](https://github.com/LiteLDev/LeviLamina)是一个非官方的插件加载器，旨在为BDS提供必不可少的API支持。通过利用插件，扩展BDS功能的过程变得轻而易举，具有用户友好的开发过程和灵活的方法。
+
+:::caution
+
+LL3正在开发，目前对插件的兼容性为0！无法用于生产环境！
+
+:::
+
+-----
+
+### LiteLoaderBDS（LL2）
+
+目前状态：LTS
+
+插件：兼容 (`.dll`，`.js`)
+
+Addon：兼容
+
+介绍：  
+LiteLoaderBDS 是一个非官方的 Minecraft 服务端插件加载器，为BDS提供插件开发支持和插件加载服务，弥补了官方行为包开发接口长期以来存在的一些不足。
+
+:::info 编者有话说
+
+第三方插件端，由国人开发，基于官方BDS修改而来，目前主流的生存插件端。经过较长时间的发展已趋于稳定，可以用于生产环境。
+
+:::
+
+:::caution 提示
+
+LL2已停更，[Github存储库](https://github.com/LiteLDev/LiteLoaderBDSv2)已于2023.10.25归档。最终支持的BDS版本为1.20.31。目前可以使用插件使其兼容1.20.40+版本的客户端。
+
+:::
 
 -----
 
 ### NukkitX
+
+目前状态：活跃
 
 插件：兼容 (`.jar`)   
 
@@ -83,6 +132,8 @@ NukkitX没有生物生成且对原版特性支持稀碎，非常不建议用于�
 
 ### PetteriM1 Edition
 
+目前状态：活跃
+
 插件：兼容(`.jar`)
 
 Addon：不支持
@@ -101,11 +152,15 @@ NukkitPetteriM1Edition（简称NukkitPM1E）是PetteriM1为他的服务器SuomiC
 同另外几个一样，都是NukkitX的儿子，不过这个是跨版本支持的。  
 同理，因为是NukkitX的儿子，所以不建议开生存服。  
 
+存档格式类似于Java版1.12的存档。
+
 :::
 
 -----
 
 ### PowerNukkit
+
+目前状态：停更
 
 插件：兼容(`.jar`)
 
@@ -124,6 +179,8 @@ NukkitX的儿子之一，已经寄了，最后更新日期2021年。多的没什
 
 ### PowerNukkitX
 
+目前状态：活跃
+
 插件：兼容(`.jar`/`.js`)  
 
 Addon：不支持  
@@ -136,11 +193,15 @@ PowerNukkitX（简称PNX）是由包括BlocklyNukkit团队在内的中国Nukkit�
 
 PNX，NukkitX的儿子之一，适合开RPG服、建筑服、小游戏服、战争服等，但因为它是NukkitX的儿子，因此不推荐开生存服。  
 
+存档格式类似于Java版1.15的存档，但又不完全像。
+
 :::
 
 -----
 
 ### Pocketmine
+
+目前状态：停更
 
 插件：兼容  
 
@@ -161,7 +222,9 @@ Addon：不支持(~~这东西是在Pm似了后才出的~~)
 
 -----
 
-### PocketMine-MP   
+### PocketMine-MP
+
+目前状态：活跃
 
 插件：兼容
 
@@ -173,7 +236,7 @@ PocketMine的一个分支，到现在还在维护和更新。
 
 :::info 编者有话说
 
-这是我在翻Github的时候偶然发现的（[仓库地址](https://github.com/pmmp/pocketmine-mp)），国内能查到的资料少之又少，也没人用这个端。
+这是我在翻Github的时候偶然发现的（[仓库地址](https://github.com/pmmp/pocketmine-mp)），国内能查到的资料少之又少，也没人用这个端。  
 不过PmMP的官方文档说了不建议用于生存服（~~非BDS端的通病~~）。
 
 :::
