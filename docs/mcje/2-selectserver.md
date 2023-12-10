@@ -2,7 +2,7 @@
 title: 主流服务端介绍与选择
 ---
 
-## 如何选择服务端
+# 如何选择服务端
 
 - 如果你的需求仅为使用 `Bukkit` 插件，则我建议你使用 `Paper` 服务端。
 - 如果你想要游玩指令，数据包地图，则我建议你使用 `Vanilla` 服务端。
@@ -11,8 +11,6 @@ title: 主流服务端介绍与选择
 - 如果你需要游玩 **高版本** 的 `Forge` 模组，且需要 `Bukkit` 插件，则我建议你使用 `Arclight` 服务端。
 - 如果你需要游玩 `Forge` 模组，且需要插件支持，并且有混合端最好的兼容性，则我建议你使用 `SpongeForge` 服务端(仅支持SpongeForge插件)。
 - 如果你需要游玩 `Fabric` 模组，则我建议你使用 `Fabric` 服务端。
-
------
 
 **若您实在不理解上方的内容，可以查看下方的表格方便理解：**
 
@@ -33,7 +31,7 @@ title: 主流服务端介绍与选择
 
 -----
 
-## 主流服务端的介绍
+# 主流服务端的介绍
 
 :::tip
 
@@ -47,7 +45,9 @@ title: 主流服务端介绍与选择
 
 :::
 
-### Vanilla `置顶`
+-----
+
+## Vanilla `置顶`
 
 模组：`不支持`
 
@@ -59,13 +59,21 @@ title: 主流服务端介绍与选择
 
 纯原版服务端，没有任何附加功能，但是对于数据包和命令地图有完美的兼容性。
 
-### Arclight
+:::info 编者有话说
+
+但是原版端是真的一点优化都没有，所以可能会卡的一批......
+
+:::
+
+-----
+
+## Arclight
 
 模组：`支持`
 
 插件：`支持`
 
-版本：`1.14.4 ~ 1.20.1`
+版本：`1.14.4 ~ 最新版`
 
 介绍：  
 
@@ -79,7 +87,9 @@ title: 主流服务端介绍与选择
 
 :::
 
-### CatServer
+-----
+
+## CatServer
 
 模组：`支持`
 
@@ -99,7 +109,9 @@ title: 主流服务端介绍与选择
 
 :::
 
-### CraftBukkit
+-----
+
+## CraftBukkit
 
 模组：`不支持`
 
@@ -125,7 +137,9 @@ CraftBukkit在其发展过程中因为与Mojang之间的法律纠纷和版权问
 
 :::
 
-### Fabric
+-----
+
+## Fabric ⭐
 
 插件：`不支持`
 
@@ -139,13 +153,15 @@ CraftBukkit在其发展过程中因为与Mojang之间的法律纠纷和版权问
 
 新起之秀，开生电就用Fabric吧。
 
-### Folia
+-----
+
+## Folia
 
 模组：`不支持`
 
 插件：`支持`
 
-版本：`1.19.4 ~ 1.20.x`
+版本：`1.19.4 ~ 最新版`
 
 介绍：  
 
@@ -161,7 +177,9 @@ Paper团队新生的儿子，有多线程的优化，对于e5这种为多核而�
 
 :::
 
-### Forge
+-----
+
+## Forge ⭐
 
 模组：`支持`
 
@@ -183,7 +201,9 @@ Paper团队新生的儿子，有多线程的优化，对于e5这种为多核而�
 
 :::
 
-### Leaves
+## Leaves
+
+-----
 
 模组：`不支持`
 
@@ -197,7 +217,9 @@ Leaves 是一个致力于修复被 Paper 和 Bukkit 等服务端破坏了的原�
 
 其所支持的插件为**Bukkit系**插件。
 
-### Mohist
+-----
+
+## Mohist
 
 模组：`支持`
 
@@ -211,13 +233,15 @@ Leaves 是一个致力于修复被 Paper 和 Bukkit 等服务端破坏了的原�
 
 其所支持的插件为**Bukkit系**插件。
 
-:::info 编者有话说
+:::note 编者有话说
 
 高版本(1.18.2+)不要使用Mohist，会变得不幸。
 
 :::
 
-### NeoForge
+-----
+
+## NeoForge
 
 模组：`支持`
 
@@ -229,15 +253,19 @@ Leaves 是一个致力于修复被 Paper 和 Bukkit 等服务端破坏了的原�
 
 NeoForge 是 Minecraft Forge 的分支。
 
-在 2023 年 7 月 12 日，Forge 的 Discord 被 cpw 重命名，用于新的项目：NeoForge。除了 LexManos，几乎所有 Minecraft Forge 团队成员都加入了 NeoForged 团队。
+在2023年7月12日，Forge 的 Discord 被 cpw 重命名，用于新的项目：NeoForge。除了 LexManos，几乎所有 Minecraft Forge 团队成员都加入了 NeoForged 团队。
 
 :::info 编者有话说
 
-关于为什么要分叉一个新的Forge出来，请看[这篇文章](https://bbs.mcmod.cn/thread-15546-1-1.html)。
+这就是Forge的下一个形态，建议大家在1.20.2+都转用NeoForge。
+
+关于为什么要分叉一个新的NeoForge出来，请看[这篇文章](https://bbs.mcmod.cn/thread-15546-1-1.html)。
 
 :::
 
-### Paper
+-----
+
+## Paper ⭐
 
 模组：`不支持`
 
@@ -259,7 +287,9 @@ Paper是Minecraft的一个高性能、优化版的服务端，致力于提供更
 
 :::
 
-### Purpur
+-----
+
+## Purpur
 
 模组：`不支持`
 
@@ -279,7 +309,9 @@ Purpur是基于Paper服务端的改进版本，致力于提供更多特性、性
 
 :::
 
-### Spigot
+-----
+
+## Spigot
 
 模组：`不支持`
 
@@ -293,7 +325,9 @@ Spigot是Minecraft的一个流行的第三方服务端，它建立在CraftBukkit
 
 其所支持的插件为**Bukkit系**插件。
 
-### SpongeForge
+-----
+
+## SpongeForge
 
 模组：`支持`
 
@@ -317,7 +351,9 @@ Sponge插件放入`/mods`文件夹即可。
 
 :::
 
-### SpongeVanilla
+-----
+
+## SpongeVanilla
 
 模组：`不支持`
 
@@ -338,3 +374,5 @@ SpongeVanilla是基于原版Minecraft的服务端，提供了强大的插件API�
 在已有大量插件和MOD分散的服务器生态中，Sponge选择了重构，摒弃了备受诟病的Bukkit API，独立打造全新的Sponge API插件体系，将模组概念整合为MOD身份统一加入服务器，实现更为统一的功能实现。
 
 :::
+
+-----
