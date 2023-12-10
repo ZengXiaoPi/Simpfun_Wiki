@@ -17,9 +17,9 @@ title: 使用预设没有的MCJE服务端开服
 + Forge服务端
 + Fabric服务端
 
-## Vanilla/大部分Bukkit系服务端/混合端
+## Vanilla端/大部分Bukkit系服务端/混合端
 
-Vanilla与大部分Bukkit系服务端较为简单（Spigot除外），此处以**Paper1.19.2**进行演示。服务器使用简幻欢Java(Linux)自定义镜像。
+Vanilla端/大部分Bukkit系服务端/混合端较为简单（Spigot除外），此处以**Paper1.19.2**进行演示。服务器使用简幻欢Java(Linux)自定义镜像。
 
 ### 第一步：下载服务端核心
 

@@ -12,7 +12,7 @@ title: 开启死亡不掉落
 
 输入以下命令(可直接复制，游戏内使用`ctrl+v`粘贴，控制台输入请去掉斜杠)：
 
-```
+```text
 /gamerule keepInventory true
 ```
 

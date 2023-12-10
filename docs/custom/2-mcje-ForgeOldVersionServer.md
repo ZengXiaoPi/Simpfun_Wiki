@@ -21,7 +21,7 @@ Forge官网下载会有广告 ，而且这个广告国内不加载导致你下�
 
 打开根目录下的`start.sh`，在文件内添加一行下面的命令后保存(不要删除start.sh自带的东西，echo那一行除外)：
 
-```text
+```shell
 ${openjdk8} -server -Dfile.encoding=UTF-8 -Duser.language=zh -Duser.country=CN -jar [Forge安装器文件名].jar --installServer
 ```
 
