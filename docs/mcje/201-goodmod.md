@@ -36,10 +36,10 @@ Simpfun Wiki仅作为推荐用途推荐这些mod，编辑者不保证可能出�
 
 ### GeySer For Fabric
  
-模组加载器:Fabric 
+模组加载器: Fabric 
 
 版本：   
-Fabric：1.19——1.20.1   
+Fabric：1.19——1.20.2   
 
 运行环境:客户端无效, 服务端需装 
 
@@ -58,16 +58,16 @@ Geyser一般不能与运行环境为**服务端需装,客户端需装**的mod，
 
 下载链接：
 
-[官方](https://geysermc.org/)
+[官方](https://geysermc.org/) | [modrinth](https://modrinth.com/mod/geyser)
 
 -----
 
 ### Carpet
 
-模组加载器:Forge, Fabric, LiteLoader
+模组加载器: Forge, Fabric, LiteLoader
 
 版本：   
-Fabric: 1.14.4——1.20.1   
+Fabric: 1.14.4——1.20.2   
 Forge:  1.11——1.13.2    
 
 运行环境:客户端可选, 服务端需装 
@@ -93,8 +93,8 @@ Forge:  1.11——1.13.2
 模组加载器: Fabric, Quilt   
 
 版本：    
-Fabric:1.17.1——1.20.1    
-Quilt：1.19.1——1.20.1    
+Fabric:1.17.1——1.20.4    
+Quilt：1.17——1.20.4    
 
 运行环境：客户端无效, 服务端需装  
 
@@ -106,11 +106,43 @@ Quilt：1.19.1——1.20.1
 允许拥有Mojang账户的玩家绕过身份验证，如果玩家由MojangAPI创建，他们将被视为在线玩家。   
 具体使用方法可参考[这里](https://www.mcmod.cn/class/6241.html)。   
 
-
 下载链接：
+
 [Modrinth](https://modrinth.com/mod/easyauth)
 
 -----
+
+### LuckPerms
+
+模组加载器: Forge, Fabric   
+
+版本:
+Fabric:1.16.4——1.20.3    
+Forge：1.19——1.20.2    
+
+运行环境：客户端无效, 服务端需装  
+
+标签： `安全` `权限` `管理`
+
+介绍：   
+老牌权限管理插件的Mod版   
+它允许服务器管理员通过创建组和分配权限来控制玩家可以使用的功能。   
+特点：   
++ 快速：在编写时考虑了性能和可扩展性；
++ 可靠：受到数千名服务器管理员的信任，并且是最大的服务器网络；
++ 易于使用：使用命令，直接在配置文件中或使用 web 编辑器设置权限；
++ 灵活：支持各种数据存储选项，适用于许多不同的服务器类型；
++ 广泛：大量的自定义选项和设置，可以更改以适合您的服务器；
++ 免费：可免费下载和使用，并得到许可，因此是永久免费的。
+
+妈妈再也不用担心服内玩家滥用指令了   
+
+下载链接：
+
+[Modrinth](https://modrinth.com/mod/luckperms)
+
+-----
+
 ## 双端可选mod
 
 :::caution 这是什么？
@@ -124,9 +156,9 @@ Quilt：1.19.1——1.20.1
 模组加载器：Forge，NeoForge，Fabric  
 
 版本：   
-Forge：1.16.5——1.20.1   
-NeoForge：1.20.1   
-Fabric：1.16.5——1.20.1   
+Forge：1.16.5——1.20.2   
+NeoForge：1.20.4   
+Fabric：1.16.5——1.20.4   
 
 运行环境：客户端可选，服务端可选
 

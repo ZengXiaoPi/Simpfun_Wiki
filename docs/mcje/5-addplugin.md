@@ -6,7 +6,9 @@ title: 如何增加插件
 
 此教程不适用于以下服务端：
 
+- Vanilla
 - Forge
+- NeoForge
 - Fabric
 
 :::

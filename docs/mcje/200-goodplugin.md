@@ -66,7 +66,7 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 标签： `机制` `管理`
 
-介绍：开启**mobGriefing**后村民无法种地，不开启怕苦力怕**爆炸**？这款插件会帮你解决你的痛处！
+介绍：开启[mobGriefing](1-JECommonQuestions/07-mobGriefing.md)后村民无法种地，不开启怕苦力怕**爆炸**？这款插件会帮你解决你的痛处！
 
 下载链接：[Mcbbs](https://www.mcbbs.net/thread-1150139-1-1.html) | [GitHub](https://github.com/4o4E/Boom/releases)
 
