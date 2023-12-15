@@ -1,0 +1,14 @@
+{
+  "position": 3,
+  "label": "控制台基础API",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "控制台基础API"
+  },
+  "customProps": {
+    "description": "This description can be used in the swizzled DocCard"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "position": 1000,
+  "label": "简幻欢API",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "简幻欢API"
+  },
+  "customProps": {
+    "description": "This description can be used in the swizzled DocCard"
+  }
+}
