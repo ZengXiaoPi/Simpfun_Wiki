@@ -10,7 +10,8 @@ title: 控制台基础操作及获取
 :::info
 比如获取拥有实例列表
 curl -X GET "https://api.simpfun.cn/api/ins/list" -H "Authorization: ${token}"
-:::tip
+:::
+:::caution 温馨提示
 -H "Authorization: ${token}"，${token}那部分需要把获取到的token给替换掉,如果直接
 'curl -X GET "https://api.simpfun.cn/api/ins/list" -H "Authorization: ${token}"'能获取个空气,大多数只能返回个错
 :::
