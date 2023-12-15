@@ -33,8 +33,10 @@ curl -X POST "https://api.simpfun.cn/api/bindqq" -H "Authorization: ${token}" -d
 
 :::tip
 ##下列为与获取创建实例信息相关的(仅获取可创建信息){示例}
+:::
 
-:::info
+:::info 示例
+
 ##获取可创建实例类别
 curl -X GET "https://api.simpfun.cn/api/games/list" -H "Authorization: ${token}"
 
@@ -58,7 +60,7 @@ curl -X GET "https://api.simpfun.cn/api/shop/list?version_id=实例版本id" -H 
 得到的是{"code":200,"data":{"game_name":"自定义-需有开服经验","kind_name":"Java","version_name":"Java多版本镜像","cpu":6,"ram":16,"disk":30,"grade":"B.L.L","description":null,"point":210}}
 :::
 
-:::tip
+:::tip 温馨提示
 以上仅用于获取可创建实例信息,没有实质性操作
 :::
 
