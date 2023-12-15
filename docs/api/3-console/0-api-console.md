@@ -32,9 +32,9 @@ curl -X POST "https://api.simpfun.cn/api/bindqq" -H "Authorization: ${token}" -d
 :::
 
 :::tip
-##下列为与获取创建实例信息相关的(仅获取可创建信息)
+##下列为与获取创建实例信息相关的(仅获取可创建信息){示例}
 
-:::info 示例
+:::info
 ##获取可创建实例类别
 curl -X GET "https://api.simpfun.cn/api/games/list" -H "Authorization: ${token}"
 
