@@ -28,10 +28,13 @@ curl -X POST "https://api.simpfun.cn/api/ins/容器id/toolbox" -H "Authorization
 ##容器变配(说实话在某多数情况下不如新建一个新的容器)
 curl -X POST "https://api.simpfun.cn/api/ins/容器id/change" -H "Authorization: ${token}" -d "item_id=机器类型ID"
 
+:::tip 😋
 ##评价第三方镜像
-喜欢curl -X POST "https://api.simpfun.cn/api/ins/容器id/rating" -H "Authorization: ${token}" -d "like=true&dislike=false&comment=填写体验反馈"
-不喜欢curl -X POST "https://api.simpfun.cn/api/ins/容器id/rating" -H "Authorization: ${token}" -d "like=false&dislike=true&comment=填写体验反馈"
 
+喜欢curl -X POST "https://api.simpfun.cn/api/ins/容器id/rating" -H "Authorization: ${token}" -d "like=true&dislike=false&comment=填写体验反馈"
+
+不喜欢curl -X POST "https://api.simpfun.cn/api/ins/容器id/rating" -H "Authorization: ${token}" -d "like=false&dislike=true&comment=填写体验反馈"
+:::
 ##发起技术支持
 curl -X POST "https://api.simpfun.cn/api/ins/容器id/support" -H "Authorization: ${token}" -d "comment=备注发起技术支持的原因"
 
