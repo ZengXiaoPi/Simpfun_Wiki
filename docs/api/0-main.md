@@ -1,7 +1,7 @@
 ---
 title: 什么是API?
 ---
-::info
+:::info
 
 API是"应用程序接口"（Application Programming Interface）的缩写。它是一套预定义的规则和规格，允许一个软件应用程序与另一个软件应用程序进行交互。API可以被视为软件应用程序之间的桥梁或者通信协议。
 

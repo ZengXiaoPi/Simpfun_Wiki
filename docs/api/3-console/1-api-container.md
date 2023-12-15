@@ -3,7 +3,7 @@ title: 容器控制API
 ---
 
 ::info
-先讲获取容器信息吧 🤔
+获取容器信息吧 🤔
 
 ##获取容器信息(里面会有与容器相关的信息)
 curl -X GET "https://api.simpfun.cn/api/ins/容器id/detail" -H "Authorization: ${token}"
@@ -42,3 +42,4 @@ curl -X POST "https://api.simpfun.cn/api/ins/容器id/allocation" -H "Authorizat
 ##删除实例
 curl -X POST "https://api.simpfun.cn/api/ins/容器id/delete" -H "Authorization: ${token}"
 
+:::
