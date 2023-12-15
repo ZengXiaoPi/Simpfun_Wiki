@@ -13,14 +13,19 @@ title: 控制台基础API
 比如(示例)
 ##获取拥有实例
 curl -X GET "https://api.simpfun.cn/api/ins/list" -H "Authorization: ${token}"
+
 ##获取用户配置
 curl -X GET "https://api.simpfun.cn/api/auth/info" -H "Authorization: ${token}"
+
 ##获取所有公告
 curl -X GET "https://api.simpfun.cn/api/announcement" -H "Authorization: ${token}"
+
 ##获取所有记录
 curl -X GET "https://api.simpfun.cn/api/pointhistory" -H "Authorization: ${token}"
+
 ##获取推荐信息
 curl -X GET "https://api.simpfun.cn/api/invite" -H "Authorization: ${token}"
+
 ##绑定QQ
 curl -X POST "https://api.simpfun.cn/api/bindqq" -H "Authorization: ${token}" -d "qq=需要绑定的QQ号"
 :::
@@ -69,18 +74,25 @@ curl -X POST "https://api.simpfun.cn/api/ins/create" -H "Authorization: ${token}
 
 ##获取自己新建的镜像
 curl -X GET "https://api.simpfun.cn/api/dev/list" -H "Authorization: ${token}"
+
 ##获取别人发起的技术支持
 curl -X GET "https://api.simpfun.cn/api/dev/support/list" -H "Authorization: ${token}"
+
 ##获取备份信息
 curl -X GET "https://api.simpfun.cn/api/dev/backup?all=true&is_windows=false" -H "Authorization: ${token}"
+
 ##获取已创建镜像信息
 curl -X GET "https://api.simpfun.cn/api/dev/镜像id/detail" -H "Authorization: ${token}"
+
 ##获取已创建镜像版本信息
 curl -X GET "https://api.simpfun.cn/api/dev/镜像id/version" -H "Authorization: ${token}"
+
 ##获取已创建镜像用户反馈
 curl -X GET "https://api.simpfun.cn/api/dev/镜像id/feedback" -H "Authorization: ${token}"
+
 ##给已创建镜像添加新的版本
 curl -X POST "https://api.simpfun.cn/api/dev/镜像id/version" -H "Authorization: ${token}" -d "backup_id=备份的id&version=版本信息&description=版本描述&recommend_setting=建议配置"
+
 ##删除已创建镜像版本
 curl -X POST "https://api.simpfun.cn/api/dev/镜像id/version" -H "Authorization: ${token}" -d "version=镜像版本id"
 :::
