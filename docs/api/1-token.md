@@ -12,9 +12,8 @@ title: 获取token
 ##GET大多数情况下用于获取数据,POST大多数情况下用于提交数据
 
 ##以下为获取token示例
-curl -X POST https://api.simpfun.cn/api/auth/login -d "username=用户&passwd=密码"
+curl -X POST https://api.simpfun.cn/api/auth/login -d "username=用户名&passwd=密码"
 
-##如果你使用的是其他语言比如Java,C#,C++,Python,Rust,JavaScript(Node.js),PHP,Go等等...
 :::
 :::tip
 ##成功返回值大概为
