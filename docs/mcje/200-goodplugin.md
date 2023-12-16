@@ -26,6 +26,16 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 ## Bukkit系插件
 
+:::tip 什么是Bukkit系插件？
+
+使用BukkitAPI的插件。
+
+所有以CraftBukkit为分支的服务端使用的插件类型，例如Spigot，Paper，Purpur等绝大部分插件服务端都使用Bukkit系插件。
+
+:::
+
+-----
+
 ### AllMusic
 
 版本：全版本
@@ -46,7 +56,7 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 -----
 
-### AuthMe
+### AuthMe/AuthmeReload
 
 版本：全版本
 
@@ -57,6 +67,20 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 下载链接：
 
 [CodeMC](https://ci.codemc.io/job/AuthMe/job/AuthMeReloaded/)
+
+-----
+
+### AuthmeReReloaded ⭐
+
+版本：1.8——1.20.x
+
+标签：`管理` `安全`
+
+介绍：AuthMeReloaded的分支优化版本，进行了Bug修复以及新增了很多功能，完全兼容原AuthMeReloaded数据库及扩展插件。
+
+下载链接：
+
+[MCBBS(介绍帖)](https://www.mcbbs.net/thread-1471495-1-1.html)|[Github(下载地址)](https://github.com/HaHaWTH/AuthMeReReloaded)
 
 -----
 
@@ -120,7 +144,7 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 -----
 
-### EssentialsX
+### EssentialsX ⭐
 
 版本：全版本
 
@@ -163,7 +187,7 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 它能做什么？  
 
-```
+```text
 可实现服务器多种不同种类的世界创建/删除  
 可设置外部地图挂载  
 可设置地图重生位置和重生地图  
@@ -210,9 +234,9 @@ Multiverse-Core仅提供基础的多世界功能，需要拓展功能请点击�
 
 -----
 
-### SkinsRestorer
+### SkinsRestorer ⭐
 
-版本:1.8——1.20.x
+版本：1.8——1.20.x
 
 标签：`皮肤` `角色` `修复`
 
@@ -224,7 +248,59 @@ Multiverse-Core仅提供基础的多世界功能，需要拓展功能请点击�
 
 -----
 
-### Vault  
+### ViaBackwards
+
+版本：1.8——1.20.x
+
+标签：`版本` `信息`
+
+介绍：该插件需要安装ViaVersion。使用此插件，你可以让更低版本的客户端加入服务器！
+
+下载链接：
+
+[SpigotMC](https://www.spigotmc.org/resources/viabackwards.27448/)
+
+-----
+
+### ViaRewind
+
+版本：1.8——1.20.x
+
+标签：`版本` `信息`
+
+介绍：此插件需要安装ViaVersion(1.8+服务端)和ViaBackwards(1.10+服务端)。它允许1.7.x和1.8.x版本的客户端连接到1.8-1.20.x的服务器。
+
+下载链接：
+
+[SpigotMC](https://www.spigotmc.org/resources/viarewind.52109/)
+
+-----
+
+### ViaVersion ⭐
+
+版本：1.8——1.20.x
+
+标签：`版本` `信息`
+
+介绍：非常出名的跨版本插件，安装此插件，你可以让更高版本的客户端进入服务器。
+
+以下是支持的内容（较旧服务器上的较新版本）：
+
+![一得阁拉米](../../static/img/pages/ViaVersion.png)
+
+下载链接：
+
+[MCBBS(介绍帖)](https://www.mcbbs.net/thread-1023597-1-1.html)|[SpigotMC(下载)](https://www.spigotmc.org/resources/viaversion.19254/)
+
+:::info 提示
+
+ViaVersion仅提供让高版本客户端进入低版本服务器的功能，需要低版本客户端进入高版本服务器的话需要使用ViaBackwards和ViaRewind！
+
+:::
+
+-----
+
+### Vault ⭐
 
 版本：1.8——1.20.x  
 
@@ -244,7 +320,7 @@ Vault只提供功能支持，具体的功能实现需要额外的插件（[这�
 
 -----
 
-### WorldEdit   
+### WorldEdit(Bukkit)
 
 版本：全版本  
 
@@ -269,6 +345,7 @@ Vault只提供功能支持，具体的功能实现需要额外的插件（[这�
 :::tip
 
 为了方便此栏目的后续编写，Sponge API版本与MC版本对应关系将在下方列出：
+
 + API4.x:1.8.x
 + API5.x:1.9-1.10.2
 + API6.x:1.11，1.11.2
@@ -280,7 +357,9 @@ Vault只提供功能支持，具体的功能实现需要额外的插件（[这�
 
 :::
 
-### WorldEdit
+-----
+
+### WorldEdit(Sponge)
 
 API版本：7.1，8.1，11
 
@@ -288,8 +367,10 @@ API版本：7.1，8.1，11
 
 介绍：WorldEdit ，中文名一般译为“创世神”插件，为Minecraft中的十分易用的内建于游戏中的世界编辑器，多人游戏与单人游戏皆可使用。  
 
-下载链接：
+下载链接：  
 [SpongeOre](https://ore.spongepowered.org/EngineHub/WorldEdit)
+
+-----
 
 ### Luckperms
 
@@ -303,8 +384,10 @@ API版本：7，8
 
 + 权限节点格式从类似example.permission.✳变成example.permission，不再允许”✳”节点，同时取消父子权限集。（比如不允许example.user代替很多个example.permission1，example.permission2等等）
 
-下载链接：
+下载链接：  
 [LuckPerms官网](https://luckperms.net) ｜ [Sponge Ore](https://ore.spongepowered.org/Luck/LuckPerms)
+
+-----
 
 ### Locate API
 
@@ -314,8 +397,10 @@ API版本：7,8,10
 
 介绍：前置插件，有一些sponge的优秀插件（例如CommandPacks）依赖于它。
 
-下载链接：
+下载链接：  
 [Sponge Ore](https://ore.spongepowered.org/Semenkovsky_Ivan/LocaleAPI)
+
+-----
 
 ### Nucleus
 
@@ -331,8 +416,10 @@ Nucleus疑似停更，但是仍然是值得推荐的
 
 :::
 
-原帖链接：
+下载链接：  
 [Sponge Ore](https://ore.spongepowered.org/Nucleus/Nucleus)
+
+-----
 
 ### CommandPacks
 
@@ -344,8 +431,10 @@ API版本：8,10
 
 与Nucleus相同，同样是非常优秀的类Ess基础插件，尽管指令比Nucleus略少，但是它支持高版本API。
 
-下载链接：
+下载链接：  
 [Sponge Ore](https://ore.spongepowered.org/Semenkovsky_Ivan/CommandPack)
+
+-----
 
 ### MusicTogether
 
@@ -355,8 +444,10 @@ API版本：7.2
 
 介绍：可以看作是AllMusic的Sponge版。支持网易云等平台点歌。**需要客户端模组配合。**
 
-下载链接：
+下载链接：  
 [mcbbs](https://www.mcbbs.net/thread-993146-1-1.html)
+
+-----
 
 ### ViaVersion/ViaBackward/ViaRewind
 
@@ -372,8 +463,10 @@ Sponge版Via对高版本API兼容性…真不好说
 
 :::
 
-下载链接：
+下载链接：  
 [Jenkins](https://ci.viaversion.com)
+
+-----
 
 ### MiniMotd
 
@@ -390,10 +483,12 @@ API版本：7,8
 
 :::
 
-原帖链接：
+下载链接：  
 [modrinth](https://modrinth.com/plugin/minimotd)
 
-### Geyser
+-----
+
+### Geyser(Sponge)
 
 API版本：8，10，11
 
@@ -401,8 +496,10 @@ API版本：8，10，11
 
 介绍：开互通服的对这个插件应该不陌生，这是能允许基岩玩家进入Java服的实用插件，而且一直都有Sponge版。
 
-下载链接：
+下载链接：  
 [Jenkins](https://ci.geysermc.org)
+
+-----
 
 ### Pore/PoreRT
 
@@ -420,8 +517,10 @@ PoreRT是Pore的社区重制版
 
 :::
 
-搬运帖链接：
-[简幻欢icu论坛](https://simpfun.icu/d/33/2)
+下载链接：  
+[简幻欢icu论坛(搬运帖)](https://simpfun.icu/d/33/2)
+
+-----
 
 ### Bonge
 
@@ -439,5 +538,7 @@ API版本：7,8
 
 :::
 
-Github链接：
+下载链接：
 [Github](https://github.com/SoakProject/BongeLegacy)
+
+-----

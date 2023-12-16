@@ -19,7 +19,7 @@ title: 如何增加插件
 
 :::
 
-## 其他插件服务端
+## Bukkit系插件服务端
 
 :::caution 不适用
 
@@ -45,9 +45,9 @@ title: 如何增加插件
 
 :::
 
-## SpongeForge
+## SpongeForge服务端
 
-:::caution 不适用
+:::caution 提示
 
 此段**仅**适用于以下服务端：
 
