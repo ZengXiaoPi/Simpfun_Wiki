@@ -12,7 +12,7 @@ title: 设置出生点
 
 在游戏内使用此命令（可直接复制，游戏内`ctrl+v`粘贴）：
 
-```
+```text
 /setworldspawn
 ```
 

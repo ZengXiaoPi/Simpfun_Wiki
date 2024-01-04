@@ -17,9 +17,9 @@ title: 使用预设没有的MCJE服务端开服
 + Forge服务端
 + Fabric服务端
 
-## Vanilla/大部分Bukkit系服务端/混合端
+## Vanilla端/大部分Bukkit系服务端/混合端
 
-Vanilla与大部分Bukkit系服务端较为简单（Spigot除外），此处以**Paper1.19.2**进行演示。服务器使用简幻欢Java(Linux)自定义镜像。
+Vanilla端/大部分Bukkit系服务端/混合端较为简单（Spigot除外），此处以**Paper1.19.2**进行演示。服务器使用简幻欢Java(Linux)自定义镜像。
 
 ### 第一步：下载服务端核心
 
@@ -306,9 +306,13 @@ Forge官网下载会有广告 ，而且这个广告国内不加载导致你下�
 
 NeoForge：
 
-打开[NeoForge官网](https://neoforged.net/)，选择你需要的版本的NeoForge安装器进行下载，1.20.1的为上面的那个，1.20.2的测试版为下面的那个。
+1.20.1：打开[NeoForge官网](https://neoforged.net/)，选择你需要的版本的NeoForge安装器进行下载，1.20.1为上面的那个。
 
 ![Anywhere I go I’ll miss you](../../static/img/pages/UseOtherServer-12.png)
+
+1.20.2及更高版本：打开[NeoForged项目清单](https://projects.neoforged.net/neoforged/neoforge)，在右侧选择你需要下载的MC版本与加载器版本后点击红圈处的下载。
+
+![My starlight, shine so bright](../../static/img/pages/UseOtherServer-13.png)
 
 下载完成后将其上传至实例文件的根目录。
 
