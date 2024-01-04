@@ -263,6 +263,28 @@ Vault只提供功能支持，具体的功能实现需要额外的插件（[这�
 [MCBBS搬运帖](https://www.mcbbs.net/thread-68815-1-1.html) | [CurseForge](https://dev.bukkit.org/projects/worldedit)
 
 -----
+  
+  ### ClearEntity  
+
+版本：全版本  
+
+标签：`管理` `管理` `实体`  
+
+介绍：
+- 自定义间隔多少时间清理某些实体
+- 自定义清理公告通知消息和到几个时间段的提示
+- 可查看世界里有哪些实体存在和具体数量
+    
+:::warning 警告
+
+任何此类的清理实体的Bukkit插件，对混合端的mod实体清理兼容性较差，使用时应尽量选择同类mod或采用其它方案！
+
+:::         
+
+下载链接：
+[MCBBS](https://www.mcbbs.net/thread-723356-1-1.html)
+
+-----
 
 ## Sponge插件
 
