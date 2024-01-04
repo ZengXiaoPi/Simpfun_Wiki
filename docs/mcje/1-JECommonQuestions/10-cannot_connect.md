@@ -13,7 +13,7 @@ title: 常见无法连接服务器的错误提示的解决方案
 :::caution 待完善
 
 ~~别催了在写了~~  
-我们需要收集一些常见错误，如果您有能力请在[simpfun.icu](https://simpfun.icu/d/99)或者[Github](https://github.com/ZengXiaoPi/Simpfun_Wiki/issues)上提交一些常见错误，我们在验证后会加速编写到这里。在此感谢您做出的贡献，
+我们需要收集一些常见错误，如果您有能力请在[simpfun.icu](https://simpfun.icu/d/99)或者[Github](https://github.com/ZengXiaoPi/Simpfun_Wiki/issues)上提交一些常见错误，我们在验证后会加速编写到这里。在此感谢您做出的贡献。
 
 :::
 
@@ -24,9 +24,10 @@ title: 常见无法连接服务器的错误提示的解决方案
 翻译：`连接被拒绝：没有进一步的信息`
 
 常见原因：
+
 + 服务端侧：
   + 服务器未开启
-  + 端口号错误/改端口号时改的不是`server-port`
+  + 端口号错误/改端口号时改的不是`server-port` (最常见的原因)
 
 + 客户端侧：
   + 客户端地址输错（包括但不限于开头有空格，冒号用成了全角字符）
@@ -42,10 +43,12 @@ title: 常见无法连接服务器的错误提示的解决方案
 翻译：`内部异常：java.langillegalstateException：用户名中的字符无效`
 
 原因：
+
 + 客户端侧：
   + 在1.18及更高的版本中，玩家用户名内存在除了英文、数字、下划线以外的其他字符(例如中文)
   
 解决方案：
+
 + 更改用户名
 + 使用[此Mod](https://www.mcbbs.net/thread-1343036-1-1.html)来修复
 

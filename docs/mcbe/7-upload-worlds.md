@@ -64,7 +64,7 @@ title: 从客户端导入存档到服务端
 
 下载“存档导出mod”的资源包，打开方式选择“Minecraft”来导入。
 
-这个包在综合交流群10的群文件里存了一份，Simpbbs上也有[帖子](https://www.simpbbs.com/resources/mod.9/)（←点击即可快捷到达！）
+这个包在综合交流群10的群文件里存了一份，Simpbbs上也有[帖子](https://www.simpbbs.com/threads/8/)（←点击即可快捷到达！）
 
 ![原来是cloudflare导致我连不上drop的](../../static/img/pages/MCBE-Import-Worlds-7.jpg)
 

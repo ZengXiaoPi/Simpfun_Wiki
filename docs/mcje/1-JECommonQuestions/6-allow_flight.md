@@ -18,8 +18,6 @@ title: 启用飞行
 
 ![好耶](/img/pages/MCJE-allowflight-1.png)
 
-
-
 ## 关闭自带的飞行检测
 
 :::tip
@@ -28,11 +26,13 @@ title: 启用飞行
 
 :::
 
-在服务器文件管理根目录找到`server.properties`文件并打开，在其中找到这一行：   
-```
+在服务器文件管理根目录找到`server.properties`文件并打开，在其中找到这一行:
+
+```text
 allow-flight=false
 ```
-将其中的`false`改为`true`后保存，这样就关闭自带的答辩飞行检测了。  
+
+将其中的`false`改为`true`后保存，这样就关闭自带的~~答辩~~飞行检测了。  
 
 ## 编者有话说
 

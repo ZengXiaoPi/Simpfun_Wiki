@@ -16,7 +16,7 @@ title: 启用坐标显示
 gamerule showcoordinates true
 ```
 
-**注：需要启用作弊**
+**注：需要[启用作弊](./2-allow_cheat.md)**
 
 ## 方法B：修改配置文件
 
