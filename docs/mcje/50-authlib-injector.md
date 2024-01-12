@@ -60,7 +60,7 @@ title: 进阶文档：使用第三方验证服务器登录
 ${openjdk17} -Xms1024M -Xmx${maxmem}M -jar server-release.jar
 ```
 
-接下来请在启动命令中**正确的位置**`（-jar xxx.jar 之前）`插入 `-javaagent`参数。
+接下来请在启动命令中任意位置插入 `-javaagent`参数。
 
 以下是一个`-javaagent`参数示例：
 
