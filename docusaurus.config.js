@@ -70,7 +70,7 @@ const config = {
             label: "主页",
           },
           {
-            href: "http://nt.simpdoc.top",
+            href: "https://sfenitian.de.cool",
             label: "逆天墙",
             position: "left",
           },
