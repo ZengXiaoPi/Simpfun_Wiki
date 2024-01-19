@@ -31,6 +31,9 @@ title: 【学习交流】加入QQ频道
 <img src="/img/pages/101-joinqqpd/4.png" width="50%" />
 :::
 
+## 绑定查询
+
+向简幻欢频管bot私信“绑定查询”来查看绑定情况！
    
 ### 绑定ID
 >按照下图，前往[简幻欢官网->控制台](https://simpfun.cn/console)，按照下图指示填写绑定ID：
