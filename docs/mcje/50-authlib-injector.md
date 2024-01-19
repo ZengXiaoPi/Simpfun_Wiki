@@ -30,9 +30,9 @@ title: 进阶文档：使用第三方验证服务器登录
 
 -----
 
-# 服务端操作
+## 服务端操作
 
-## 下载authlib-injector插件并上传到服务器
+### 下载authlib-injector插件并上传到服务器
 
 1. 从[authlib-injector的官网](https://authlib-injector.yushi.moe/)下载。
 
@@ -42,7 +42,7 @@ title: 进阶文档：使用第三方验证服务器登录
 
 下载后扔到与`start.sh`同级的目录。
 
-## 配置`start.sh`文件中的启动命令
+### 配置`start.sh`文件中的启动命令
 
 为启用第三方登录，请在启动命令中添加参数使authlib-injector插件启动服务器核心。
 
@@ -92,7 +92,7 @@ ${openjdk17} -Xms1024M -Xmx${maxmem}M -javaagent:authlib-injector-1.2.4.jar=http
 
 到此为止服务端的配置完成，下面介绍客户端配置。
 
-# 客户端操作
+## 客户端操作
 
 需要在启动器修改登录方式。
 
@@ -108,7 +108,7 @@ ${openjdk17} -Xms1024M -Xmx${maxmem}M -javaagent:authlib-injector-1.2.4.jar=http
 
 :::
 
-## PCL2
+### PCL2
 
 注册好[LittleSkin](https://littleskin.cn/)账号后进入如下页面
 
@@ -118,7 +118,7 @@ ${openjdk17} -Xms1024M -Xmx${maxmem}M -javaagent:authlib-injector-1.2.4.jar=http
 
 然后你需要在PCL2里输入自己的LittleSkin账密来获取角色，然后的然后就可以正常游玩了！
 
-## HMCL
+### HMCL
 
 1.将红框内的按钮直接拖入HMCL中，在弹出的窗口中选择“完成”
 ![Twelve你AuthlibInjector-2.png的名字都打错了](/img/pages/AuthlibInjector-3.png)
@@ -129,7 +129,7 @@ ${openjdk17} -Xms1024M -Xmx${maxmem}M -javaagent:authlib-injector-1.2.4.jar=http
 <!---->
 3.登录完成后选择一个角色，然后你就可以开始游戏辣
 
-## BakaXL 3.x
+### BakaXL 3.x
 
 配置相较于以上两个启动器较为麻烦
 
@@ -145,9 +145,9 @@ ${openjdk17} -Xms1024M -Xmx${maxmem}M -javaagent:authlib-injector-1.2.4.jar=http
 <!--Never gonna tell a lie and hurt you-->
 4.此时它会提示你选择一个角色，选择你需要登录的角色即可
 
-## BakaXL 2.x
+### BakaXL 2.x
 BakaXL 2 已停更，WinXP~Win8.1建议使用兼容更好的HMCL
 
-# 推荐的第三方登录验证服务器
+## 推荐的第三方登录验证服务器
 
 [LittleSkin](https://littleskin.cn/) —— 国内首选，目前为国内第一大的第三方皮肤站(因为Skinme寄了)
