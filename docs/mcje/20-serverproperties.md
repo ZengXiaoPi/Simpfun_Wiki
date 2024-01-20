@@ -23,7 +23,7 @@ server.properties是储存多人游戏（Minecraft或Minecraft Classic）服务�
 
 :::tip 
 
-需要在文件系统内进行配置。如果你还不知道“文件系统”是什么，去看看[这个官方文档](https://www.simpfun.me/docs/instance-management/file)
+需要在文件系统内进行配置。如果你还不知道“文件系统”是什么，去看看[这个官方文档](https://www.yuque.com/simpfun/sfe/file)
 
 server.properties不支持热重载配置,修改后需重启服务器以应用更改。
 
