@@ -35,16 +35,6 @@ server.properties不支持热重载配置,不过不知道运行时能不能修�
 
 :::
 
-## allow-cheat
-
-不知道为什么我看到的jvav版文件里没有这个，但是它存在并且很重要。
-
-允许服务器启用作弊
-
-
------
-
-
 ## allow-flight：允许飞行
 
 此处飞行指的是漂浮在空中，鞘翅移动，漂浮效果不算在内，基本是个摆设。如果网卡，或者有命令方块等，可能会造成服务器误判并踢出。
@@ -245,7 +235,7 @@ server.properties不支持热重载配置,不过不知道运行时能不能修�
 
 Java：此项默认为`world`。
 
-注：在各个Java服务端内核之间有不同：如spigot的文件结构为`world`，`world_nether`和`world_the_end`文件夹直接存储三个维度的数据，此项设置无效；如果文件结构中没有`world_nether`和`world_the_end`这两个文件夹，如`fabric`和`Vanilla`，则此项设定的名称即为存档名称，如果没有以此为名的文件夹则自动生成存档。
+注：在各个Java服务端内核之间有不同：如spigot的文件结构为`world`，`world_nether`和`world_the_end`文件夹直接存储三个维度的数据，此项设置会同时应用在这三个文件夹上面；如果文件结构中没有`world_nether`和`world_the_end`这两个文件夹，如`fabric`和`Vanilla`，则此项设定的名称即为存档名称，如果没有以此为名的文件夹则自动生成存档。
 
 基岩：此项默认为Bedrock level且`world`文件夹名为`worlds`，同时存档作为文件夹存储在`worlds`文件夹下。
 

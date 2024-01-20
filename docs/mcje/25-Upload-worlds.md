@@ -52,3 +52,9 @@ Bukkit系服务端(例如：Spigot、Paper、Purpur等服务端)的世界存储�
 2. 将`/world`文件夹内的`DIM-1`文件夹放入根目录下的`/world_nether`。
 3. 将`/world`文件夹内的`DIM1`文件夹放入根目录下的`/world_the_end`内。
 
+:::tip 提示
+
+从Paper开始，提供了一套自动转换Vanilla格式存档为Bukkit存档的方法，虽然本质上操作和上面一样（测试版本1.12.2，更高版本应当也行）。
+
+:::
+

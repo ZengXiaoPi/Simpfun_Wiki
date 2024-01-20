@@ -57,9 +57,9 @@ Bukkit系端的各种分支比较多，此处挑两个比较有代表性的服�
 | :--- | :--- |
 | bundler | Spigot端将Vanilla端下的`libraries`和`versions`两个文件夹的东西都合并到了这个文件夹内。 |
 | plugins | 存放插件本体以及插件配置、数据等的文件夹。插件本体直接放入此文件夹即可。 |
-| world | 在**所有Bukkit系服务端**内，世界存档**被拆成了三个文件夹**。<br/>此文件夹存储的是主世界数据和玩家数据。<br/> 同时，[server.properties](./20-serverproperties.md)内的`level-name`会被无视。 |
+| world | 在**所有Bukkit系服务端**内，世界存档**被拆成了三个文件夹**。<br/>此文件夹存储的是主世界数据和玩家数据。<br/> 同时，[server.properties](./20-serverproperties.md)内的`level-name`的值会被同时应用在三个世界上面，即同时替换world字符。 |
 | world_nether | 存放下界(地狱)数据。 |
-| world_end | 存放末地数据。 |
+| world_the_end | 存放末地数据。 |
 | bukkit.yml | Bukkit系服务端的配置文件之一，用于配置一些基本的服务器设置。<br/>所有CraftBukkit的分支都有此配置文件。 |
 | *commands.yml* | 一个配置文件，其中包含 CraftBukkit 服务器的自定义别名和命令方块覆盖。<br/>命令方块覆盖系统提供了一种快速简便的方法，可以强制服务器将Mojang提供的命令（而不是Bukkit中内置的命令）用于命令方块，而所有其他命令保持不变。<br/>而别名系统本质上使高级用户服务器管理员能够定义自定义命令并强制将特定版本的命令用于默认命令。<br/> *PS：正常情况下你大概率用不到，甚至这东西都是去[互联网档案馆](https://web.archive.org/web/20160325102040/http://wiki.bukkit.org/Commands.yml)查的资料。* |
 | *help.yml* | 这是Bukkit的帮助配置文件。<br/>默认情况下，您不需要修改此文件。所有插件命令的帮助主题由插件自动提供。<br/>*PS：正常情况下你大概率也用不到，因为现在的插件都会提供对应的帮助。*|
@@ -81,9 +81,9 @@ Bukkit系端的各种分支比较多，此处挑两个比较有代表性的服�
 | chahe | 存放原版服务端核心。<br/>从Paper分支出的服务端均有此文件夹。 |
 | config | 存放Paper端特有的配置文件。<br/>从Paper分支出的服务端均有此文件夹。 |
 | plugins | 存放插件本体以及插件配置、数据等的文件夹。插件本体直接放入此文件夹即可。 |
-| world | 在**所有Bukkit系服务端**内，世界存档**被拆成了三个文件夹**。<br/>此文件夹存储的是主世界数据和玩家数据。<br/> 同时，[server.properties](./20-serverproperties.md)内的`level-name`会被无视。 |
+| world | 在**所有Bukkit系服务端**内，世界存档**被拆成了三个文件夹**。<br/>此文件夹存储的是主世界数据和玩家数据。<br/> 同时，[server.properties](./20-serverproperties.md)内的`level-name`的值会被同时应用在三个世界上面，即同时替换world字符。 |
 | world_nether | 存放下界(地狱)数据。 |
-| world_end | 存放末地数据。 |
+| world_the_end | 存放末地数据。 |
 | bukkit.yml | Bukkit系服务端的配置文件之一，用于配置一些基本的服务器设置。<br/>所有CraftBukkit的分支都有此配置文件。 |
 | *commands.yml* | 一个配置文件，其中包含 CraftBukkit 服务器的自定义别名和命令方块覆盖。<br/>命令方块覆盖系统提供了一种快速简便的方法，可以强制服务器将Mojang提供的命令（而不是Bukkit中内置的命令）用于命令方块，而所有其他命令保持不变。<br/>而别名系统本质上使高级用户服务器管理员能够定义自定义命令并强制将特定版本的命令用于默认命令。<br/> *PS：正常情况下你大概率用不到，甚至这东西都是去[互联网档案馆](https://web.archive.org/web/20160325102040/http://wiki.bukkit.org/Commands.yml)查的资料。* |
 | *help.yml* | 这是Bukkit的帮助配置文件。<br/>默认情况下，您不需要修改此文件。所有插件命令的帮助主题由插件自动提供。<br/>*PS：正常情况下你大概率也用不到，因为现在的插件都会提供对应的帮助。*|
