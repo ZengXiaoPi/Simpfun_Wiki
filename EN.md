@@ -1,25 +1,25 @@
 # Simpfun Wiki
 [简体中文](README.md) [English](EN.md)
 
-欢迎您来到 Simpfun 社区维基！
+Welcome to Simpfun wiki!
 
-此维基用爱驱动！
+Made with love on the Earth❤
 
-欢迎您加入我们的编辑。
+PRs and issues are welcome!
 
-## 网站
+## Deploy Websites
 
-主域名：
+Main domain:
 
 [https://simpdoc.top/](https://simpdoc.top/)
 
-备用域名：
+Others:
 
 [https://zxp.simpfun.me/](https://zxp.simpfun.me/)
 
 [https://sfe.zxpweb.link/](https://sfe.zxpweb.link/)
 
-## 贡献者
+## Contributors
 
 <a href="https://github.com/ZengXiaoPi/Simpfun_Wiki/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ZengXiaoPi/Simpfun_Wiki" />
@@ -27,4 +27,4 @@
 
 ## LICENSE
 
-[MIT](https://github.com/ZengXiaoPi/Simpfun_Wiki/blob/main/LICENSE)
+This repository is under [MIT](https://github.com/ZengXiaoPi/Simpfun_Wiki/blob/main/LICENSE) license.
