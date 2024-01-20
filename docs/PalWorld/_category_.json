@@ -1,0 +1,15 @@
+
+{
+  "position": 700,
+  "label": "PalWorld(幻兽帕鲁)",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "PalWorld | 幻兽帕鲁"
+  },
+  "customProps": {
+    "description": "This description can be used in the swizzled DocCard"
+  }
+}
