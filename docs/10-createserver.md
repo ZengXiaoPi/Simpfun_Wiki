@@ -25,7 +25,7 @@ Terraria：泰拉瑞亚（现支持 TModLoader ！）
 
 MinecraftBE：Minecraft 基岩版  
 
-Minecraft互通：基于 Minecraft JE 服务端 Spigot 与互通插件 Geyser 的 Minecraft JE 与 BE 互通服务器  
+Minecraft互通：基于 Minecraft JE 服务端 Spigot 与互通插件 [Geyser-Spigot](http://geysermc.org) 的 Minecraft JE 与 BE 互通服务器  
 
 MinecraftJE：Minecraft Java版
 
@@ -93,7 +93,7 @@ CPU级别以字母[C,B,A,S]等分级，代表具体CPU性能，性能排名：S>
 
 当日开服指：服务器实例在当日24小时内启动过，无论是否是否进入服务器，服务器运行状态是否正常，只要启动即视为当日已开服。  
 
-磁盘可以超额，但超出套餐的磁盘将被额外计费，具体价格为：`5积分/Gb/天`。  
+磁盘可以超额，但超出套餐的磁盘将被额外计费，具体价格为：`5积分/GB/天`。  
 
 若当日开服所需积分不足，则会关闭实例，若连续7天未启动实例，则会**销毁实例**，实例销毁前将会默认创建完整镜像（即备份），此镜像保留60天，可随时通过`新建实例->备份->还原`功能恢复实例文件。  
 
