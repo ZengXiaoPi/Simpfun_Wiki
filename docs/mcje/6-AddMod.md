@@ -1,5 +1,5 @@
 ---
-title: 如何增加Mod
+title: 如何添加Mod
 ---
 
 :::caution 仅适用
