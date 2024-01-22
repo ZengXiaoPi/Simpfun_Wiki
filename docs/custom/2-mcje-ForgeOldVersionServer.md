@@ -15,6 +15,8 @@ title: MCJE旧版本forge服务端开服
 Forge官网下载会有广告 ，而且这个广告国内不加载导致你下不了，所以...  
 无极镜像(CN)：[https://www.fastmirror.net/#/download/Forge](https://www.fastmirror.net/#/download/Forge)
 
+其他解决方案: 右键复制下载链接，将前面adfoc.us的链接前缀删掉即可
+
 :::
 
 下载完成后将其上传至实例文件的根目录。
