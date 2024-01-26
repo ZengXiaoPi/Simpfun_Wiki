@@ -1,0 +1,15 @@
+
+{
+  "position": 0,
+  "label": "简幻云",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "简幻云"
+  },
+  "customProps": {
+    "description": "This description can be used in the swizzled DocCard"
+  }
+}
