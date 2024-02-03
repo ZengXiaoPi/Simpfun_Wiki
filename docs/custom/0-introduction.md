@@ -39,7 +39,7 @@ title: 必须看的前言
 
 :::
 
-### Server2019镜像
+### Windows Server2019镜像
 
 使用Windows Server 2019的镜像，运行在Windows Docker下。目前分为两个版本。
 
