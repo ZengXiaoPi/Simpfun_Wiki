@@ -135,7 +135,7 @@ eula=false
 Vanilla服务端无法装载mod/插件。
 Bukkit系服务端需要装载插件就将插件放到`/plugins`文件夹。
 
-需要更换存档请参考[这篇文档](../mcje/7-filestructure.md)。
+需要更换存档请参考[这篇文档](../mcje/25-Upload-worlds.md)。
 
 现在你已经配置好服务端了，去进行愉快的游戏吧！
 
@@ -263,7 +263,7 @@ eula=false
 
 Spigot服务端需要装载插件就将插件放到`/plugins`文件夹。
 
-需要更换存档请参考[这篇文档](../mcje/7-filestructure.md)。
+需要更换存档请参考[这篇文档](../mcje/25-Upload-worlds.md)。
 
 现在你已经配置好服务端了，去进行愉快的游戏吧！
 
@@ -404,7 +404,7 @@ eula=false
 
 Mod文件放入`mods`文件夹。
 
-需要更换存档请参考[这篇文档](../mcje/7-filestructure.md)。
+需要更换存档请参考[这篇文档](../mcje/25-Upload-worlds.md)。
 
 现在你已经配置好服务端了，去愉快的玩游戏吧！
 
@@ -512,7 +512,7 @@ eula=false
 
 Mod文件放入`/mods`文件夹。
 
-需要更换存档请参考[这篇文档](../mcje/7-filestructure.md)。
+需要更换存档请参考[这篇文档](../mcje/25-Upload-worlds.md)。
 
 现在你已经配置好服务端了，去愉快地玩游戏吧！
 
@@ -629,6 +629,6 @@ Mod文件放入`/mods`文件夹。
 
 装载插件就将插件放到`/plugins`文件夹。
 
-需要更换存档请参考[这篇文档](../mcje/7-filestructure.md)。
+需要更换存档请参考[这篇文档](../mcje/25-Upload-worlds.md)。
 
 现在你已经配置好服务端了，去愉快地玩游戏吧！
