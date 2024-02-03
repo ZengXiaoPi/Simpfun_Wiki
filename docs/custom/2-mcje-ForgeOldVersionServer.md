@@ -4,6 +4,8 @@ title: MCJE旧版本forge服务端开服
 
 什么年代了还用旧版，旧版都不更新了啊（
 
+提示：第三方镜像可能会有你需要的版本，可以去看看
+
 ### 第一步：构建服务端
 
 打开[Forge官网](https://files.minecraftforge.net/net/minecraftforge/forge/)，选择你需要的版本的Forge安装器进行下载，此处以1.12.2为例，点击箭头处下载Forge安装器。
