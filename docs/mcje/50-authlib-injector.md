@@ -134,10 +134,15 @@ ${openjdk17} -Xms1024M -Xmx${maxmem}M -javaagent:authlib-injector-1.2.4.jar=http
 配置相较于以上两个启动器较为麻烦
 
 1.在BakaXL的开始页面点击`本体设置`
+
 ![上一个编写的人图片名夹带私货是吧,那我也夹点](/img/pages/AuthlibInjector-5.png)
+
 2.在左栏选择`账户与档案`，下滑找到“Minecraft用户档案”，选择`新增一个档案`
+
 ![Never gonna give you up](/img/pages/AuthlibInjector-6.png)
+
 3.连续点击“游戏启动模式”三次，切换到外置登录，在验证服务器处输入`https://littleskin.cn/api/yggdrasil`，在下方输入你的邮箱和密码，点击`进行验证并返回`
+
 ![Never gonna let you down](/img/pages/AuthlibInjector-7.png)
 ![Never gonna run around and desert you](/img/pages/AuthlibInjector-8.png)
 <!--Never gonna make you cry-->

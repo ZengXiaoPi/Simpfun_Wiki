@@ -357,7 +357,7 @@ SFE-4里可以自己改汉字，也可以用特殊字符把字变成彩色的。
 上面那个playerdata应该有个超链接，但没人写我链什么
 留个坑吧，过几天写关于playerdata
 
-写了。[关于玩家数据的更多信息](8-playerdata.md)
+写了。[关于玩家数据的更多信息](19-playerdata.md)
 
 此项默认值为true，SFE-4中此项默认为false。
 
