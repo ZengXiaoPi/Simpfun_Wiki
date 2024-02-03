@@ -121,6 +121,6 @@ eula=false
 
 **更多关于服务器设置的配置请查看[这篇文档](../mcje/20-serverproperties.md)。**
 
-需要更换存档请参考[这篇文档](../mcje/7-filestructure.md)。
+需要更换存档请参考[这篇文档](../mcje/25-Upload-worlds.md)。
 
 现在你已经配置好服务端了，去进行愉快的游戏吧！
