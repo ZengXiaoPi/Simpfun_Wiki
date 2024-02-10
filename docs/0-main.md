@@ -23,3 +23,19 @@ title: 主页
 ## 本维基贡献者
 
 ![Github](https://contrib.rocks/image?repo=ZengXiaoPi/Simpfun_Wiki)
+
+:::tip
+
+论,如何跑起来
+
+请具备以下条件
+node版本>=14
+已安装yarn~~,其实npm也能跑~~
+
+第一步
+`yarn`
+
+第二步
+`yarn start`
+默认127.0.0.1:3000
+:::
