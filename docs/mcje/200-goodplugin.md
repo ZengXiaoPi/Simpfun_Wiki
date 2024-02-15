@@ -371,6 +371,14 @@ Vault只提供功能支持，具体的功能实现需要额外的插件（[这�
 
 ## Sponge插件
 
+:::tip 什么是Sponge系插件？
+
+使用SpongeAPI的插件。
+
+一般为SpongeForge，SpongeVanilla服务端使用的插件类型。
+
+:::
+
 :::tip
 
 为了方便此栏目的后续编写，Sponge API版本与MC版本对应关系将在下方列出：
