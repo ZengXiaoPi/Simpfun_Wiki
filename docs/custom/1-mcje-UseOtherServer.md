@@ -328,7 +328,7 @@ You can delete this installer file now if you wish
 转到`文件`界面，打开根目录下自动生成的`run.sh`，复制类似下方的命令(最前面的java不用复制)：
 
 ```shell
-@user_jvm_args.txt @libraries/net/minecraftforge/forge/1.17.1-37.1.1/unix_args.txt "$@"
+@libraries/net/minecraftforge/forge/1.17.1-37.1.1/unix_args.txt "$@"
 ```
 
 打开`start.sh`，删除第一步中添加的命令，防止重新构建毁坏服务端，并添加一行类似下方的命令后保存：
