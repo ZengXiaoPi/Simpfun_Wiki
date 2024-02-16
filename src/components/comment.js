@@ -6,7 +6,7 @@ export const Comment = () => {
     <div style={{ paddingTop: 50 }}>
       <Giscus
         id="comments"
-        repo="jdnjk/Simpfun_Wiki" 
+        repo="ZengXiaoPi/Simpfun_Wiki" 
         repoId="R_kgDOKvSUWw" 
         category="交流"
         categoryId="DIC_kwDOKvSUW84CdGrr"
