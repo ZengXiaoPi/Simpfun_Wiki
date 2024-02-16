@@ -7,9 +7,9 @@ export const Comment = () => {
       <Giscus
         id="comments"
         repo="ZengXiaoPi/Simpfun_Wiki" 
-        repoId="R_kgDOKvSUWw" 
-        category="交流"
-        categoryId="DIC_kwDOKvSUW84CdGrr"
+        repoId="R_kgDOKEBlsQ" 
+        category="General"
+        categoryId="DIC_kwDOKEBlsc4CdRpX"
         mapping="pathname"
         strict="0"
         term="e"
