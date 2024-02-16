@@ -38,7 +38,7 @@ title: 【实例管理】如何使用 SFTP 管理文件
 
 ## 流程（Android）
 
-1、打开ES文件管理器，点击左上角三个横线进入到侧栏之中。
+1、打开[ES文件浏览器](https://www.coolapk.com/apk/com.estrongs.android.pop)，点击左上角三个横线进入到侧栏之中。
 
 ![5](/img/pages/SFTP-5.png)  
 
@@ -57,3 +57,6 @@ title: 【实例管理】如何使用 SFTP 管理文件
 ![8](/img/pages/SFTP-8.png)    
 
 6、点击确定后就可以对各种文件编辑管理了。
+
+
+不想见广告可以使用下载[吾爱破解](https://www.52pojie.cn/thread-1338822-1-1.html)的apk。
