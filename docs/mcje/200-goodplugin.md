@@ -80,7 +80,7 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 下载链接：
 
-[MCBBS(介绍帖)](https://www.mcbbs.net/thread-1471495-1-1.html)|[Github(下载地址)](https://github.com/HaHaWTH/AuthMeReReloaded)
+[MCBBS.RUN(介绍帖)](https://mcbbs.run/t/topic/280)|[Github(下载地址)](https://github.com/HaHaWTH/AuthMeReReloaded)
 
 -----
 
