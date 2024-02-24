@@ -1,5 +1,5 @@
 ---
-title: 如何提问
+title: 【学习交流】如何提问
 ---
 
 ---
@@ -8,7 +8,7 @@ title: 如何提问
 
 ---
 
-# 别像弱智一样提问
+## 别像弱智一样提问
 
 :::warning
 Stop-Ask-Questions-The-Stupid-Ways
@@ -16,13 +16,13 @@ Stop-Ask-Questions-The-Stupid-Ways
 
 ---
 
-# 你真的准备好了吗？
+## 你真的准备好了吗？
 
 ![](/img/pages/HowToAsk-1.png)
 
 ---
 
-# 避免 xy-problem
+## 避免 xy-problem
 
 - 参考地址
 
@@ -33,6 +33,7 @@ Stop-Ask-Questions-The-Stupid-Ways
 1. 提问者想要解决 **原问题 X** ，且觉得解决了 **引申问题 Y** 就能解决** X** 问题
 2. 提问者对外提出了解决 **Y** 的的请求
 3. 回答者帮助提问者解决 **Y** 问题。（浪费了回答者和提问者双方的时间）
+
 :::info
 然而, 最终 Y 问题可能并不是 X 问题的一个合适的解决方法
 :::
@@ -40,7 +41,7 @@ Stop-Ask-Questions-The-Stupid-Ways
 
 ---
 
-# 提问前你必须知道的事情
+## 提问前你必须知道的事情
 
 - **Free **的正确翻译是 **自由** ，而非 **~~免费~~**。
 - 愿意回答问题的人，都是 **~~可爱~~** 的人。
@@ -56,7 +57,7 @@ Stop-Ask-Questions-The-Stupid-Ways
 
 ---
 
-# 幼儿园的小朋友都知道要有礼貌
+## 幼儿园的小朋友都知道要有礼貌
 
 ```
 请问
@@ -66,7 +67,7 @@ Stop-Ask-Questions-The-Stupid-Ways
 
 ---
 
-# 学会描述问题
+## 学会描述问题
 
 :::info
 向别人提问的时候，要学会正确的描述问题。
@@ -93,7 +94,7 @@ Stop-Ask-Questions-The-Stupid-Ways
 
 ---
 
-# 学会什么时候贴图
+## 学会什么时候贴图
 
 ![](/img/pages/HowToAsk-2.png)
 
@@ -101,30 +102,29 @@ Stop-Ask-Questions-The-Stupid-Ways
 
 ---
 
-# 学会什么时候要圈出重点
+## 学会什么时候要圈出重点
 
 千万不要认为别人的频率和你是同步的，然后像这样扔出一张图一个表情就了事了。
-在工作中， 你 **@ **的人可能会多问一句什么情况。 但是在 IM 聊天群里面，就没有这么好运气了。
+在工作中， 你 **@** 的人可能会多问一句什么情况。 但是在聊天群里面，就没有这么好运气了。
 ![](/img/pages/HowToAsk-3.png)
 
 如下很难吗？
+
 ```
 @xxx，我这边访问不了 git 仓库。
 环境是: 环境是什么。
 ```
 
----
-
-**学会什么时候贴文字**
+![](https://cdn.learnku.com/uploads/images/202304/14/80143/enGzaQz6Q6.png)
 
 ---
 
-**什么是弱智一样的提问**
+## 什么是弱智一样的提问
 
-![](/img/pages/HowToAsk-4.png)
+![rt](/img/pages/HowToAsk-4.png)
 
 ---
 
 # 萌新滚粗
 
-![](/img/pages/HowToAsk-5.jpg)
+![123](/img/pages/HowToAsk-5.jpg)

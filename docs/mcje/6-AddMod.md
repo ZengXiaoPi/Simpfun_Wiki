@@ -7,6 +7,7 @@ title: 如何添加Mod
 此教程**仅适用**于以下服务端：
 
 - Forge
+- NeoForge
 - Fabric
 - Arclight
 - Catserver
