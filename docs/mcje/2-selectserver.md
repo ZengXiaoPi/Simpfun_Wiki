@@ -16,18 +16,19 @@ title: 主流服务端介绍与选择
 
 |**服务端**|**插件**|**模组**|**介绍**|
 | ---- | ---- | ---- |  ---- |
-|Forge|**不兼容**|**兼容(Forge)**|模组服务端，**仅兼容Forge模组**|
-|NeoForge|**不兼容**|**兼容(NeoForge)**|NeoForge是Forge的分支。模组服务端，**仅兼容NeoForge模组(截至2024.1.21,NeoForge未官宣不兼容Forge模组)**|
-|Fabric|**不兼容**|**兼容(Fabric)**|模组服务端，**仅兼容Fabiric模组**|
-|Vanilla|**不兼容**|**不兼容**|官方服务端，**最稳定**，**但是不兼容插件/模组**| 
-|Arclight|**兼容(Bukkit插件)**|**兼容(Forge)**|通过Mixin实现插件加载的混合服务端，支持Minecraft `1.14.4`及以上的版本，在1.18+比其他混合端更稳定一些| 
-|Mohist|**兼容(Bukkit插件)**|**兼容(Forge)**|混合服务端，支持Minecraft `1.12.2`，`1.20.1`，`1.18.2`，`1.7.10` 等多个版本。|
-|CatServer|**兼容(Bukkit插件)**|**兼容(Forge)**|混合服务端，支持Minecraft `1.12.2`，`1.16.5`，`1.18.2`|
-|SpongeForge|**兼容(Sponge插件)**|**兼容(Forge)**|混合服务端，**支持SpongeForge插件**，通常安装在mods文件夹|
-|Folia|**部分兼容(Bukkit插件)**|**不兼容**|插件服务端，**多线程**，**由于大改了任务调度器, 目前兼容插件较少，且不稳定**，[构建方法及下载](https://simpfun.icu/d/94)|
-|Paper|**兼容(Bukkit插件)**|**不兼容**|插件服务端，**修复部分原版特性**，**稳定**，**萌新之友**| 
-|Purpur|**兼容(Bukkit插件)**|**不兼容**|插件服务端，**可自定义修复哪些原版特性**，**稳定**| 
-|Spigot|**兼容(Bukkit插件)**|**不兼容**|插件服务端，**兼容性较好**|
+|[Vanilla](#vanilla-置顶)|**不兼容**|**不兼容**|官方服务端，**最稳定**，**但是不兼容插件/模组**|
+|[Forge](#forge-⭐)|**不兼容**|**兼容(Forge)**|模组服务端，**仅兼容Forge模组**|
+|[NeoForge](#neoforge-⭐)|**不兼容**|**兼容(NeoForge)**|NeoForge是Forge的分支。模组服务端，1.20.1与原Forge兼容，**1.20.2+仅兼容NeoForge模组**|
+|[Fabric](#fabric-⭐)|**不兼容**|**兼容(Fabric)**|模组服务端，**仅兼容Fabiric模组**|
+|[Arclight](#arclight)|**兼容(Bukkit插件)**|**兼容(Forge)**|通过Mixin实现插件加载的混合服务端，支持Minecraft `1.14.4`及以上的版本，在1.18+比其他混合端更稳定一些| 
+|[Mohist](#mohist)|**兼容(Bukkit插件)**|**兼容(Forge)**|混合服务端，支持Minecraft `1.12.2`，`1.20.1`，`1.18.2`，`1.7.10` 等多个版本。|
+|[CatServer](#catserver)|**兼容(Bukkit插件)**|**兼容(Forge)**|混合服务端，支持Minecraft `1.12.2`，`1.16.5`，`1.18.2`|
+|[Leaves](#leaves)|**兼容(Bukkit插件)**|**不兼容**|插件服务端，还原Paper修复的绝大部分生电特性，新一代生电之友。|
+|[Folia](#folia)|**部分兼容(Bukkit插件)**|**不兼容**|插件服务端，**多线程**，**由于大改了任务调度器, 目前兼容插件较少，且不稳定**，[构建方法及下载](https://simpfun.icu/d/94)|
+|[Paper](#paper-⭐)|**兼容(Bukkit插件)**|**不兼容**|插件服务端，**修复部分原版特性**，**稳定**，**萌新之友**| 
+|[Purpur](#purpur)|**兼容(Bukkit插件)**|**不兼容**|插件服务端，**可自定义修复哪些原版特性**，**稳定**| 
+|[Spigot](#spigot)|**兼容(Bukkit插件)**|**不兼容**|插件服务端，**兼容性较好**|
+|[SpongeForge](#spongeforge)|**兼容(Sponge插件)**|**兼容(Forge)**|混合服务端，**支持SpongeForge插件**，通常安装在mods文件夹|
 
 -----
 
@@ -130,8 +131,6 @@ title: 主流服务端介绍与选择
 **简幻欢不提供此服务端。**
 
 :::info 编者有话说
-
-CraftBukkit在其发展过程中因为与Mojang之间的法律纠纷和版权问题而面临挑战。Mojang拥有Minecraft的版权，CraftBukkit开发团队则在开发过程中可能涉及了Minecraft的源代码，这导致了一些法律上的争议。最终，这些问题导致CraftBukkit项目的不确定性和停滞，CraftBukkit最终被停止维护。
 
 此服务端的历史以及它是如何没落的：[《开源死亡之日：一段关于 Minecraft、Bukkit 和 GPL 的故事》](https://zhuanlan.zhihu.com/p/446941433)
 
@@ -261,6 +260,13 @@ NeoForge 是 Minecraft Forge 的分支。
 
 在2023年7月12日，Forge 的 Discord 被 cpw 重命名，用于新的项目：NeoForge。除了 LexManos，几乎所有 Minecraft Forge 团队成员都加入了 NeoForged 团队。
 
+:::note 提示
+
+- NeoForge 1.20.1 与原Forge兼容。
+- NeoForge 1.20.2 (及更高版本)与原Forge已分离，需要已标明兼容NeoForge的模组。
+
+:::
+
 :::info 编者有话说
 
 这就是Forge的下一个形态，建议大家在1.20.2+都转用NeoForge。
@@ -277,7 +283,7 @@ NeoForge 是 Minecraft Forge 的分支。
 
 插件：`支持`
 
-版本：`1.8.8 ~ 最新版`
+版本：`1.7.10 ~ 最新版`
 
 介绍：
 
@@ -323,7 +329,7 @@ Purpur是基于Paper服务端的改进版本，致力于提供更多特性、性
 
 插件：`支持`
 
-版本：`1.7.10 ~ 最新版`
+版本：`1.4.6 ~ 最新版`
 
 介绍：
 
