@@ -54,7 +54,7 @@ title: 进阶文档：使用第三方验证服务器登录
 
 :::
 
-下面是一个服务器启动命令示例，它来源于[自定义教程](/docs/mcje/500-customization.md)
+下面是一个服务器启动命令示例
 
 ```sh
 ${openjdk17} -Xms1024M -Xmx${maxmem}M -jar server-release.jar
