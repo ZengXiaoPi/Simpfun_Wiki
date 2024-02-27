@@ -1,15 +1,15 @@
+
 {
-  "position": 1,
-  "label": "【必看】BE常见问题",
+  "position": 700,
+  "label": "PalWorld(幻兽帕鲁)",
   "collapsible": true,
   "collapsed": true,
   "className": "red",
   "link": {
     "type": "generated-index",
-    "title": "Minecraft BE常见问题"
+    "title": "PalWorld | 幻兽帕鲁"
   },
   "customProps": {
     "description": "This description can be used in the swizzled DocCard"
   }
 }
-

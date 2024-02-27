@@ -1,8 +1,8 @@
 ---
-title: 启用坐标显示
+title: 启用命令方块
 ---
 
-进入游戏后左上角不显示坐标，游戏设置里的坐标显示又点不动？那你就需要这个！
+想在服务器中使用命令方块但是又不知道怎么打开？那么你就需要看这个！
 
 ## 方法A：使用命令
 
@@ -13,7 +13,7 @@ title: 启用坐标显示
 在控制台输入以下命令：
 
 ```text
-gamerule showcoordinates true
+gamerule commandblocksenabled true
 ```
 
 **注：需要[启用作弊](./2-allow_cheat.md)**

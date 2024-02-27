@@ -39,10 +39,23 @@ title: 必须看的前言
 
 :::
 
-### Server2019镜像
+### Windows Server2019镜像
 
-使用Windows Server 2019的镜像，运行在Windows Docker下。内置多种运行库，包括`.Net 6.0.20`，`VC++ 2015——2022`，`Python 3.11.5`，`zulu JDK 8.0.382(Java 8)`，`zulu JDK 17.0.8(Java 17)`，如下图所示。且在`start.bat`内已定义Java和Python的路径，直接调用即可。运行基岩版MC服务器的首选。
+使用Windows Server 2019的镜像，运行在Windows Docker下。目前分为两个版本。
+
+#### 20230829版
+
+包括`.Net 6.0.20`，`VC++ 2015——2022`，`Python 3.11.5`，`zulu JDK 8.0.382(Java 8)`，`zulu JDK 17.0.8(Java 17)`，如下图所示。且在`start.bat`内已定义Java和Python的路径，直接调用即可。运行基岩版MC服务器的首选。
+
 ![無駄だよ～](/img/pages/CustomServer-in-2.jpg)
+
+#### 20240125版
+
+本镜像含有运行库：`.Net 7.0.15`，`VC++ 2015-2022`，`Python 3.12`，`DirectX`
+
+含有组件：`Mapper端口转发`
+
+支持需要DirectX的服务端（部分Steam服务端）。如果你运行的LLBDS服务端里的插件需要.net7则需要使用此镜像。
 
 :::caution 提示
 
@@ -66,55 +79,4 @@ MCBE：当简幻欢缺失了你需要的游戏版本时，需要使用自定义�
 
 ## 默认的启动脚本
 
-:::info 提示
-
-这部分写的是Windows镜像下和Linux镜像下默认的`seart.cmd`/`start.sh`，如果你“一不小心”把默认的删了就可以来这里恢复。
-
-:::
-
-### Linux(start.sh)
-
-```bash
-#!/bin/bash
-
-#启动变量说明，修改前务必查看
-#https://www.yuque.com/simpfun/sfe/startup
-
-openjdk8="/usr/bin/jdk/jdk1.8.0_361/bin/java"
-openjdk11="/usr/bin/jdk/jdk-11.0.18/bin/java"
-openjdk17="/usr/bin/jdk/jdk-17.0.6/bin/java"
-openjdk19="/usr/bin/jdk/jdk-19.0.2/bin/java"
-
-maxmem=$((SERVER_MEMORY - 1000))
-
-# 示例：使用JDK17 启动server-release.jar 
-#${openjdk17} -Xms1024M -Xmx${maxmem}M -jar server-release.jar nogui
-```
-
-### Windows(start.cmd)
-
-```bat
-::启动变量说明，修改前务必查看
-::https://www.yuque.com/simpfun/sfe/startup
-SET JDK17=C:/jdk17/bin/java.exe
-SET JDK8=C:/jdk8/bin/java.exe
-SET PYTHON3=C:/python3/python.exe
-
-:: 设置更小的最大内存，防服务端因内存溢出崩溃
-SET /A MAX_MEMORY=%SERVER_MEMORY%-1500
-
-::本镜像含有运行库
-:: .Net 6.0.20
-:: VC++ 2015-2022
-:: Python 3.11.5
-:: Zulu 8.72.0.17-ca-jdk8.0.382-win_x64
-:: Zulu 17.44.15-ca-jdk17.0.8-win_x64
-
-::示例，去掉双引号生效
-
-::启动一个Java17 服务端，核心名称为server-release.jar
-::%JDK17% -Xms2G -Xmx%MAX_MEMORY%M -jar server-release.jar
-
-::启动一个Java8 服务端，核心名称为server-release.jar
-::%JDK8% -Xms2G -Xmx%MAX_MEMORY%M -jar server-release.jar
-```
+此部分内容已迁移至[【实例管理】默认的启动脚本](../14-default_start.md)。

@@ -8,11 +8,17 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 :::
 
-:::caution
+:::caution 提示
 
-+ 本文**可能由于更新不及时**导致标注的插件支持版本出现**错误（包括MCBBS也会出现这种情况）**，在确定插件支持版本时请去**SpigotMC等原下载地址**查看！    
++ 本文**可能由于更新不及时**导致标注的插件支持版本出现**错误（包括MCBBS/MineBBS也会出现这种情况）**，在确定插件支持版本时请去**SpigotMC等原下载地址**查看！    
 + 大部分**Bukkit插件**支持**向上兼容**，例如插件A作者标注为支持1.8——1.16.x，其实际支持版本可能为1.8——1.19.x，但在1.20更新后出现了部分插件不兼容的情况，实际情况请自行测试或寻求帮助。
 + 大部分Sponge插件**不支持向上兼容**，例如你不能把API7的插件扔进API8的服务器里面，除非插件作者主动同时适配不同版本的Sponge。
+
+:::
+
+:::caution 国内最大的插件发布网站即将关闭
+
+MCBBS由于未知原因(大概率)即将永久关闭，国内最大的Java版插件发布网站(即MCBBS的服务器插件板块)也会同时关闭。现在本页内所有的MCBBS链接均已失效，如需寻找插件请直接去[SpigotMC](https://www.spigotmc.org/resources/categories/spigot.4/) / [DevBukkit](https://dev.bukkit.org/bukkit-plugins)等国外网站，或者可以去[MineBBS的Java版服务端插件板块](https://www.minebbs.com/resources/categories/70/)来寻找插件。
 
 :::
 
@@ -30,7 +36,7 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 使用BukkitAPI的插件。
 
-所有以CraftBukkit为分支的服务端使用的插件类型，例如Spigot，Paper，Purpur等绝大部分插件服务端都使用Bukkit系插件。
+所有以CraftBukkit为分支的服务端使用的插件类型，Spigot，Paper，Purpur等绝大部分插件服务端，Arclight，Catserver，Mohist等混合端都使用Bukkit系插件。
 
 :::
 
@@ -80,7 +86,7 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 下载链接：
 
-[MCBBS(介绍帖)](https://www.mcbbs.net/thread-1471495-1-1.html)|[Github(下载地址)](https://github.com/HaHaWTH/AuthMeReReloaded)
+[MCBBS.RUN(介绍帖)](https://mcbbs.run/t/topic/280)|[Github(下载地址)](https://github.com/HaHaWTH/AuthMeReReloaded)
 
 -----
 
@@ -124,9 +130,40 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 介绍：你的服务器还在因为区块加载导致卡顿？这款插件通过生成区块，或许能够解决你岌岌可危的TPS！
 
+:::danger
+
+本插件所谓"优化"的方式是通过预生成未加载的区块
+如你的存档较大/磁盘空间占用高, 慎用本插件。
+
+:::
+
 下载连接：
 
-[SpigotMC](https://www.spigotmc.org/resources/chunky.81534/)
+[MineBBS(机翻介绍帖)](https://www.minebbs.com/resources/chunky-tps.7318/) | [SpigotMC(下载地址)](https://www.spigotmc.org/resources/chunky.81534/)
+
+-----
+
+### ClearEntity  
+
+版本：全版本  
+
+标签：`管理` `实体`  
+
+介绍：
+
+- 自定义间隔多少时间清理某些实体
+- 自定义清理公告通知消息和到几个时间段的提示
+- 可查看世界里有哪些实体存在和具体数量
+
+:::warning 警告
+
+任何此类的清理实体的Bukkit插件，对混合端的mod实体清理兼容性较差，使用时应尽量选择同类mod或采用其它方案！
+
+:::
+
+下载链接：
+
+[MCBBS](https://www.mcbbs.net/thread-723356-1-1.html)
 
 -----
 
@@ -136,7 +173,7 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 标签：`开源` `机制` `附魔`
 
-介绍：觉得原版的附魔太无聊了？这款插件会让你的原版附魔多一些意外！
+介绍：觉得原版的附魔太无聊了？这款"负魔"插件会让你的原版附魔多一些意外！
 
 下载链接：
 
@@ -154,7 +191,40 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 下载链接：
 
-[官网（下载时需要代理Github）](https://essentialsx.net/downloads.html) | [MCBBS搬运帖](https://www.mcbbs.net/thread-1369748-1-1.html)
+[官网（下载时需要代理Github）](https://essentialsx.net/downloads.html) | [MCBBS搬运帖](https://www.mcbbs.net/thread-1369748-1-1.html) | [MineBBS](https://www.minebbs.com/resources/essentialsx.7371/)
+
+-----
+
+### Gsit
+
+版本：1.13——最新版
+
+标签：`娱乐`
+
+介绍：现代的坐下、躺下和爬行插件。
+
+支持 1.13 到 1.20.4 的 Bukkit、Spigot、Paper（及所有分支）和 Folia 服务器！
+（动作和爬行功能仅适用于 1.17+）
+
+下载链接：
+
+[MineBBS(搬运介绍帖)](https://www.minebbs.com/resources/1-13-1-20-4-gsit-_.7332/) | [SpigotMC](https://www.spigotmc.org/resources/gsit-modern-sit-seat-and-chair-lay-and-crawl-plugin-1-13-1-20-4.62325/)
+
+-----
+
+### LuckPerms (Bukkit)
+
+版本：1.7.10——最新版
+
+标签：`管理` `安全`
+
+介绍：LuckPerms 是为 Minecraft 设计的服务器权限插件。它允许服务器管理员通过创建组和分配权限来控制玩家可以使用的功能。
+
+具体中文介绍请去MineBBS查看。
+
+下载链接：
+
+[MineBBS](https://www.minebbs.com/resources/luckperms-minecraft.7304/) | [LP官网](https://luckperms.net/download)
 
 -----
 
@@ -241,10 +311,10 @@ Multiverse-Core仅提供基础的多世界功能，需要拓展功能请点击�
 标签：`皮肤` `角色` `修复`
 
 介绍：SkinsRestorer是一个在离线模式的服务器显示正版皮肤的插件，通过使用命令或者初次加入时插件自动获取皮肤，玩家可以更改皮肤，即使用正版ID对应的皮肤，非正版玩家也可以通过指令加载某个正版ID的皮肤。  
-具体内容请去MCBBS搬运帖查看。  
+具体内容请去MineBBS搬运帖查看。  
 
 下载链接：
-[MCBBS搬运帖](https://www.mcbbs.net/thread-805404-1-1.html) | [SpigotMC](https://www.spigotmc.org/resources/skinsrestorer.2124/)
+[MCBBS搬运帖](https://www.mcbbs.net/thread-805404-1-1.html) | [MineBBS搬运介绍帖](https://www.minebbs.com/resources/skinsrestorer.7257/) | [SpigotMC](https://www.spigotmc.org/resources/skinsrestorer.2124/)
 
 -----
 
@@ -320,49 +390,37 @@ Vault只提供功能支持，具体的功能实现需要额外的插件（[这�
 
 -----
 
-### WorldEdit(Bukkit)
+### WorldEdit (Bukkit)
 
 版本：全版本  
 
 标签：`管理` `安全` `信息`  
 
-介绍：WorldEdit ，中文名一般译为“创世神”插件，为Minecraft中的十分易用的内建于游戏中的世界编辑器，多人游戏与单人游戏皆可使用。    
+介绍：WorldEdit ，中文名一般译为“创世神”插件，为Minecraft中的十分易用的内建于游戏中的世界编辑器，多人游戏与单人游戏皆可使用。
 更多信息请去MCBBS搬运帖查看。
 
 :::tip
 
-1.12及以下版本请去MCBBS搬运帖寻找旧版本下载使用！
+~~1.12及以下版本请去MCBBS搬运帖寻找旧版本下载使用！~~
 
-:::         
+MCBBS似了，悲
+
+:::
 
 下载链接：
 [MCBBS搬运帖](https://www.mcbbs.net/thread-68815-1-1.html) | [CurseForge](https://dev.bukkit.org/projects/worldedit)
 
 -----
-  
-  ### ClearEntity  
-
-版本：全版本  
-
-标签：`管理` `管理` `实体`  
-
-介绍：
-- 自定义间隔多少时间清理某些实体
-- 自定义清理公告通知消息和到几个时间段的提示
-- 可查看世界里有哪些实体存在和具体数量
-    
-:::warning 警告
-
-任何此类的清理实体的Bukkit插件，对混合端的mod实体清理兼容性较差，使用时应尽量选择同类mod或采用其它方案！
-
-:::         
-
-下载链接：
-[MCBBS](https://www.mcbbs.net/thread-723356-1-1.html)
-
------
 
 ## Sponge插件
+
+:::tip 什么是Sponge系插件？
+
+使用SpongeAPI的插件。
+
+一般为SpongeForge，SpongeVanilla服务端使用的插件类型。
+
+:::
 
 :::tip
 
@@ -381,7 +439,7 @@ Vault只提供功能支持，具体的功能实现需要额外的插件（[这�
 
 -----
 
-### WorldEdit(Sponge)
+### WorldEdit (Sponge)
 
 API版本：7.1，8.1，11
 
@@ -394,7 +452,7 @@ API版本：7.1，8.1，11
 
 -----
 
-### Luckperms
+### Luckperms (Sponge)
 
 API版本：7，8
 
@@ -510,7 +568,7 @@ API版本：7,8
 
 -----
 
-### Geyser(Sponge)
+### Geyser (Sponge)
 
 API版本：8，10，11
 

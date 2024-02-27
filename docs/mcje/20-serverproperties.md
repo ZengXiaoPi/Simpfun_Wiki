@@ -23,9 +23,9 @@ server.properties是储存多人游戏（Minecraft或Minecraft Classic）服务�
 
 :::tip 
 
-需要在文件系统内进行配置。如果你还不知道“文件系统”是什么，去看看[这个官方文档](https://www.simpfun.me/docs/instance-management/file)
+需要在文件系统内进行配置。如果你还不知道“文件系统”是什么，去看看[这个官方文档](https://www.yuque.com/simpfun/sfe/file)
 
-server.properties不支持热重载配置,不过不知道运行时能不能修改，总之每次修改配置请先关闭服务器为好。
+server.properties不支持热重载配置,修改后需重启服务器以应用更改。
 
 :::
 
@@ -35,21 +35,13 @@ server.properties不支持热重载配置,不过不知道运行时能不能修�
 
 :::
 
-## allow-cheat
-
-不知道为什么我看到的jvav版文件里没有这个，但是它存在并且很重要。
-
-允许服务器启用作弊
-
-
------
-
-
 ## allow-flight：允许飞行
 
-此处飞行指的是漂浮在空中，鞘翅移动，漂浮效果不算在内，基本是个摆设。如果网卡，或者有命令方块等，可能会造成服务器误判并踢出。
+此处飞行指的是漂浮在空中，鞘翅移动，漂浮效果不算在内。
 
 此项默认为`false`。
+
+开船从高空降落/网络延迟/命令方块 有概率会被视为飞行而被踢出，如果你的服务器装有反作弊，可将本项改为`true`。
 
 -----
 
@@ -245,7 +237,7 @@ server.properties不支持热重载配置,不过不知道运行时能不能修�
 
 Java：此项默认为`world`。
 
-注：在各个Java服务端内核之间有不同：如spigot的文件结构为`world`，`world_nether`和`world_the_end`文件夹直接存储三个维度的数据，此项设置无效；如果文件结构中没有`world_nether`和`world_the_end`这两个文件夹，如`fabric`和`Vanilla`，则此项设定的名称即为存档名称，如果没有以此为名的文件夹则自动生成存档。
+注：在各个Java服务端内核之间有不同：如spigot的文件结构为`world`，`world_nether`和`world_the_end`文件夹直接存储三个维度的数据，此项设置会同时应用在这三个文件夹上面；如果文件结构中没有`world_nether`和`world_the_end`这两个文件夹，如`fabric`和`Vanilla`，则此项设定的名称即为存档名称，如果没有以此为名的文件夹则自动生成存档。
 
 基岩：此项默认为Bedrock level且`world`文件夹名为`worlds`，同时存档作为文件夹存储在`worlds`文件夹下。
 
@@ -365,7 +357,7 @@ SFE-4里可以自己改汉字，也可以用特殊字符把字变成彩色的。
 上面那个playerdata应该有个超链接，但没人写我链什么
 留个坑吧，过几天写关于playerdata
 
-写了。[关于玩家数据的更多信息](8-playerdata.md)
+写了。[关于玩家数据的更多信息](19-playerdata.md)
 
 此项默认值为true，SFE-4中此项默认为false。
 
