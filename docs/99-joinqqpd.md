@@ -22,13 +22,13 @@ title: 【学习交流】加入QQ频道
 ## 获取绑定ID
      
 >在频道中任意发言，简幻欢频管bot会提醒你绑定账号并在私信中为你提供ID，如图示：
-<img src="/img/pages/101-joinqqpd/1.png" width="50%" />
-<img src="/img/pages/101-joinqqpd/2.png" width="50%" />
+<img src="/img/pages/101-joinqqpd/1.png"  />
+<img src="/img/pages/101-joinqqpd/2.png"  />
 手机版QQ频道私信如图：
-<img src="/img/pages/101-joinqqpd/3.png" width="50%" />
+<img src="/img/pages/101-joinqqpd/3.png"  />
 :::info
 如果未向你私信，可向简幻欢频管bot私信“获取ID”以手动获取ID！
-<img src="/img/pages/101-joinqqpd/4.png" width="50%" />
+<img src="/img/pages/101-joinqqpd/4.png"  />
 :::
 
 ## 绑定查询
@@ -37,7 +37,7 @@ title: 【学习交流】加入QQ频道
    
 ### 绑定ID
 >按照下图，前往[简幻欢官网->控制台](https://simpfun.cn/console)，按照下图指示填写绑定ID：
-<img src="/img/pages/101-joinqqpd/5.png" width="50%" />
+<img src="/img/pages/101-joinqqpd/5.png"  />
      
 ### 绑定成功后，等待1-2分钟即可在官方QQ频道愉快畅聊！
       
