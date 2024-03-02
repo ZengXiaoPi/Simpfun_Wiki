@@ -81,7 +81,7 @@ Bukkit系端的各种分支比较多，此处挑两个比较有代表性的服�
 | cache | 存放原版服务端核心。<br/>从Paper分支出的服务端均有此文件夹。 |
 | config | 存放Paper端特有的配置文件。<br/>从Paper分支出的服务端均有此文件夹。 |
 | plugins | 存放插件本体以及插件配置、数据等的文件夹。插件本体直接放入此文件夹即可。 |
-| world | 在**所有Bukkit系服务端**内，世界存档**被拆成了三个文件夹**。<br/>此文件夹存储的是主世界数据和玩家数据。<br/> 同时，[server.properties](./20-serverproperties.md)内的`level-name`的值会被同时应用在三个世界上面，即同时替换world字符。 |
+| world | 在**所有Bukkit系服务端**内，世界存档**被拆成了三个文件夹**。<br/>此文件夹存储的是主世界数据和玩家数据。<br/> 同时，[server.properties](./20-serverproperties.md)内的`level-name`的值会被同时应用在三个世界上面，即同时替换world字段。 |
 | world_nether | 存放下界(地狱)数据。 |
 | world_the_end | 存放末地数据。 |
 | bukkit.yml | Bukkit系服务端的配置文件之一，用于配置一些基本的服务器设置。<br/>所有CraftBukkit的分支都有此配置文件。 |
