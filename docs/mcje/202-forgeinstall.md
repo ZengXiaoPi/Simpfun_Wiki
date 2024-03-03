@@ -9,19 +9,12 @@ title: 自定义开设forge服务器
 - 希望能够使用官方镜像未给出的forge版本
    
 :::
-      
-:::caution 注意
-   
-由于forge端的安装部署相对其它服务端复杂，请务必严格遵守以下步骤进行！
-   
-:::
-
 
 - ## 获取Forge安装包
    
 >从[forge官方下载地址](https://files.minecraftforge.net/net/minecraftforge/forge/)获取对应版本的安装包
      
-:::caution 警告
+:::tip
    
 由于forge官方的下载链接存在广告，可复制下载链接后自行获取真正的下载链接。
    
