@@ -21,7 +21,7 @@ title: 自定义开设forge服务器
    
 >从[forge官方下载地址](https://files.minecraftforge.net/net/minecraftforge/forge/)获取对应版本的安装包
      
-::: caution 警告
+:::caution 警告
    
 由于forge官方的下载链接存在广告，可复制下载链接后自行获取真正的下载链接。
    
