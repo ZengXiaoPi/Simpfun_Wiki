@@ -12,7 +12,7 @@ title: 自定义开设forge服务器
        
 :::tip
    
-如你希望使用curseforge标准的forge整合包，可从[这里](./202-forgeinstall.md#修改参数启动你的forge)开始。
+如你希望使用curseforge标准的forge服务端整合包，可在[上传(../11-upload.md)并[解压]](../12-unzip.md)整合包后从 `[这里](./202-forgeinstall.md#修改参数启动你的forge)` 开始。
    
 :::
 
