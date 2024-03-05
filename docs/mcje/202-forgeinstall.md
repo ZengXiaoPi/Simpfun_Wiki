@@ -9,7 +9,7 @@ title: 自定义开设forge服务器
 - 希望能够使用官方镜像未给出的forge版本
    
 :::
-
+       
 :::tip
    
 如你希望使用curseforge标准的forge整合包，可从[这里](./202-forgeinstall.md#修改参数启动你的forge)开始。
