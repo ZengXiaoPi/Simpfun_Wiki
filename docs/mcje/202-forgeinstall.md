@@ -10,6 +10,12 @@ title: 自定义开设forge服务器
    
 :::
 
+:::tip
+   
+如你希望使用curseforge标准的forge整合包，可从[这里](./202-forgeinstall.md#修改参数启动你的forge)开始。
+   
+:::
+
 - ## 获取Forge安装包
    
 >从[forge官方下载地址](https://files.minecraftforge.net/net/minecraftforge/forge/)获取对应版本的安装包
