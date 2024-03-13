@@ -15,11 +15,11 @@ title: 在简幻欢使用自定义的java
 >    
 > - 从[zulu](https://www.azul.com/downloads/)或[华为镜像源](https://repo.huaweicloud.com/java/jdk/)下载需要使用的java **压缩包**
 >:::info
->
-> - 务必选择正确的java，不要选择arm和32位的java。    
-> - 不要在使用Linux镜像的实例中上传Windows版java，反之同理！
->     
->:::
+
+ - 务必选择正确的java，不要选择arm和32位的java。    
+ - 不要在使用Linux镜像的实例中上传Windows版java，反之同理！
+     
+:::
 > - [上传](../11-upload.md)并解压下载好的java
 >![上传文件](/img/pages/MCJE-210-addownjava-1.png)
 >![解压文件](/img/pages/MCJE-210-addownjava-2.png)
