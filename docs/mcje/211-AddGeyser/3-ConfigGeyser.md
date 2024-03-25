@@ -99,7 +99,7 @@ remote:
   # 如果您不知道这是什么，请勿修改！
   use-proxy-protocol: false
   # 将基岩版客户端用于连接的主机名转发到Java服务器
-  # 这是为强制主机在代理上使用而设计的
+  # 这是为强制指向域名在代理上使用而设计的
   forward-hostname: false
 
 # Floodgate使用加密以确保来自授权来源的使用
