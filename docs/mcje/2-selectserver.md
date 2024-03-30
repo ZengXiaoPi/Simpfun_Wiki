@@ -357,7 +357,7 @@ Sponge插件放入`/mods`文件夹即可。
 
 :::info 编者有话说
 
-曾经是个放弃支持的项目，不过2024年的3月23号，SpongeForge项目被重启了，并更新了1.19.4版本。(Re-enable
+曾经是个放弃支持的项目，不过2024年的3月23号，SpongeForge项目被重启了，并更新了1.19.4版本。(Re-enable SF publishing，来自changelog）
 
 :::
 
