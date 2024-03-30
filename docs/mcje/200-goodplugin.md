@@ -492,7 +492,7 @@ API版本：5，6，7，8
 
 :::tip
 
-Nucleus疑似停更，但是仍然是值得推荐的
+Nucleus停更，但是仍然是值得推荐的
 
 :::
 
@@ -565,19 +565,6 @@ API版本：7,8
 
 下载链接：  
 [modrinth](https://modrinth.com/plugin/minimotd)
-
------
-
-### Geyser (Sponge)
-
-API版本：8，10，11
-
-标签：`互通` `共游` `实用`
-
-介绍：开互通服的对这个插件应该不陌生，这是能允许基岩玩家进入Java服的实用插件，而且一直都有Sponge版。
-
-下载链接：  
-[Jenkins](https://ci.geysermc.org)
 
 -----
 
