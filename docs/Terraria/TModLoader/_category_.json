@@ -1,0 +1,15 @@
+{
+  "position": 100,
+  "label": "TModLoader",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "TModLoader"
+  },
+  "customProps": {
+    "description": "Test"
+  }
+}
+

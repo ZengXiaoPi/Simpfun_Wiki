@@ -1,0 +1,15 @@
+{
+  "position": 1,
+  "label": "TShock",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "TShock"
+  },
+  "customProps": {
+    "description": "Test"
+  }
+}
+
