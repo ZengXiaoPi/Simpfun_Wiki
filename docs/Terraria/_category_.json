@@ -1,12 +1,12 @@
 {
   "position": 300,
-  "label": "TModLoader",
+  "label": "Terraria",
   "collapsible": true,
   "collapsed": true,
   "className": "red",
   "link": {
     "type": "generated-index",
-    "title": "TModLoader"
+    "title": "Terraria"
   },
   "customProps": {
     "description": "This description can be used in the swizzled DocCard"
