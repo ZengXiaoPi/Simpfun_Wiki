@@ -345,7 +345,7 @@ Spigot是Minecraft的一个流行的第三方服务端，它建立在CraftBukkit
 
 插件：`支持`
 
-版本：`1.8 ~ 1.12.2` `1.16.5`
+版本：`1.8 ~ 1.12.2` `1.16.5` `1.19.4`
 
 介绍：
 
@@ -354,6 +354,12 @@ SpongeForge是基于Minecraft Forge的Sponge插件平台。它将Sponge的灵活
 其所支持的插件为**Sponge**插件。不支持常规的Bukkit系插件！
 
 Sponge插件放入`/mods`文件夹即可。
+
+:::info 编者有话说
+
+曾经是个放弃支持的项目，不过2024年的3月23号，SpongeForge项目被重启了，并更新了1.19.4版本。(Re-enable SF publishing，来自changelog）
+
+:::
 
 :::info 编者有话说
 
