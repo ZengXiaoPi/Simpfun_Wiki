@@ -1,1 +1,11 @@
-test
+---
+title: 说明
+---
+
+# 本教程从网络上收集，仅供参考。如认为该文档有问题，可通过本文档的[GitHub页](https://github.com/ZengXiaoPi/Simpfun_Wiki)提交pr请求。
+
+::info 
+
+推荐使用由羽学提供的第三方镜像，更方便，更易用！教程如下：
+
+:::
