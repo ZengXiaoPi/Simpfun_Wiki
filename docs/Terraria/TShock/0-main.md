@@ -9,4 +9,4 @@ title: 说明
 推荐使用由羽学提供的第三方镜像，更简单，更易用！教程如下：
 
 :::
-![开服教程](img/pages/TShock/ts-main-01.png)
+![开服教程](/img/pages/TShock/ts-main-01.jpg)
