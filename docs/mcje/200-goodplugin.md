@@ -50,7 +50,13 @@ MCBBS由于未知原因(大概率)即将永久关闭，国内最大的Java版插
 
 介绍：这个插件提供了点歌功能，可以让玩家在服务器中付费（可选）在网易云音乐上点歌，并在全服播放。
 
-:::caution
+:::info
+
+Github仓库已于2024.3.11存档，意味着此插件已停更。
+
+:::
+
+:::caution 提示
 
 客户端需要安装对应mod才能收听音乐。
 
@@ -58,7 +64,7 @@ MCBBS由于未知原因(大概率)即将永久关闭，国内最大的Java版插
 
 下载链接：
 
-[Mcbbs](https://search.mcbbs.net/thread-972589-1-1.html) | [123云盘下载](https://www.123pan.com/s/Nh4zVv-BjOAH.html)
+[Github](https://github.com/Coloryr/AllMusic_Server) | [123云盘下载](https://www.123pan.com/s/Nh4zVv-BjOAH.html)
 
 -----
 
@@ -86,7 +92,7 @@ MCBBS由于未知原因(大概率)即将永久关闭，国内最大的Java版插
 
 下载链接：
 
-[MCBBS.RUN(介绍帖)](https://mcbbs.run/t/topic/280)|[Github(下载地址)](https://github.com/HaHaWTH/AuthMeReReloaded)
+[MineBBS(介绍帖)](https://www.minebbs.com/resources/7734/) | [Github(下载地址)](https://github.com/HaHaWTH/AuthMeReReloaded) | [Modrinth(下载地址，速度更快)](https://modrinth.com/plugin/authmerereloaded)
 
 -----
 
@@ -98,7 +104,9 @@ MCBBS由于未知原因(大概率)即将永久关闭，国内最大的Java版插
 
 介绍：开启[mobGriefing](1-JECommonQuestions/7-mobGriefing.md)后村民无法种地，不开启怕苦力怕**爆炸**？这款插件会帮你解决你的痛处！
 
-下载链接：[Mcbbs](https://www.mcbbs.net/thread-1150139-1-1.html) | [GitHub](https://github.com/4o4E/Boom/releases)
+下载链接：
+
+[GitHub](https://github.com/4o4E/Boom/releases)
 
 -----
 
@@ -118,7 +126,7 @@ MCBBS由于未知原因(大概率)即将永久关闭，国内最大的Java版插
 
 下载链接：
 
-[Mcbbs](https://www.mcbbs.net/thread-72515-1-1.html) | [SpigotMC](https://www.spigotmc.org/resources/coreprotect.8631/)
+~~[Mcbbs](https://www.mcbbs.net/thread-72515-1-1.html)~~ | [SpigotMC](https://www.spigotmc.org/resources/coreprotect.8631/)
 
 -----
 
@@ -163,7 +171,7 @@ MCBBS由于未知原因(大概率)即将永久关闭，国内最大的Java版插
 
 下载链接：
 
-[MCBBS](https://www.mcbbs.net/thread-723356-1-1.html)
+~~[MCBBS](https://www.mcbbs.net/thread-723356-1-1.html)~~，此插件似乎仅在MCBBS发布，其他地方找不到下载地址。
 
 -----
 
@@ -175,9 +183,15 @@ MCBBS由于未知原因(大概率)即将永久关闭，国内最大的Java版插
 
 介绍：觉得原版的附魔太无聊了？这款"负魔"插件会让你的原版附魔多一些意外！
 
+:::info
+
+Github仓库已于2024.1.16存档，意味着此插件已停更。
+
+:::
+
 下载链接：
 
-[GitHub](https://github.com/Iseason2000/DeEnchantment/releases) | [Mcbbs](https://www.mcbbs.net/thread-1198268-1-1.html)
+[GitHub](https://github.com/Iseason2000/DeEnchantment/releases) | ~~[MCBBS](https://www.mcbbs.net/thread-1198268-1-1.html)~~
 
 -----
 
@@ -191,7 +205,7 @@ MCBBS由于未知原因(大概率)即将永久关闭，国内最大的Java版插
 
 下载链接：
 
-[官网（下载时需要代理Github）](https://essentialsx.net/downloads.html) | [MCBBS搬运帖](https://www.mcbbs.net/thread-1369748-1-1.html) | [MineBBS](https://www.minebbs.com/resources/essentialsx.7371/)
+[官网（下载时需要代理Github）](https://essentialsx.net/downloads.html) | ~~[MCBBS搬运帖](https://www.mcbbs.net/thread-1369748-1-1.html)~~ | [MineBBS搬运帖](https://www.minebbs.com/resources/essentialsx.7371/)
 
 -----
 
@@ -208,7 +222,7 @@ MCBBS由于未知原因(大概率)即将永久关闭，国内最大的Java版插
 
 下载链接：
 
-[MineBBS(搬运介绍帖)](https://www.minebbs.com/resources/1-13-1-20-4-gsit-_.7332/) | [SpigotMC](https://www.spigotmc.org/resources/gsit-modern-sit-seat-and-chair-lay-and-crawl-plugin-1-13-1-20-4.62325/)
+[MineBBS(搬运介绍帖)](https://www.minebbs.com/resources/7332/) | [SpigotMC](https://www.spigotmc.org/resources/62325/)
 
 -----
 
@@ -224,7 +238,7 @@ MCBBS由于未知原因(大概率)即将永久关闭，国内最大的Java版插
 
 下载链接：
 
-[MineBBS](https://www.minebbs.com/resources/luckperms-minecraft.7304/) | [LP官网](https://luckperms.net/download)
+[MineBBS](https://www.minebbs.com/resources/7304/) | [LP官网](https://luckperms.net/download)
 
 -----
 
@@ -243,7 +257,7 @@ MCBBS由于未知原因(大概率)即将永久关闭，国内最大的Java版插
 :::
 
 下载链接：
-[MCBBS搬运帖](https://www.mcbbs.net/thread-1075003-1-1.html) | [SpigotMC](https://www.spigotmc.org/resources/minimotd-motd-plugin-with-rgb-gradients.81254/)
+~~[MCBBS搬运帖](https://www.mcbbs.net/thread-1075003-1-1.html)~~ | [MineBBS搬运帖](https://www.minebbs.com/resources/7238/) | [SpigotMC](https://www.spigotmc.org/resources/minimotd-motd-plugin-with-rgb-gradients.81254/)
 
 -----
 
@@ -275,12 +289,12 @@ MCBBS由于未知原因(大概率)即将永久关闭，国内最大的Java版插
 :::warning 提示
 
 Multiverse-Core仅提供基础的多世界功能，需要拓展功能请点击下方链接跳转至MCBBS论坛查看！   
-[Multiverse-Portals](https://www.mcbbs.net/thread-1413461-1-1.html)(多世界传送门) | [Multiverse-Inventories](https://www.mcbbs.net/thread-909834-1-1.html)(多世界背包隔离) | [Multiverse-NetherPortals](https://www.mcbbs.net/thread-1034491-1-1.html)(多世界下界隔离)
+~~[Multiverse-Portals](https://www.mcbbs.net/thread-1413461-1-1.html)(多世界传送门)~~ | ~~[Multiverse-Inventories](https://www.mcbbs.net/thread-909834-1-1.html)(多世界背包隔离)~~ | ~~[Multiverse-NetherPortals](https://www.mcbbs.net/thread-1034491-1-1.html)(多世界下界隔离)~~
 
 :::
 
 下载链接：
-[MCBBS搬运帖](https://www.mcbbs.net/thread-1016455-1-1.html) | [DevBukkit](https://dev.bukkit.org/projects/multiverse-core)
+~~[MCBBS搬运帖](https://www.mcbbs.net/thread-1016455-1-1.html)~~ | [DevBukkit](https://dev.bukkit.org/projects/multiverse-core)
 
 -----
 
@@ -300,7 +314,7 @@ Multiverse-Core仅提供基础的多世界功能，需要拓展功能请点击�
 :::
 
 下载链接：
-[MCBBS搬运帖](https://www.mcbbs.net/thread-631343-1-1.html) | [官方免费版](https://zrips.net/Residence/) | [付费版下载地址(10欧元)](https://www.spigotmc.org/resources/residence-1-7-10-up-to-1-10.11480/)
+~~[MCBBS搬运帖](https://www.mcbbs.net/thread-631343-1-1.html)~~ | [官方免费版](https://zrips.net/Residence/) | [付费版下载地址(10欧元)](https://www.spigotmc.org/resources/residence-1-7-10-up-to-1-10.11480/)
 
 -----
 
@@ -314,7 +328,7 @@ Multiverse-Core仅提供基础的多世界功能，需要拓展功能请点击�
 具体内容请去MineBBS搬运帖查看。  
 
 下载链接：
-[MCBBS搬运帖](https://www.mcbbs.net/thread-805404-1-1.html) | [MineBBS搬运介绍帖](https://www.minebbs.com/resources/skinsrestorer.7257/) | [SpigotMC](https://www.spigotmc.org/resources/skinsrestorer.2124/)
+~~[MCBBS搬运帖](https://www.mcbbs.net/thread-805404-1-1.html)~~ | [MineBBS搬运介绍帖](https://www.minebbs.com/resources/skinsrestorer.7257/) | [SpigotMC](https://www.spigotmc.org/resources/skinsrestorer.2124/)
 
 -----
 
@@ -328,7 +342,7 @@ Multiverse-Core仅提供基础的多世界功能，需要拓展功能请点击�
 
 下载链接：
 
-[SpigotMC](https://www.spigotmc.org/resources/viabackwards.27448/)
+[MineBBS(介绍帖)](https://www.minebbs.com/resources/7634/) | [SpigotMC](https://www.spigotmc.org/resources/viabackwards.27448/)
 
 -----
 
@@ -360,7 +374,7 @@ Multiverse-Core仅提供基础的多世界功能，需要拓展功能请点击�
 
 下载链接：
 
-[MCBBS(介绍帖)](https://www.mcbbs.net/thread-1023597-1-1.html)|[SpigotMC(下载)](https://www.spigotmc.org/resources/viaversion.19254/)
+[MineBBS(介绍帖)](https://www.minebbs.com/resources/7632/) | [SpigotMC(下载)](https://www.spigotmc.org/resources/viaversion.19254/)
 
 :::info 提示
 
@@ -381,7 +395,7 @@ ViaVersion仅提供让高版本客户端进入低版本服务器的功能，需�
 
 :::caution
 
-Vault只提供功能支持，具体的功能实现需要额外的插件（[这是一个示例插件](https://www.mcbbs.net/thread-962904-1-1.html)）！    
+Vault只提供基础支持，具体的功能实现需要额外的插件（[这是一个示例插件](https://www.minebbs.com/resources/7410/)）！
 
 :::
 
@@ -408,7 +422,7 @@ MCBBS似了，悲
 :::
 
 下载链接：
-[MCBBS搬运帖](https://www.mcbbs.net/thread-68815-1-1.html) | [CurseForge](https://dev.bukkit.org/projects/worldedit)
+~~[MCBBS搬运帖](https://www.mcbbs.net/thread-68815-1-1.html)~~ | [CurseForge](https://dev.bukkit.org/projects/worldedit)
 
 -----
 
