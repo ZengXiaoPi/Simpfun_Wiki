@@ -3,31 +3,32 @@ title: 自定义开设forge服务器
 ---
    
 :::info
-   
-本教程适用于如下场景：   
+
+本教程适用于如下场景：
+
 - 因官方镜像更新不及时导致的forge版本低，从而无法运行某些mod
 - 希望能够使用官方镜像未给出的forge版本
-   
+
 :::
-       
+
 :::tip
-   
+
 如你希望使用curseforge标准的forge服务端整合包，可在[上传](../11-upload.md)并[解压](../12-unzip.md)整合包后从 [这里](./202-forgeinstall.md#修改参数启动你的forge) 开始。
-   
+
 :::
 
 - ## 获取Forge安装包
-   
+
 >从[forge官方下载地址](https://files.minecraftforge.net/net/minecraftforge/forge/)获取对应版本的安装包
-     
+
 :::tip
-   
+
 由于forge官方的下载链接存在广告，可复制下载链接后自行获取真正的下载链接。
-   
+
 :::
-   
+
 - ## 安装forge服务端
-   
+
 > - [新建](../10-createserver.md)或[重装](../15-reinstall.md)一个为自定义-Java镜像，并将文件使用[官网网页控制台上传](../11-upload.md)或[sftp上传](../30-sftp.md)
 > - 修改 `start.sh` 按照下方格式设置启动参数:
 > ![1](/img/pages/MCJE-202-forgeinstall-1.png)

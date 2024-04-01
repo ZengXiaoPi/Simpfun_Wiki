@@ -2,39 +2,42 @@
 title: 配置Geyser
 ---
 
-# 配置Geyser
+## 首次加载Geyser？
 
-## 首次加载Geyser,如果你是首次加载Geyser,请等待它把语言文件之类的下载完成
+如果你是首次加载Geyser,请等待它把语言文件之类的下载完成。
 
-![](/img/pages/FirstTimeLoadingGeyser.png)
+![1](../../../static/img/pages/FirstTimeLoadingGeyser.png)
 
-### 这里演示的是插件版本
+***这里演示的是插件版本***
+
 在你的服务器根目录文件找到plugins
-![](/img/pages/GeyserFile-1.png)
+![2](../../../static/img/pages/GeyserFile-1.png)
 
 然后找到配置文件夹(Geyser-xxx)
 
 "xxx"是你的Geyser类型,这里使用的是Paper服务端,Spigot的下游服务端
-![](/img/pages/GeyserFile-2.png)
+![3](../../../static/img/pages/GeyserFile-2.png)
 
 :::caution 温馨提示
 
 不同的类型的Geyser这个文件夹名字会不一样
 
-比如Fabric的是Geyser-Fabric
+比如Fabric的是`Geyser-Fabric`
 
-以及如果你是Fabric和Neoforge,配置文件夹在服务器config目录下
+以及如果你是Fabric和Neoforge,配置文件夹在服务器根目录的`config`文件夹内。
 
 :::
 
-### config.yml
-![](/img/pages/GeyserFile-3.png)
+## 配置文件(config.yml)
+
+![4](../../../static/img/pages/GeyserFile-3.png)
 配置方面基本只要留意这个文件
 
-![](/img/pages/GeyserFile-4.png)
+![5](../../../static/img/pages/GeyserFile-4.png)
 
 额，好像看不懂英文,随便找个翻译翻译一下
-``` yml
+
+```yml
 # --------------------------------
 # Geyser配置文件
 #
@@ -261,6 +264,7 @@ disable-compression: true
 
 config-version: 4
 ```
+
 示例配置文件服务器的UUID,与实际服务器UUID有所不同
 
 :::caution

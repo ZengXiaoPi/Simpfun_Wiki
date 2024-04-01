@@ -1,6 +1,6 @@
 {
-  "position": 211,
-  "label": "添加Geyser", 
+  "position": 2,
+  "label": "Geyser(JE-BE互通)", 
   "collapsible": true,
   "collapsed": true,
   "className": "red",
