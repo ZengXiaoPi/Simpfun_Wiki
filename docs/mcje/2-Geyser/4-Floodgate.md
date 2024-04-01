@@ -7,9 +7,9 @@ Floodgate允许从[**Geyser**](https://geysermc.org/)连接以加入在线模式
 ## 下载
 ### 首先前往[Geyser主页](https://geysermc.org/)下载Floodgate
 
-![GerserWebHome](/img/pages/GeyserWeb-1.png)
-![FloodgateWebDownload](/img/pages/FloodgateWeb-0.png)
-![FloodgateWebDownload](/img/pages/FloodgateWeb-1.png)
+![GerserWebHome](../../../static/img/pages/GeyserWeb-1.png)
+![FloodgateWebDownload](../../../static/img/pages/FloodgateWeb-0.png)
+![FloodgateWebDownload](../../../static/img/pages/FloodgateWeb-1.png)
 
 ### 选择你需要的Geyser类型下载
 Floodgate BungeeCord是给[BungeeCord](https://github.com/SpigotMC/BungeeCord)用的 Floodgate 插件
@@ -29,27 +29,32 @@ Floodgate Velocity是给[Velocity](https://papermc.io/software/velocity)用的 F
 Floodgate Fabric是给[Fabric](https://fabricmc.net)Mod加载器使用的 Floodgate Mod
 
 ## 使用方法
+
 插件版本的把Floodgate插件丢进plugins文件夹
 
 Mod版本的丢进Mods文件夹
 
 ## 配置文件
+
 这里演示的是插件版本
 
 在你的服务器根目录文件找到plugins
-![FloodgateConfig](/img/pages/FloodgateConfig-1.png)
+![FloodgateConfig](../../../static/img/pages/FloodgateConfig-1.png)
 然后找到配置文件夹(floodgate)
-![FloodgateConfig](/img/pages/FloodgateConfig-2.png)
-### config.yml
-![FloodgateConfig](/img/pages/FloodgateConfig-3.png)
+![FloodgateConfig](../../../static/img/pages/FloodgateConfig-2.png)
+**config.yml**
+![FloodgateConfig](../../../static/img/pages/FloodgateConfig-3.png)
+
 :::caution 温馨提示
 
-如果你是Fabric服务器配置文件夹在服务器config目录下
+如果你是Fabric服务端，那么配置文件夹将保存在服务器根目录的`config`文件夹下。
 
 :::
 
-![FloodgateConfig](/img/pages/FloodgateConfig-4.png)
+![FloodgateConfig](../../../static/img/pages/FloodgateConfig-4.png)
+
 额，好像看不懂英文,随便找个翻译翻译一下
+
 ``` yml
 # 在Floodgate中,基岩版玩家数据是加密发送的
 # 下面的值应该指向Floodgate生成的密钥
@@ -114,18 +119,15 @@ metrics:
 # 不要改变这个
 config-version: 3
 ```
+
 示例配置文件服务器的UUID,与实际服务器UUID有所不同！！！
+
 :::caution
+
 每次调整完配置文件需要重启
 
-不推荐**reload**命令重载
-
-可能会遇到奇奇怪怪的问题
+不推荐**reload**命令重载，可能会遇到奇奇怪怪的问题
 
 该页面的配置文件可能会因为随着Floodgate更新而落后
 :::
-
-
-
-
 

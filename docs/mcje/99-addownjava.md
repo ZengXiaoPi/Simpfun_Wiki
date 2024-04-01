@@ -1,5 +1,5 @@
 ---
-title: 在简幻欢使用自定义的java
+title: 在简幻欢使用自定义的Java
 ---
    
 :::info

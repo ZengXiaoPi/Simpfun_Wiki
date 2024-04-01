@@ -143,9 +143,9 @@ Bukkit系服务端需要装载插件就将插件放到`/plugins`文件夹。
 
 :::info
 
-Spigot端由于其[历史原因](https://zhuanlan.zhihu.com/p/446941433)，官网给的下载链接是一个构建工具，你需要自己下载后手动构建。
-但其实你可以选择去找镜像站下载已构建完成的Spigot服务端。
-下方教程为使用Buildtools手动构建Spigot。
+Spigot端由于其[历史原因](https://zhuanlan.zhihu.com/p/446941433)，官网给的下载链接是一个构建工具，你需要自己下载后手动构建。  
+但其实你可以选择去找镜像站下载已构建完成的Spigot服务端。  
+下方教程为使用Buildtools手动构建Spigot。  
 :::
 
 ### 第一步：构建服务端核心
@@ -272,17 +272,16 @@ Spigot服务端需要装载插件就将插件放到`/plugins`文件夹。
 :::caution 提示
 
 从 Minecraft 1.17.1 开始，Forge的启动命令是启动一个txt文件，你在根目录下是找不到Forge/Vanilla核心的！  
-~~要我说这改的就是托史~~  
-此部分仅介绍1.17.1+的Forge服务端安装方式。
+此部分仅介绍1.17.1及更高版本的Forge服务端安装方式。
 
-啥？~~你还是1.12.2钉子户？~~你还在使用老版本？看[这篇文档](2-mcje-ForgeOldVersionServer.md)
+啥？~~你还是1.12.2钉子户？~~你还在使用旧版本？看[这篇文档](2-mcje-ForgeOldVersionServer.md)
 :::
 
-### 第一步：构建服务端
+### 第一步：安装服务端
 
 Forge：
 
-打开[Forge官网](https://files.minecraftforge.net/net/minecraftforge/forge/)，选择你需要的版本的Forge安装器进行下载，此处以1.17.1为例，点击红圈处下载Forge安装器。
+打开[Forge官网](https://files.minecraftforge.net/net/minecraftforge/forge/)，选择你需要的版本的Forge安装器进行下载，此处以1.17.1为例，按照下图方式下载安装器。
 
 ![一人きり　路地裏は決して急がないで](../../static/img/pages/UseOtherServer-7.png)
 
@@ -410,7 +409,7 @@ Mod文件放入`mods`文件夹。
 
 ## Fabric服务端
 
-### 第一步：构建服务端核心+下载依赖文件
+### 第一步：安装服务端核心
 
 前往[Fabric官网](https://fabricmc.net/use/installer/)，点击`Download universal jar`下载构建器。
 

@@ -2,22 +2,23 @@
 title: MCJE旧版本forge服务端开服
 ---
 
-什么年代了还用旧版，旧版都不更新了啊（
+:::info 提示
+
+本篇文档适用的MC版本：1.16.5及之前的Forge版。
+
+:::
 
 提示：第三方镜像可能会有你需要的版本，可以去看看
 
 ### 第一步：构建服务端
 
-打开[Forge官网](https://files.minecraftforge.net/net/minecraftforge/forge/)，选择你需要的版本的Forge安装器进行下载，此处以1.12.2为例，点击箭头处下载Forge安装器。
+打开[Forge官网](https://files.minecraftforge.net/net/minecraftforge/forge/)，选择你需要的版本的Forge安装器进行下载，此处以1.12.2为例，按照下图方式下载Forge安装器。
 
 ![一人きり　路地裏は決して急がないで](../../static/img/pages/forgeoldversionserver-1.png)
 
-:::info 提示
+:::info 其他下载地址
 
-Forge官网下载会有广告 ，而且这个广告国内不加载导致你下不了，所以...  
 无极镜像(CN)：[https://www.fastmirror.net/#/download/Forge](https://www.fastmirror.net/#/download/Forge)
-
-其他解决方案: 右键复制下载链接，将前面adfoc.us的链接前缀删掉即可
 
 :::
 
