@@ -73,14 +73,23 @@ cd 你想放的目录
 ``` text
 .\bedrock-server.exe
 ```
-
-`start.bat`
+如果你的是适用于 UBUNTU (LINUX) 平台的 MINECRAFT 专属服务端软件的话需要这么运行(debian12或ubuntu20.04及以上版本才能正常运行)
+``` text
+./bedrock-server
+```
 
 比如:
+
+`start.bat`
 ``` text
 cd C:\container\bedrock-server-1.20.73.01
 .\bedrock-server.exe
 ```
+`start.sh`
+``` text
+cd /home/container/bedrock-server-1.20.73.01
+./bedrock-server
+```
 
-`C:\container\bedrock-server-1.20.73.01`要替换成实际目录
+`C:\container\bedrock-server-1.20.73.01`,`/home/container/bedrock-server-1.20.73.01`要替换成实际路径
 其实这个`.\`它并不重要,你也可以把它去掉
