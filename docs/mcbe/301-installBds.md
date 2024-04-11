@@ -1,5 +1,5 @@
 ---
-title: 下载BDS(及旧版?)
+title: 下载安装BDS(及旧版?)
 ---
 
 ## 下载BDS
@@ -57,3 +57,29 @@ https://minecraft.azureedge.net/bin-linux/bedrock-server-1.20.73.01.zip
 分别对应着类型
 
 预览版跟正式版这部分也会有一点差异
+
+## 安装
+
+### 解压
+
+解压到你想放的目录
+
+### 启动
+你可以编辑你的启动脚本
+``` text
+cd 你想放的目录
+```
+接着运行它
+``` text
+.\bedrock-server.exe
+```
+
+比如
+start.bat
+``` text
+cd C:\container\bedrock-server-1.20.73.01
+.\bedrock-server.exe
+```
+
+`C:\container\bedrock-server-1.20.73.01`要替换成实际目录
+其实这个`.\`它并不重要,你也可以把它去掉
