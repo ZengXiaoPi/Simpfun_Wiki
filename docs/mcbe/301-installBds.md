@@ -74,8 +74,9 @@ cd 你想放的目录
 .\bedrock-server.exe
 ```
 
-比如
-start.bat
+`start.bat`
+
+比如:
 ``` text
 cd C:\container\bedrock-server-1.20.73.01
 .\bedrock-server.exe
