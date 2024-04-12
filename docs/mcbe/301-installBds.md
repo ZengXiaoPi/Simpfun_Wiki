@@ -3,19 +3,19 @@ title: 下载安装BDS(及旧版?)
 ---
 
 ## 下载BDS
-
+完整名字(Bedrock Dedicated Server)
 > 注意：
 > 确保你有一定动手能力,以及访问
 microsoft.net
 minecraft.azureedge.net
 的能力
 
-## 访问基岩版服务器软件下载页面
+## 访问Minecraft基岩版服务器软件下载页面
 ``` text
 https://www.minecraft.net/zh-hans/download/server/bedrock
 ```
 
-呃选择你要下载的版本
+呃选择你要下载的Minecraft(我的世界)基岩版专属服务端软件类型
 ``` text
 适用于 WINDOWS 的 MINECRAFT 专属服务端软件
 适用于 UBUNTU (LINUX) 平台的 MINECRAFT 专属服务端软件
@@ -23,6 +23,7 @@ https://www.minecraft.net/zh-hans/download/server/bedrock
 适用于 UBUNTU (LINUX) 预览版的 MINECRAFT 专属服务端软件
 ```
 你会看到这四个根据你的需要选择,然后勾上框框点下载就ok了
+(该页面的下载按钮为最新的服务端软件)
 
 ## 下载旧版本？？
 嗯咱以(适用于 WINDOWS 的 MINECRAFT 专属服务端软件)的为例
