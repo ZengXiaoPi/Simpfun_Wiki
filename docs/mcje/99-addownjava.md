@@ -9,10 +9,7 @@ title: 在简幻欢使用自定义的Java
 :::
 
 ## 上传，解压java
-   
-> - [新建](../10-createserver.md)或[重装](../15-reinstall.md)一个为自定义-Java镜像
->      
->    
+       
 > - 从[zulu](https://www.azul.com/downloads/)或[华为镜像源](https://repo.huaweicloud.com/java/jdk/)下载需要使用的java **压缩包**
 :::info
 
