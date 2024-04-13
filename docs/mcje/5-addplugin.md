@@ -15,11 +15,39 @@ title: 如何添加插件
 
 :::tip
 
-如果你正在寻找插件,可以访问[MCBBS（JE和BE插件）](https://www.mcbbs.net)、[苦力怕论坛（BE和JE插件）](https://klpbbs.com)、[MineBBS（BE插件）](https://www.minebbs.com)。
+如果你正在寻找插件,可以访问 ~~[MCBBS（已死）](https://www.mcbbs.net)~~、[苦力怕论坛（BE和JE插件）](https://klpbbs.com)、[MineBBS（JE和BE插件）](https://www.minebbs.com)。
 
 :::
 
-## Bukkit系插件服务端
+## 插件类型区分
+
+### Bukkit插件
+
+使用BukkitAPI进行开发的插件，绝大部分插件端,以及Arclight，Catserver，Mohist等混合端都使用Bukkit插件。
+
+大部分Bukkit插件支持**向上兼容**，例如插件A作者标注为支持1.8——1.16.x，其实际支持版本可能为1.8——1.20.x，实际情况请自行测试或寻求帮助。
+
+### Paper插件
+
+引入了Paper一些特有的API进行开发的Bukkit插件。Paper及分支支持此类插件。
+
+:::note 提示
+
+就目前来说，使用PaperAPI的插件并不多，并且现在主流插件端均为Paper分支，所以插件你就放心往服务端丢就是。
+
+:::
+
+### Sponge插件
+
+使用SpongeAPI进行开发的插件，目前仅有SpongeVanilla与SpongeForge，以及某些服务端（例如Lantern）支持Sponge插件。
+
+:::warning 提示
+
+大部分Sponge插件**不支持向上兼容**，例如你不能把API7的插件扔进API8的服务器里面，除非插件作者主动同时适配不同版本的Sponge。
+
+:::
+
+## Bukkit插件服务端
 
 :::caution 不适用
 

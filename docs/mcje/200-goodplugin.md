@@ -16,7 +16,7 @@ Simpfun Wiki仅作为推荐用途推荐这些插件，编辑者不保证可能�
 
 :::
 
-:::caution 国内最大的插件发布网站即将关闭
+:::caution 国内最大的插件发布网站关闭
 
 MCBBS由于未知原因(大概率)即将永久关闭，国内最大的Java版插件发布网站(即MCBBS的服务器插件板块)也会同时关闭。现在本页内所有的MCBBS链接均已失效，如需寻找插件请直接去[SpigotMC](https://www.spigotmc.org/resources/categories/spigot.4/) / [DevBukkit](https://dev.bukkit.org/bukkit-plugins)等国外网站，或者可以去[MineBBS的Java版服务端插件板块](https://www.minebbs.com/resources/categories/70/)来寻找插件。
 
@@ -48,7 +48,9 @@ MCBBS由于未知原因(大概率)即将永久关闭，国内最大的Java版插
 
 标签：`娱乐`
 
-介绍：这个插件提供了点歌功能，可以让玩家在服务器中付费（可选）在网易云音乐上点歌，并在全服播放。
+介绍：
+
+这个插件提供了点歌功能，可以让玩家在服务器中付费（可选）在网易云音乐上点歌，并在全服播放。
 
 :::info
 
@@ -74,11 +76,19 @@ Github仓库已于2024.3.11存档，意味着此插件已停更。
 
 标签：`管理` `安全` 
 
-介绍：这个插件提供了登录功能，能够保障离线服务器的账号安全。
+介绍：
+
+这个插件提供了登录功能，能够保障离线服务器的账号安全。
 
 下载链接：
 
 [CodeMC](https://ci.codemc.io/job/AuthMe/job/AuthMeReloaded/)
+
+:::note 提示
+
+已停更，建议使用下方的分支版本。
+
+:::
 
 -----
 
@@ -88,7 +98,9 @@ Github仓库已于2024.3.11存档，意味着此插件已停更。
 
 标签：`管理` `安全`
 
-介绍：AuthMeReloaded的分支优化版本，进行了Bug修复以及新增了很多功能，完全兼容原AuthMeReloaded数据库及扩展插件。
+介绍：
+
+AuthMeReloaded的分支优化版本，进行了Bug修复以及新增了很多功能，完全兼容原AuthMeReloaded数据库及扩展插件。
 
 下载链接：
 
@@ -102,7 +114,9 @@ Github仓库已于2024.3.11存档，意味着此插件已停更。
 
 标签： `机制` `管理`
 
-介绍：开启[mobGriefing](1-JECommonQuestions/7-mobGriefing.md)后村民无法种地，不开启怕苦力怕**爆炸**？这款插件会帮你解决你的痛处！
+介绍：
+
+开启[mobGriefing](1-JECommonQuestions/7-mobGriefing.md)后村民无法种地，不开启怕苦力怕**爆炸**？这款插件会帮你解决你的痛处！
 
 下载链接：
 
@@ -116,7 +130,9 @@ Github仓库已于2024.3.11存档，意味着此插件已停更。
 
 标签：`管理` `信息` `安全`
 
-介绍：这个插件提供了先进的方块查询技术，可以记录和回滚玩家，生物的几乎任何操作，操作包括但不限于破坏方块，放置方块，获得物品。
+介绍：
+
+这个插件提供了先进的方块查询技术，可以记录和回滚玩家，生物的几乎任何操作，操作包括但不限于破坏方块，放置方块，获得物品。
 
 :::tip
 
@@ -136,7 +152,9 @@ Github仓库已于2024.3.11存档，意味着此插件已停更。
 
 标签：`优化`
 
-介绍：你的服务器还在因为区块加载导致卡顿？这款插件通过生成区块，或许能够解决你岌岌可危的TPS！
+介绍：
+
+你的服务器还在因为区块加载导致卡顿？这款插件通过生成区块，或许能够解决你岌岌可危的TPS！
 
 :::danger
 
@@ -181,7 +199,9 @@ Github仓库已于2024.3.11存档，意味着此插件已停更。
 
 标签：`开源` `机制` `附魔`
 
-介绍：觉得原版的附魔太无聊了？这款"负魔"插件会让你的原版附魔多一些意外！
+介绍：
+
+觉得原版的附魔太无聊了？这款"负魔"插件会让你的原版附魔多一些意外！
 
 :::info
 
@@ -205,7 +225,7 @@ Github仓库已于2024.1.16存档，意味着此插件已停更。
 
 下载链接：
 
-[官网（下载时需要代理Github）](https://essentialsx.net/downloads.html) | ~~[MCBBS搬运帖](https://www.mcbbs.net/thread-1369748-1-1.html)~~ | [MineBBS搬运帖](https://www.minebbs.com/resources/essentialsx.7371/)
+[官网(下载时需要代理Github)](https://essentialsx.net/downloads.html) | ~~[MCBBS搬运帖](https://www.mcbbs.net/thread-1369748-1-1.html)~~ | [MineBBS搬运帖](https://www.minebbs.com/resources/essentialsx.7371/) | [config.yml翻译文件下载](https://www.minebbs.com/resources/7534/)
 
 -----
 
@@ -215,7 +235,9 @@ Github仓库已于2024.1.16存档，意味着此插件已停更。
 
 标签：`娱乐`
 
-介绍：现代的坐下、躺下和爬行插件。
+介绍：
+
+现代的坐下、躺下和爬行插件。
 
 支持 1.13 到 1.20.4 的 Bukkit、Spigot、Paper（及所有分支）和 Folia 服务器！
 （动作和爬行功能仅适用于 1.17+）
@@ -248,7 +270,9 @@ Github仓库已于2024.1.16存档，意味着此插件已停更。
 
 标签：`娱乐` `信息`
 
-介绍：还在嫌原版的motd一点新意都没有？这款插件可自定义假玩家以及RGB颜色的MOTD，支持彩虹渐变（1.16+），还支持随机服务器图标！它还可以设置最大人数比在线人数始终多x，这是可以自行设置多多少的！
+介绍：
+
+还在嫌原版的motd一点新意都没有？这款插件可自定义假玩家以及RGB颜色的MOTD，支持彩虹渐变（1.16+），还支持随机服务器图标！它还可以设置最大人数比在线人数始终多x，这是可以自行设置多多少的！
 
 :::caution
 
@@ -267,7 +291,9 @@ Github仓库已于2024.1.16存档，意味着此插件已停更。
 
 标签：`管理` `传送` `创世`  
 
-介绍：全球知名的多世界管理插件。  
+介绍：
+
+全球知名的多世界管理插件。  
 
 它能做什么？  
 
@@ -288,7 +314,7 @@ Github仓库已于2024.1.16存档，意味着此插件已停更。
 
 :::warning 提示
 
-Multiverse-Core仅提供基础的多世界功能，需要拓展功能请点击下方链接跳转至MCBBS论坛查看！   
+Multiverse-Core仅提供基础的多世界功能，需要拓展功能请点击下方链接跳转至~~MCBBS论坛~~查看！   
 ~~[Multiverse-Portals](https://www.mcbbs.net/thread-1413461-1-1.html)(多世界传送门)~~ | ~~[Multiverse-Inventories](https://www.mcbbs.net/thread-909834-1-1.html)(多世界背包隔离)~~ | ~~[Multiverse-NetherPortals](https://www.mcbbs.net/thread-1034491-1-1.html)(多世界下界隔离)~~
 
 :::
@@ -304,7 +330,9 @@ Multiverse-Core仅提供基础的多世界功能，需要拓展功能请点击�
 
 标签：`综合` `管理` `安全`
 
-介绍：老牌领地插件，详细信息请去MCBBS的帖子查看，帖子内有极其详细的介绍。
+介绍：
+
+老牌领地插件，详细信息请去MCBBS的帖子查看，帖子内有极其详细的介绍。
 
 :::tip
 
@@ -400,7 +428,7 @@ Vault只提供基础支持，具体的功能实现需要额外的插件（[这�
 :::
 
 下载链接：  
-[SpigotMC](https://www.spigotmc.org/resources/vault.34315/)  
+[MineBBS(介绍帖)](https://www.minebbs.com/resources/7869/) | [SpigotMC](https://www.spigotmc.org/resources/vault.34315/)  
 
 -----
 
@@ -415,14 +443,12 @@ Vault只提供基础支持，具体的功能实现需要额外的插件（[这�
 
 :::tip
 
-~~1.12及以下版本请去MCBBS搬运帖寻找旧版本下载使用！~~
-
-MCBBS似了，悲
+最后一个支持1.7.10——1.12.2的版本：[6.1.9(点击此处跳转下载)](https://dev.bukkit.org/projects/worldedit/files/2597538)
 
 :::
 
 下载链接：
-~~[MCBBS搬运帖](https://www.mcbbs.net/thread-68815-1-1.html)~~ | [CurseForge](https://dev.bukkit.org/projects/worldedit)
+~~[MCBBS搬运帖](https://www.mcbbs.net/thread-68815-1-1.html)~~ | [MineBBS搬运帖](https://www.minebbs.com/resources/7429/) | [CurseForge](https://dev.bukkit.org/projects/worldedit)
 
 -----
 
@@ -440,14 +466,14 @@ MCBBS似了，悲
 
 为了方便此栏目的后续编写，Sponge API版本与MC版本对应关系将在下方列出：
 
-+ API4.x:1.8.x
-+ API5.x:1.9-1.10.2
-+ API6.x:1.11，1.11.2
-+ API7.x:1.12.x
-+ API8.x:1.15.2-1.16.5
-+ API9:1.17-1.18.2
-+ API10:1.19.2-1.19.4
-+ API11:1.20.x
++ API4.x : `1.8.x`
++ API5.x : `1.9-1.10.2`
++ API6.x : `1.11，1.11.2`
++ API7.x : `1.12.x`
++ API8.x : `1.15.2`-`1.16.5`
++ API9 : `1.17`-`1.18.2`
++ API10 : `1.19.2`-`1.19.4`
++ API11 : `1.20.x`
 
 :::
 
