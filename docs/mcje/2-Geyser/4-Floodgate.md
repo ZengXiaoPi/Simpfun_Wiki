@@ -5,6 +5,7 @@ title: Floodgate
 Floodgate允许从[**Geyser**](https://geysermc.org/)连接以加入在线模式(开启了正版验证)的服务器
 
 ## 下载
+
 ### 首先前往[Geyser主页](https://geysermc.org/)下载Floodgate
 
 ![GerserWebHome](../../../static/img/pages/GeyserWeb-1.png)
@@ -12,6 +13,7 @@ Floodgate允许从[**Geyser**](https://geysermc.org/)连接以加入在线模式
 ![FloodgateWebDownload](../../../static/img/pages/FloodgateWeb-1.png)
 
 ### 选择你需要的Geyser类型下载
+
 Floodgate BungeeCord是给[BungeeCord](https://github.com/SpigotMC/BungeeCord)用的 Floodgate 插件
 
 Floodgate Spigot/Paper是给[Spigot](https://www.spigotmc.org)系列插件加载器使用的 Floodgate 插件
