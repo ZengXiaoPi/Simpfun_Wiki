@@ -341,6 +341,14 @@ Multiverse-Core仅提供基础的多世界功能，需要拓展功能请点击�
 
 :::
 
+:::tip
+
+- 如果您正在使用Leaves核心，建议安装Leavidence扩展插件来避免假人破坏领地和攻击领地内实体(Leavidence为Residence扩展，需安装Residence才可正常使用!)
+
+- Leavidence下载链接：[MineBBS](https://www.minebbs.com/resources/leavidence-leaves-bug.7847/download)
+
+:::
+
 下载链接：
 ~~[MCBBS搬运帖](https://www.mcbbs.net/thread-631343-1-1.html)~~ | [官方免费版](https://zrips.net/Residence/) | [付费版下载地址(10欧元)](https://www.spigotmc.org/resources/residence-1-7-10-up-to-1-10.11480/)
 
