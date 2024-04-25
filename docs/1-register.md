@@ -32,7 +32,7 @@ title: 【账号管理】如何注册
 
 - 剑舜 `1301726` `手机SFTP教程` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=1301726)
 
-- ~~笨蛋~~ `1332029` `添加了寻找插件的站点` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=1332029)
+- jdnjk `1332029` `啥也没干` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=1332029)
 
 - 岚天呀 `1311554` `部分基岩版文档` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=1311554)
 
@@ -47,3 +47,7 @@ title: 【账号管理】如何注册
 1. 注册后进入微信小程序`简幻欢`，**准确无误地**输入您的**简幻欢账号**，然后**支付一元**即可绑定微信。绑定后，每日从小程序签到即可免费长期使用4h8g的服务器！[如何签到？](./7-signin.md)  
 
 <img src="/img/pages/Register-3.png" width="50%" />
+
+::info
+自2024年4月23日起，你每次变更ip需要登录一次小程序，才能正常登录
+:::
