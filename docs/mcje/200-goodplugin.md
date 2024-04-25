@@ -142,7 +142,7 @@ AuthMeReloaded的分支优化版本，进行了Bug修复以及新增了很多功
 
 下载链接：
 
-~~[Mcbbs](https://www.mcbbs.net/thread-72515-1-1.html)~~ | [MineBBS(介绍帖)]([https://www.minebbs.com/resources/coreprotect-coi.7320/) | [SpigotMC](https://www.spigotmc.org/resources/coreprotect.8631/)
+~~[Mcbbs](https://www.mcbbs.net/thread-72515-1-1.html)~~ | [MineBBS(介绍帖)](https://www.minebbs.com/resources/coreprotect-coi.7320/) | [SpigotMC](https://www.spigotmc.org/resources/coreprotect.8631/)
 
 -----
 
