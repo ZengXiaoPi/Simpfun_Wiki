@@ -30,13 +30,13 @@ MCBBS由于未知原因(大概率)即将永久关闭，国内最大的Java版插
 
 -----
 
-## Bukkit系插件
+## Bukkit插件
 
-:::tip 什么是Bukkit系插件？
+:::tip 什么是Bukkit插件？
 
 使用BukkitAPI的插件。
 
-所有以CraftBukkit为分支的服务端使用的插件类型，Spigot，Paper，Purpur等绝大部分插件服务端，Arclight，Catserver，Mohist等混合端都使用Bukkit系插件。
+所有以CraftBukkit为分支的服务端使用的插件类型，Spigot，Paper，Purpur等绝大部分插件服务端，Arclight，Catserver，Mohist等混合端都使用Bukkit插件。
 
 :::
 
@@ -142,7 +142,7 @@ AuthMeReloaded的分支优化版本，进行了Bug修复以及新增了很多功
 
 下载链接：
 
-~~[Mcbbs](https://www.mcbbs.net/thread-72515-1-1.html)~~ | [SpigotMC](https://www.spigotmc.org/resources/coreprotect.8631/)
+~~[Mcbbs](https://www.mcbbs.net/thread-72515-1-1.html)~~ | [MineBBS(介绍帖)]([https://www.minebbs.com/resources/coreprotect-coi.7320/) | [SpigotMC](https://www.spigotmc.org/resources/coreprotect.8631/)
 
 -----
 
@@ -171,7 +171,7 @@ AuthMeReloaded的分支优化版本，进行了Bug修复以及新增了很多功
 
 ### ClearEntity  
 
-版本：全版本  
+版本：?——1.19.x
 
 标签：`管理` `实体`  
 
@@ -332,7 +332,7 @@ Multiverse-Core仅提供基础的多世界功能，需要拓展功能请点击�
 
 介绍：
 
-老牌领地插件，详细信息请去MCBBS的帖子查看，帖子内有极其详细的介绍。
+老牌领地插件，详细信息请去[MineBBS的帖子](https://www.minebbs.com/7926/)查看，帖子内有**极其详细**的介绍。
 
 :::tip
 
@@ -350,7 +350,7 @@ Multiverse-Core仅提供基础的多世界功能，需要拓展功能请点击�
 :::
 
 下载链接：
-~~[MCBBS搬运帖](https://www.mcbbs.net/thread-631343-1-1.html)~~ | [官方免费版](https://zrips.net/Residence/) | [付费版下载地址(10欧元)](https://www.spigotmc.org/resources/residence-1-7-10-up-to-1-10.11480/)
+[MineBBS介绍帖](https://www.minebbs.com/resources/7926/) | ~~[MCBBS搬运帖](https://www.mcbbs.net/thread-631343-1-1.html)~~ | [官方免费版](https://zrips.net/Residence/) | [付费版下载地址(10欧元)](https://www.spigotmc.org/resources/residence-1-7-10-up-to-1-10.11480/)
 
 -----
 
@@ -364,7 +364,27 @@ Multiverse-Core仅提供基础的多世界功能，需要拓展功能请点击�
 具体内容请去MineBBS搬运帖查看。  
 
 下载链接：
-~~[MCBBS搬运帖](https://www.mcbbs.net/thread-805404-1-1.html)~~ | [MineBBS搬运介绍帖](https://www.minebbs.com/resources/skinsrestorer.7257/) | [SpigotMC](https://www.spigotmc.org/resources/skinsrestorer.2124/)
+~~[MCBBS搬运帖](https://www.mcbbs.net/thread-805404-1-1.html)~~ | [MineBBS(介绍帖)](https://www.minebbs.com/resources/skinsrestorer.7257/) | [SpigotMC](https://www.spigotmc.org/resources/skinsrestorer.2124/)
+
+-----
+
+### Vault ⭐
+
+版本：1.8——1.20.x  
+
+标签：`前置API` `经济`  
+
+介绍：Vault是一个经济/权限/聊天前置，它使插件可以轻松连接到这些系统而不需要连接各自的插件或以他们为前置。  
+(现在Bukkit系的经济插件大部分都是以这个插件为前置的)  
+
+:::caution
+
+Vault只提供基础支持，具体的功能实现需要额外的插件（[这是一个示例插件](https://www.minebbs.com/resources/7410/)）！
+
+:::
+
+下载链接：  
+[MineBBS(介绍帖)](https://www.minebbs.com/resources/7869/) | [SpigotMC](https://www.spigotmc.org/resources/vault.34315/)  
 
 -----
 
@@ -420,26 +440,6 @@ ViaVersion仅提供让高版本客户端进入低版本服务器的功能，需�
 
 -----
 
-### Vault ⭐
-
-版本：1.8——1.20.x  
-
-标签：`前置API` `经济`  
-
-介绍：Vault是一个经济/权限/聊天前置，它使插件可以轻松连接到这些系统而不需要连接各自的插件或以他们为前置。  
-(现在Bukkit系的经济插件大部分都是以这个插件为前置的)  
-
-:::caution
-
-Vault只提供基础支持，具体的功能实现需要额外的插件（[这是一个示例插件](https://www.minebbs.com/resources/7410/)）！
-
-:::
-
-下载链接：  
-[MineBBS(介绍帖)](https://www.minebbs.com/resources/7869/) | [SpigotMC](https://www.spigotmc.org/resources/vault.34315/)  
-
------
-
 ### WorldEdit (Bukkit)
 
 版本：全版本  
@@ -456,7 +456,7 @@ Vault只提供基础支持，具体的功能实现需要额外的插件（[这�
 :::
 
 下载链接：
-~~[MCBBS搬运帖](https://www.mcbbs.net/thread-68815-1-1.html)~~ | [MineBBS搬运帖](https://www.minebbs.com/resources/7429/) | [CurseForge](https://dev.bukkit.org/projects/worldedit)
+~~[MCBBS搬运帖](https://www.mcbbs.net/thread-68815-1-1.html)~~ | [MineBBS搬运帖](https://www.minebbs.com/resources/7429/) | [DevBukkit](https://dev.bukkit.org/projects/worldedit)
 
 -----
 

@@ -20,10 +20,10 @@ title: 主流服务端介绍与选择
 |[Forge](#forge-⭐)|**不兼容**|**兼容(Forge)**|模组服务端，**仅兼容Forge模组**|
 |[NeoForge](#neoforge-⭐)|**不兼容**|**兼容(NeoForge)**|NeoForge是Forge的分支。模组服务端，1.20.1与原Forge兼容，**1.20.2+仅兼容NeoForge模组**|
 |[Fabric](#fabric-⭐)|**不兼容**|**兼容(Fabric)**|模组服务端，**仅兼容Fabiric模组**|
-|[Arclight](#arclight)|**兼容(Bukkit插件)**|**兼容(Forge)**|通过Mixin实现插件加载的混合服务端，支持Minecraft `1.14.4`及以上的版本，在1.18+比其他混合端更稳定一些| 
+|[Arclight](#arclight)|**兼容(Bukkit插件)**|**兼容(Forge)**|通过Mixin实现插件加载的混合服务端，支持Minecraft `1.14.4`及以上的版本，在1.18+比其他混合端更稳定一些。<br/>在1.20.4后mod加载器支持Forge/Fabric/NeoForge(三选一)。| 
 |[Mohist](#mohist)|**兼容(Bukkit插件)**|**兼容(Forge)**|混合服务端，支持Minecraft `1.12.2`，`1.20.1`，`1.18.2`，`1.7.10` 等多个版本。|
-|[CatServer](#catserver)|**兼容(Bukkit插件)**|**兼容(Forge)**|混合服务端，支持Minecraft `1.12.2`，`1.16.5`，`1.18.2`|
-|[Leaves](#leaves)|**兼容(Bukkit插件)**|**不兼容**|插件服务端，还原Paper修复的绝大部分生电特性，新一代生电之友。|
+|[CatServer](#catserver)|**兼容(Bukkit插件)**|**兼容(Forge)**|混合服务端，支持Minecraft `1.12.2`，`1.16.5`，`1.18.2`。|
+|[Leaves](#leaves-⭐)|**兼容(Bukkit插件)**|**不兼容**|插件服务端，还原Paper修复的绝大部分生电特性，并且原生支持某些功能，**真·新一代生电之友**。|
 |[Folia](#folia)|**部分兼容(Bukkit插件)**|**不兼容**|插件服务端，**多线程**，**由于大改了任务调度器, 目前兼容插件较少，且不稳定**，[构建方法及下载](https://simpfun.icu/d/94)|
 |[Paper](#paper-⭐)|**兼容(Bukkit插件)**|**不兼容**|插件服务端，**修复部分原版特性**，**稳定**，**萌新之友**| 
 |[Purpur](#purpur)|**兼容(Bukkit插件)**|**不兼容**|插件服务端，**可自定义修复哪些原版特性**，**稳定**| 
@@ -80,7 +80,7 @@ title: 主流服务端介绍与选择
 
 通过Mixin实现插件加载的混合服务端，支持Minecraft `1.14.4`及以上的版本，在1.18+比其他混合端更稳定一些。
 
-1.20.1及之前仅支持Forge加载器；
+1.20.2及之前仅支持Forge加载器；
 
 1.20.4及之后支持Fabric，NeoForge，Forge加载器（三选一）。
 
@@ -210,19 +210,32 @@ Paper团队新生的儿子，有多线程的优化，对于e5这种为多核而�
 
 -----
 
-## Leaves
+## Leaves ⭐
 
 模组：`不支持`
 
 插件：`支持`
 
-版本：`1.20.1 ~ 最新版`
+版本：`1.19 ~ 最新版`
 
 介绍：
 
 Leaves 是一个致力于修复被 Paper 和 Bukkit 等服务端破坏了的原版特性的 Paper 分支。和 Paper 相比，Leaves 拥有一些新功能和更多的性能改进。
 
 其所支持的插件为**Bukkit**插件与**Paper插件**。
+
+:::info 编者有话说
+
+**真·新一代生电之友**，恢复了被破坏的原版特性，不仅可以使用Bukkit插件，还原生支持某些特性，包括但不限于：
+
+- Carpet Mod协议支持
+- Appleskin，Xaero的世界地图，Jade等mod的协议支持
+- 内置假人功能
+- 内置的[第三方登录验证服务器](./50-authlib-injector.md)(Yggdrasil)功能
+
+更多配置详情请去[Leaves文档](https://docs.leavesmc.org/zh_Hans/leaves/reference/configuration)查看。
+
+:::
 
 -----
 
