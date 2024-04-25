@@ -32,6 +32,8 @@ title: 进阶文档：使用第三方验证服务器登录
 
 ## 服务端操作
 
+非 Leaves 服务端请按照以下方式操作。
+
 ### 下载authlib-injector插件并上传到服务器
 
 1. 从[authlib-injector的官网](https://authlib-injector.yushi.moe/)下载。
@@ -92,6 +94,36 @@ ${openjdk17} -Xms1024M -Xmx${maxmem}M -javaagent:authlib-injector-1.2.4.jar=http
 
 到此为止服务端的配置完成，下面介绍客户端配置。
 
+## 服务端操作(Leaves)
+
+Leaves端原生支持使用第三方服务器进行登录认证，无须下载额外的认证器！
+
+### 操作方法
+
+打开服务器根目录下的`leaves.yml`，找到如下内容并进行修改：
+
+```yml
+#注：在实际的yml文件中并不存在注释
+extra-yggdrasil-service:
+      #是否启用额外的yggdrasil认证器
+      enable: false
+      #是否开启登录保护，开启后将不允许用户名相同但 UUID 不同的玩家加入。
+      login-protect: false
+      #指定 Yggdrasil API 地址。
+      urls:
+      - https://url.with.authlib-injector-yggdrasil
+```
+
+例如，如果你需要使用LittleSkin提供的Yggdrasil API地址，则应该改为下方的格式：
+
+```yml
+extra-yggdrasil-service:
+      enable: true
+      login-protect: true
+      urls: 
+      - https://littleskin.cn/api/yggdrasil
+```
+
 ## 客户端操作
 
 需要在启动器修改登录方式。
@@ -121,10 +153,10 @@ ${openjdk17} -Xms1024M -Xmx${maxmem}M -javaagent:authlib-injector-1.2.4.jar=http
 ### HMCL
 
 1.将红框内的按钮直接拖入HMCL中，在弹出的窗口中选择“完成”
-![Twelve你AuthlibInjector-2.png的名字都打错了](/img/pages/AuthlibInjector-3.png)
+![1111111111](/img/pages/AuthlibInjector-3.png)
 <!--好好好，你人还挺好的嘞-->
 2.点击HMCL左侧的`账户`，在二级页面的左侧选择`LittleSkin`，输入你的用户名和密码进行登录
-![我给改回来了](/img/pages/AuthlibInjector-4.png)     
+![222222222](/img/pages/AuthlibInjector-4.png)     
 <!--原神启动-->
 <!---->
 3.登录完成后选择一个角色，然后你就可以开始游戏辣
@@ -151,6 +183,7 @@ ${openjdk17} -Xms1024M -Xmx${maxmem}M -javaagent:authlib-injector-1.2.4.jar=http
 4.此时它会提示你选择一个角色，选择你需要登录的角色即可
 
 ### BakaXL 2.x
+
 BakaXL 2 已停更，WinXP~Win8.1建议使用兼容更好的HMCL
 
 ## 推荐的第三方登录验证服务器

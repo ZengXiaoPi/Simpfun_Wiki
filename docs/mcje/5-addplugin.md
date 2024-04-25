@@ -47,7 +47,7 @@ title: 如何添加插件
 
 :::
 
-## Bukkit插件服务端
+## Bukkit系服务端
 
 :::caution 不适用
 

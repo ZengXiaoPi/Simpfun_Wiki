@@ -168,7 +168,7 @@ java -server -Xms1024m -Xmx4096M @libraries/net/neoforged/neoforge/20.2.86/win_a
 
 ![Will do what feels right](../../static/img/pages/MCJE-Files-6.png)
 
-*这是Arclight 1.20.1的服务端文件(仅展示根目录下的)。*
+*这是Arclight 1.20.1 Forge版 的服务端文件(仅展示根目录下的)。*
 
 与Vanilla端不同的地方如下所示（斜体表示不重要）：
 
@@ -202,8 +202,8 @@ java -server -Xms1024m -Xmx4096M @libraries/net/neoforged/neoforge/20.2.86/win_a
 | :--- | :--- |
 | config | (来自Forge)存储FML和各个模组(mod)的配置文件的目录。|
 | defaultconfigs | (来自Forge)通常包含了模组(mod)的默认配置文件。这些文件是模组作者提供的初始配置，用于确保模组在首次安装时有一个合理的默认设置。 |
-| foxlaunch-data | 存放了包括原版服务端核心在内的一些重要文件。 |
-| foxlaunch-libs | 不知道 |
+| foxlaunch-data | 存放了包括原版服务端核心在内的一些重要文件。(仅 1.16.5/1.18.2) |
+| foxlaunch-libs | 不知道(仅 1.16.5/1.18.2) |
 | mods | (来自Forge)存放mod本体的文件夹。 |
 | plugins | (来自Spigot)存放插件本体以及插件配置、数据等的文件夹。插件本体直接放入此文件夹即可。 |
 | worlds | **与Vanilla端保持一致。** |
