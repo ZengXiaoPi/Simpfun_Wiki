@@ -332,7 +332,7 @@ Multiverse-Core仅提供基础的多世界功能，需要拓展功能请点击�
 
 介绍：
 
-老牌领地插件，详细信息请去[MineBBS的帖子](https://www.minebbs.com/7926/)查看，帖子内有**极其详细**的介绍。
+老牌领地插件，详细信息请去[MineBBS的帖子](https://www.minebbs.com/resources/7926/)查看，帖子内有**极其详细**的介绍。
 
 :::tip
 

@@ -1,10 +1,18 @@
 ---
 title: 基岩版服务器配置文件介绍
 ---
+
+本篇文档为`server.properties`的配置详解。
+
+开服前建议先熟悉一遍`server.properties`的配置。
+
 ## 翻译过后的配置文件
+
 :::info
 
-以下内容来自 BDS 1.20.14.01 并使用 Google 和 DeepL 提供的翻译服务。
+以下大部分内容来自 BDS 1.20.14.01 并使用 Google 和 DeepL 提供的翻译服务。
+
+部分来自 BDS 1.20.80.05 版本的内容转载自 [MineBBS](https://www.minebbs.com/threads/bedrock-dedicated-server-server-properties.1664/)，此部分内容使用 `CC BY-SA 署名-相同方式共享` 。
 
 :::
 
@@ -152,6 +160,7 @@ correct-player-movement=false
 # 如果为 true，如果移动分数超过阈值，客户端位置将被修正为服务器位置。
 
 server-authoritative-block-breaking=false
+server-authoritative-block-breaking-pick-range-scalar=1.5
 # 如果为 true，服务器将与客户端同步计算方块挖掘操作，以便验证客户端是否能在它认为可以时破坏方块。
 # 这个设置可能可以防秒挖掘(除了急迫效果)，请根据服务器配置选择。
 
@@ -183,15 +192,100 @@ server-build-radius-ratio=Disabled
 # 如果为 "Disabled"，服务器将动态计算生成多少玩家视图，并将其余视图分配给客户端构建。
 # 否则，服务器将根据重载比例来计算要生成多少玩家视图，而不考虑客户端的硬件能力。
 # 仅在启用 client-side-chunk-generation-enabled 功能时有效
+
+########################
+#
+# 以下内容转载自MineBBS
+# 原帖：https://www.minebbs.com/threads/1664/
+# 这部分内容为1.20.30及更高版本新增的配置
+# 这些配置均为调试配置，建议保持默认设置
+#
+########################
+
+allow-outbound-script-debugging=false
+# 允许脚本调试器“connect”命令和 script-debugger-auto-attach=connect 模式。
+
+allow-inbound-script-debugging=false
+# 允许脚本调试器“listen”命令和 script-debugger-auto-attach=listen模式。
+
+#force-inbound-debug-port=19144
+# 锁定入站（监听）调试器端口，如果未设置，则将使用默认的 19144。 使用 script-debugger-auto-attach=listen 模式时需要。
+
+script-debugger-auto-attach=disabled
+# 尝试在存档加载时附加脚本调试器，要求设置入站端口或连接地址，并启用上方的入站 (inbound) 或出站 (outbound) 连接。
+# "disabled"不会自动附加。
+# “connect”服务器将尝试在指定端口上以侦听模式连接到调试器。
+# “listen”服务器将在指定端口上使用连接模式侦听来自调试器的入站连接尝试。
+
+#script-debugger-auto-attach-connect-address=localhost:19144
+# 当自动连接模式设置为“连接”时，以主机:端口的形式使用此地址。script-debugger-auto-attach=connect 模式必需。
 ```
 
-## 隐藏的 op-permission-level
-在 BDS 压缩包内置的文档及 Minecraft Wiki 中，有一个未出现的配置，这个配置在 Java 版是默认写在配置文件里的，但在基岩版的配置文件并未出现。
+## 隐藏的配置
 
-但它却有作用，当设置为 4 之后，最明显的区别就是：游戏设置内的世界选项变得可以调整，例如打开坐标显示、死亡不掉落等设置。
+基岩版的服务器有部分配置默认情况下是隐藏的，不会写在 `server.properties` 、BDS内置文档、Minecraft Wiki 中。以下内容将介绍这些配置。
 
-如何使用？在 **server.properties** 中添加以下配置并重新启动服务器即可应用。
+### op-permission-level
+
+这个配置在 Java 版是默认写在配置文件里的，但在基岩版的配置文件并未出现。
+
+但它却有作用，当设置为 `4` 之后，最明显的区别就是：游戏设置内的世界选项变得可以调整，例如打开坐标显示、死亡不掉落等设置。
+
+此值默认为 `3` 。
+
+如何使用？在 **server.properties** 中另起一行添加以下配置并重新启动服务器即可应用。
 
 ```ini
 op-permission-level=4
 ```
+
+### language
+
+调整控制台的部分文本语言，例如使用命令时的提示。
+
+默认值为 `en_US` 。
+
+在 **server.properties** 中另起一行添加以下配置并重新启动服务器即可调整为中文。
+
+```ini
+language=zh_CN
+```
+
+<details>
+  <summary>
+  附：可以使用的语言列表
+  </summary>
+
+```yml
+- "en_US": "英语（美国）"
+- "en_GB": "英语（英国）"
+- "de_DE": "德语（德国）"
+- "es_ES": "西班牙语（西班牙）"
+- "es_MX": "西班牙语（墨西哥）"
+- "fr_FR": "法语（法国）"
+- "fr_CA": "法语（加拿大）"
+- "it_IT": "意大利语（意大利）"
+- "ja_JP": "日语（日本）"
+- "ko_KR": "韩语（韩国）"
+- "pt_BR": "葡萄牙语（巴西）"
+- "pt_PT": "葡萄牙语（葡萄牙）"
+- "ru_RU": "俄语（俄罗斯）"
+- "zh_CN": "中文（简体）"
+- "zh_TW": "中文（繁体）"
+- "nl_NL": "荷兰语（荷兰）"
+- "bg_BG": "保加利亚语（保加利亚）"
+- "cs_CZ": "捷克语（捷克）"
+- "da_DK": "丹麦语（丹麦）"
+- "el_GR": "希腊语（希腊）"
+- "fi_FI": "芬兰语（芬兰）"
+- "hu_HU": "匈牙利语（匈牙利）"
+- "id_ID": "印尼语（印度尼西亚）"
+- "nb_NO": "挪威博克马尔语（挪威）"
+- "pl_PL": "波兰语（波兰）"
+- "sk_SK": "斯洛伐克语（斯洛伐克）"
+- "sv_SE": "瑞典语（瑞典）"
+- "tr_TR": "土耳其语（土耳其）"
+- "uk_UA": "乌克兰语（乌克兰）"
+```
+
+</details>
