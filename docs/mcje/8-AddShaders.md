@@ -124,7 +124,7 @@ Oculus 与 铷 (Rubidium) 或 Embeddium 等优化 Mod 搭配时，可以充分�
 :::
 
 1. 前往 [CurseForge](https://www.curseforge.com/minecraft/mc-mods/embeddium) 或 [Modrinth](https://www.modrinth.com/mod/embeddium) 下载对应版本的 Embeddium 。
-2. 前往 [CurseForge](https://www.curseforge.com/minecraft/mc-mods/oculus) 或 [Modrinth](https://modrinth.com/mod/oculus) 下载对应版本的 Iris Shaders 。
+2. 前往 [CurseForge](https://www.curseforge.com/minecraft/mc-mods/oculus) 或 [Modrinth](https://modrinth.com/mod/oculus) 下载对应版本的 Oculus 。
 3. 推荐安装 [TexTrue的Embeddium视频界面（TEO）](https://www.mcmod.cn/class/12057.html) 改善体验。
 4. 将下载好的2个(不安装TEO) / 3个(安装TEO)文件移入`mods`文件夹。
 5. 启动游戏。
