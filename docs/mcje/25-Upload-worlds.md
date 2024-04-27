@@ -2,7 +2,7 @@
 title: 导入存档到服务端
 ---
 
-本篇wiki将会教你如何往Java版服务端导入存档。
+本篇文档将会教你如何往Java版服务端导入存档。
 
 ## 导入到Vanilla/Fabric/Forge/NeoForge服务端
 
