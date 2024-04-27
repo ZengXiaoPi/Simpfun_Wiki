@@ -23,12 +23,9 @@ title: 如何添加光影
 
 在以下三种方案中选择一种：
 
-- [给服务器装光影](#给服务器装光影)
-- [给客户端装光影](#给客户端装光影)
-  - [使用OptiFine](#使用optifine)
-  - [使用Sodium + Iris Shaders(Fabric)](#使用sodium--iris-shadersfabric)
-  - [使用Embeddium + Oculus(Forge)](#使用embeddium--oculusforge)
-- [其他信息](#其他信息)
+- [使用OptiFine](#使用optifine)
+- [使用Sodium + Iris Shaders(Fabric)](#使用sodium--iris-shadersfabric)
+- [使用Embeddium + Oculus(Forge)](#使用embeddium--oculusforge)
 
 ### 使用OptiFine
 
