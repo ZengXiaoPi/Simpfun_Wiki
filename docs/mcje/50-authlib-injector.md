@@ -36,11 +36,9 @@ title: 进阶文档：使用第三方验证服务器登录
 
 ### 下载authlib-injector插件并上传到服务器
 
-1. 从[authlib-injector的官网](https://authlib-injector.yushi.moe/)下载。
+从[authlib-injector的官网](https://authlib-injector.yushi.moe/)下载。
 
 ![全然わかんない 全然わかんない 全然わかんない~本当くだんない 本当くだんない 本当くだんない](/img/pages/AuthlibInjector-1.png)
-
-2. 从[Simpfun GitLab](https://gitlab.simpfun.me/ZengXiaoPi/simpfun_wiki_res/-/raw/main/authlib-injector-1.2.4.jar?inline=false)下载。
 
 下载后扔到与`start.sh`同级的目录。
 

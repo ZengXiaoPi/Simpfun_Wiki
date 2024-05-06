@@ -241,6 +241,8 @@ op-permission-level=4
 
 ### language
 
+基岩版独有配置项。
+
 调整控制台的部分文本语言，例如使用命令时的提示。
 
 默认值为 `en_US` 。
