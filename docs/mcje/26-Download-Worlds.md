@@ -18,7 +18,7 @@ compressed后的数字即代表文件完成压缩时的时间(精确到秒)。
 
 勾选已创建好的压缩文件，点击右下角三个点，选择`下载文件`，简幻欢将尝试让浏览器创建下载任务。
 
-<img src="../../static/img/pages/zip-3.png" width="25%" />
+![1](../../static/img/pages/zip-3.png)
 
 :::caution 提示
 
@@ -59,7 +59,7 @@ compressed后的数字即代表文件完成压缩时的时间(精确到秒)。
 
 勾选已创建好的压缩文件，点击右下角三个点，选择`下载文件`，简幻欢将尝试让浏览器创建下载任务。
 
-<img src="../../static/img/pages/zip-3.png" width="25%" />
+![2](../../static/img/pages/zip-3.png)
 
 :::caution 提示
 

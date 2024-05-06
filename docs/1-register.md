@@ -20,19 +20,19 @@ title: 【账号管理】如何注册
     开发者邀请码列表（点击展开）
   </summary>
 
-- 曾小皮-ZengXiaoPi `1300270` `网页搭建，JE教程和大多数教程` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=1300270)
+- 曾小皮-ZengXiaoPi `1300270` `网页搭建，大多数文档` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=1300270)
 
-- Twelve_eight `1301180` `部分教程，提供simpdoc.top域名` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=1301180)
+- Twelve_eight `1301180` `部分文档，提供simpdoc.top域名` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=1301180)
 
 - 午夜_Midnight `1308824` `部分JE和BE文档` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=1308824)
 
-- ideafox `1302636` `rw-hps教程` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=1302636)
+- ideafox `1302636` `rw-hps文档,部分MCJE文档` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=1302636)
 
-- 能干辉 `1300361` `你做了什么来着` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=1300361)
+- 能干辉 `1300361` `早期部分文档` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=1300361)
 
 - 剑舜 `1301726` `手机SFTP教程` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=1301726)
 
-- jdnjk `1332029` `啥也没干` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=1332029)
+- jdnjk `1332029` `部分文档` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=1332029)
 
 - 岚天呀 `1311554` `部分基岩版文档` [点此使用ta的邀请码注册](https://simpfun.cn/auth?type=register&code=1311554)
 

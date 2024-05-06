@@ -24,6 +24,7 @@ openjdk8="/usr/bin/jdk/jdk1.8.0_361/bin/java"
 openjdk11="/usr/bin/jdk/jdk-11.0.18/bin/java"
 openjdk17="/usr/bin/jdk/jdk-17.0.6/bin/java"
 openjdk19="/usr/bin/jdk/jdk-19.0.2/bin/java"
+openjdk21="/usr/bin/jdk/jdk-21.0.2/bin/java"
 
 maxmem=$((SERVER_MEMORY - 1000))
 
@@ -45,6 +46,12 @@ python3 -V
 echo "您需要修改启动参数来配置您的服务端"
 
 ```
+
+:::info 提示
+
+python镜像不含Java运行环境。
+
+:::
 
 ## Windows(start.cmd)
 

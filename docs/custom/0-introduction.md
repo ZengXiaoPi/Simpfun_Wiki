@@ -25,7 +25,7 @@ title: 必须看的前言
 
 ### Java镜像
 
-在简幻欢服务器上使用最多的镜像，运行在Linux系统的Docker下(实际系统为Debian 12.2)，内置了4种版本的Java，分别为JDK8，JDK11，JDK17，JDK19。此镜像是开Java版MC服务器的首选。
+在简幻欢服务器上使用最多的镜像，运行在Linux系统的Docker下(实际系统为Debian 12.2)，内置了5种版本的Java，分别为JDK8，JDK11，JDK17，JDK19，JDK21。此镜像是开Java版MC服务器的首选。
 
 ### Python镜像
 
