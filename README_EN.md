@@ -1,5 +1,6 @@
 # Simpfun Wiki
-[简体中文](README.md) [English](EN.md)
+
+[简体中文](README.md) | [English](README_EN.md)
 
 Welcome to Simpfun wiki!
 

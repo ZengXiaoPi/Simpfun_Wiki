@@ -1,5 +1,6 @@
 # Simpfun Wiki
-[简体中文](README.md) [English](EN.md)
+
+[简体中文](README.md) | [English](README_EN.md)
 
 欢迎您来到 Simpfun 社区维基！
 
@@ -25,6 +26,6 @@
   <img src="https://contrib.rocks/image?repo=ZengXiaoPi/Simpfun_Wiki" />
 </a>
 
-## LICENSE
+## 许可证
 
-[MIT](https://github.com/ZengXiaoPi/Simpfun_Wiki/blob/main/LICENSE)
+[MIT License](https://github.com/ZengXiaoPi/Simpfun_Wiki/blob/main/LICENSE)
