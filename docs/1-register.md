@@ -48,6 +48,8 @@ title: 【账号管理】如何注册
 
 <img src="/img/pages/Register-3.png" width="50%" />
 
-::info
+:::info 提示
+
 自2024年4月23日起，你每次变更ip需要登录一次小程序，才能正常登录
+
 :::
