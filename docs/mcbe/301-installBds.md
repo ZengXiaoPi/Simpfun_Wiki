@@ -104,5 +104,5 @@ cd /home/container/bedrock-server-1.20.73.01
 ./bedrock-server
 ```
 
-<!--`C:\container\bedrock-server-1.20.73.01`,-->`/home/container/bedrock-server-1.20.73.01`要替换成实际路径
+`/home/container/bedrock-server-1.20.73.01`要替换成实际路径
 其实这个`.\`它并不重要,你也可以把它去掉
