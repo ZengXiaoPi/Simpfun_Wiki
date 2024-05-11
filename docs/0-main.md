@@ -4,7 +4,7 @@ title: 主页
 
 :::danger 警告
 
-请注意，当前全部Windows节点（X.X.W）皆将会在不久后因I/O问题被弃用，请根据[本文档站教程](./45-migration_to_linux.md)迁移到Linux节点。
+请注意，当前全部Windows节点（X.X.W）皆将会在不久后因I/O问题被弃用，请根据 [本文档站教程](./45-migration_to_linux.md) 迁移到Linux节点。
 
 受影响区域：自定义-Windows / LLBDS、LevLamina / 其他标明Windows的镜像
 
@@ -34,4 +34,4 @@ title: 主页
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ZengXiaoPi/Simpfun_Wiki&type=Date)](https://star-history.com/#ZengXiaoPi/Simpfun_Wiki&Date)
+![Star History Chart](https://api.star-history.com/svg?repos=ZengXiaoPi/Simpfun_Wiki&type=Date)
