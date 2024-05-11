@@ -37,7 +37,7 @@ title: 【学习交流】加入QQ交流群
 
 ### 问题答疑QQ群
 
-(点击群号一键加群)：[465468467](https://qm.qq.com/q/2ITuj2RWVa)
+(点击群号一键加群)：[465468467](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=1BNJ71ai_AgmGjByqjnPsF_7RHaWUo05&authKey=xoh%2FlFnwilTLHFLtYWvI16yjlSPJb2XOMB4X1AI67tTiRGwxGa8DruP4sIK%2FcsPB&noverify=0&group_code=465468467)
 
 :::caution 提示
 
