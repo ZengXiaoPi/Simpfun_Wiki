@@ -31,3 +31,7 @@ title: 主页
 ## 本维基贡献者
 
 ![Github](https://contrib.rocks/image?repo=ZengXiaoPi/Simpfun_Wiki)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ZengXiaoPi/Simpfun_Wiki&type=Date)](https://star-history.com/#ZengXiaoPi/Simpfun_Wiki&Date)
