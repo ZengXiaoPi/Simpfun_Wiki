@@ -41,3 +41,15 @@ title: 【实例管理】从Windows实例迁移至Linux实例
 - [从服务端导出存档](./mcbe/8-input-worlds.md)
 
 - [导入存档到服务端](./mcbe/7-upload-worlds.md)
+
+## Terraria
+
+### TShock on Windows
+
+待补充
+
+应该没人会用TShock on Windows吧（溜
+
+## 自定义
+
+请根根据你自己开设的内容进行迁移。
