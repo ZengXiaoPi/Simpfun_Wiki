@@ -9,6 +9,12 @@ title: 必须看的前言
 + 我们欢迎大家参与完善文档。请到Github[提交issue](https://github.com/ZengXiaoPi/Simpfun_Wiki/issues)或者[发起Pull Requests](https://github.com/ZengXiaoPi/Simpfun_Wiki/pulls)。
 :::
 
+:::warning 部分内容已过期
+
+本文档部分内容已过期！现已隐藏！
+
+:::
+
 ## 什么是“自定义”预设
 
 `“自定义”预设`是指只提供运行环境，技术细节均由个人解决的实例镜像，门槛较高。
@@ -17,7 +23,7 @@ title: 必须看的前言
 
 ## “自定义”预设都有哪些？
 
-简幻欢SFE4目前提供3种类型的自定义预设，分别是 `Java多版本镜像`(Linux)， `Python镜像`(Linux)，`Server2019镜像`(Windows)，如下图所示。
+简幻欢SFE4目前提供3种类型的自定义预设，分别是 `Java多版本镜像`(Linux)， `Python镜像`(Linux)，~~`Server2019镜像`~~(~~Windows~~，**已弃用！**)，如下图所示。
 
 ![お昼寝にちょうどいい場所はどこかな～](/img/pages/CustomServer-in-1.png)
 
@@ -41,7 +47,15 @@ title: 必须看的前言
 
 ### Windows Server2019镜像
 
-使用Windows Server 2019的镜像，运行在Windows Docker下。目前分为两个版本。
+:::danger 警告
+
+请注意，当前全部Windows节点（X.X.W）皆将会在不久后因I/O问题被弃用，请根据[本文档站教程](./45-migration_to_linux.md)迁移到Linux节点。
+
+受影响区域：自定义-Windows / LLBDS、LevLamina / 其他标明Windows的镜像
+
+:::
+
+<!-- 使用Windows Server 2019的镜像，运行在Windows Docker下。目前分为两个版本。
 
 #### 20230829版
 
@@ -61,7 +75,7 @@ title: 必须看的前言
 
 Windows的镜像无法和其他Linux镜像互转重装，只能重装为使用Windows的镜像！
 
-:::
+::: -->
 
 ## 我在什么时候需要使用自定义镜像？
 

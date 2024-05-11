@@ -2,9 +2,15 @@
 title: 如何添加Addon(附加包)
 ---
 
-本篇wiki将教你如何在服务端安装Addon。  
+本篇文档将教你如何在服务端安装Addon。  
 
 ## 前言
+
+:::warning 部分内容已过期
+
+本文档部分内容已过期！现已隐藏！
+
+:::
 
 :::warning 危险警告  
 
@@ -48,10 +54,16 @@ title: 如何添加Addon(附加包)
 
 ## 方法一：AddonHelper导入
 
+:::warning 过期的内容
+
+此部分内容已过期！
+
+:::
+<!--
 :::caution 提示
 
-适用服务端：LLBDS  
-不适用服务端：原版BDS，所有Nukkit系服务端  
+适用服务端：LiteLoaderBDS(LL2)  
+不适用服务端：原版BDS，LevLamina(LL3)，所有Nukkit系服务端  
 
 :::
 
@@ -61,7 +73,7 @@ title: 如何添加Addon(附加包)
 
 :::
 
-当你使用的服务端为LLBDS时，可以通过LiteLoader官方提供的`Addon安装器`直接安装（这个东西是直接内嵌在LiteLoaderBDS内的，无需额外下载）。  
+当你使用的服务端为LiteLoaderBDS时，可以通过LiteLoader官方提供的`Addon安装器`直接安装（这个东西是直接内嵌在LiteLoaderBDS内的，无需额外下载）。  
 
 #### 第一步   
 
@@ -98,8 +110,7 @@ title: 如何添加Addon(附加包)
 使用这种方式导入Addon时，控制台会在加载世界完成后出现一大串红色的`ERROR`，但这是正常现象（服务器检测到原本的世界没有这些东西而出现ERROR），绝大部分情况下不影响使用。  
 
 :::
-
-
+-->
 ## 方法二：手动导入
 
 :::caution 提示
@@ -146,7 +157,6 @@ uuid与版本号在哪里？
 
 回到终端界面，重新开服，并检查addon是否正常加载。
 
-
 ## 方法三：替换世界文件夹
 
 :::caution 提示
@@ -180,13 +190,15 @@ uuid与版本号在哪里？
 
 #### 第三步
 
-回到服务器根目录，打开`server.properties`，找到下面这行配置：     
-```
+回到服务器根目录，打开`server.properties`，找到下面这行配置：
+
+```ini
 level-name=Bedrock level
 # Allowed values: Any string without semicolon symbol or symbols illegal for file name: /\n\r\t\f`?*\\<>|\":
 ```
+
 将其中的`Bedrock level`更改为你上传的存档文件夹的名字。  
-例：在上一步中我上传的存档文件夹名为`Fontaine`，那么我就需要把`Bedrock level`更改为`Fontaine`，如下图所示：   
+例：在上一步中我上传的存档文件夹名为`Fontaine`，那么我就需要把`Bedrock level`更改为`Fontaine`，如下图所示：
 
 ![Fontaine的中文是枫丹，原神启动！](/img/pages/MCBE-InputAddon-6.png)  
 

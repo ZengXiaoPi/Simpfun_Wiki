@@ -21,7 +21,7 @@ title: 服务端的介绍
 |**服务端**|**插件**|**介绍**|
 | ---- | ---- | ---- |
 |Bedrock Dedicated Server(BDS)|**不兼容**|官方服务端，**不兼容插件**|
-|LiteLoaderBDS/LeviLamina|**兼容(.dll/.js)**|加载器式插件服务端，**仅支持Windows上使用**|
+|LiteLoaderBDS/LeviLamina|**兼容(.dll/.js)**|加载器式插件服务端，**仅支持Windows上使用**<br/>由于win节点出现问题，目前简幻欢无法使用此服务端！|
 |Nukkit系服务端|**兼容(.jar)**|使用 Java 编写，拥有强大的多线程性能，**但不推荐一般生存使用**|
 |PocketMine/PocketMine-MP| **兼容** | 使用PHP编写，(PE)BE最开始的服务端，现在国内基本已查无此端|
 
@@ -60,6 +60,12 @@ Addon：兼容
 
 ### LeviLamina（LL3）
 
+:::warning 警告
+
+Windows节点将会在不久后因I/O问题被弃用，目前简幻欢无法使用此服务端！
+
+:::
+
 目前状态：活跃
 
 插件：兼容(LL3与LL2的插件不兼容)
@@ -73,13 +79,19 @@ Addon：兼容
 
 :::caution
 
-LL3正在开发，目前已适配LL3的插件极少，基本无法用于生产环境！
+LL3正在开发，不建议将其用于生产环境！
 
 :::
 
 -----
 
 ### LiteLoaderBDS（LL2）
+
+:::warning 警告
+
+Windows节点皆将会在不久后因I/O问题被弃用，目前简幻欢无法使用此服务端！
+
+:::
 
 目前状态：LTS
 
