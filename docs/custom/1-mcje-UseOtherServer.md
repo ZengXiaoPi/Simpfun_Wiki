@@ -342,7 +342,7 @@ NeoForge由于项目名称的更改，其启动命令应类似如下格式：
 
 ```sh
 # 1.20.1
-${openjdk17} -Xms1024M -Xmx${maxmem}M  @libraries/net/neoforged/forge/1.20.1-47.1.99/unix_args.txt "$@" -nogui
+${openjdk17} -Xms1024M -Xmx${maxmem}M  @libraries/net/neoforged/forge/1.20.1-47.1.105/unix_args.txt "$@" -nogui
 # 1.20.2+
 ${openjdk17} -server -Xms1024m -Xmx4096M @libraries/net/neoforged/neoforge/20.4.217/win_args.txt "$@" -nogui
 ```
@@ -576,7 +576,7 @@ ${openjdk17} -server -Xms1024M -Xmx${maxmem}M -jar arclight-forge-1.20.1-1.0.4.j
 
 `arclight-forge-1.20.1-1.0.4.jar`：服务端核心名称，**改成自己上传的，包括刚才让你记的后缀名！！**
 
-`-nogui`：不启用MC服务端自带的一个GUI窗口，在面板服/命令行环境运行服务端时不能删！
+`-nogui`：不启用MC服务端自带的一个GUI窗口，**部分混合端不要加上此参数，会导致无法启动服务器**！
 
 :::
 

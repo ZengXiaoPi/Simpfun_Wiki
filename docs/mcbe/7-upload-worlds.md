@@ -1,5 +1,5 @@
 ---
-title: 从客户端导入存档到服务端
+title: 导入存档到服务端
 ---
 
 本篇wiki将会教你如何往基岩版服务端导入存档。
@@ -14,7 +14,7 @@ title: 从客户端导入存档到服务端
 
 -----
 
-## 从客户端导出
+## 从客户端导出存档
 
 ### Android导出教程
 
@@ -76,11 +76,11 @@ title: 从客户端导入存档到服务端
 
 ![全部重构一遍有点麻烦，不做了](../../static/img/pages/MCBE-Import-Worlds-11.png)
 
-### 下载的存档
+## 下载的存档
 
 你已经有存档了，请直接快进下一步。
 
-## 导入存档到SFE4服务器
+## 导入存档到服务器
 
 ### 第零步
 
@@ -125,7 +125,7 @@ title: 从客户端导入存档到服务端
 
 回到服务器根目录，打开`server.properties`，找到下面这行配置：
 
-```
+```ini
 level-name=Bedrock level
 # Allowed values: Any string without semicolon symbol or symbols illegal for file name: /\n\r\t\f`?*\\<>|\":
 ```

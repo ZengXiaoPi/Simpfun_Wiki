@@ -4,11 +4,23 @@ title: 如何添加插件
 
 本篇文档将教你如何在服务端安装插件。
 
+:::warning 部分内容已过期
+
+本文档部分内容已过期！现已隐藏！
+
+:::
+
 ## 前言
 
 ### 关于LiteloaderBDS/LevLamina
 
-:::info 提示
+:::warning 过期的内容
+
+此部分内容已过期！
+
+:::
+
+<!-- :::info 提示
 
 在下文中，LiteloaderBDS将被简称为`LL2`，LevLamina将被简称为`LL3`。
 
@@ -19,6 +31,7 @@ title: 如何添加插件
 + LL3无法安装LL2的`.dll`格式的插件。
 
 + LL3想安装LLSE的插件(包含`.lua`，`.js`，`.py`等格式的插件)需要先安装[Legacy转译层](https://github.com/LiteLDev/LegacyScriptEngine)，根据LSE插件编写语言的不同，转译层也分为好几种。
+-->
 
 ### 关于Nukkit系服务端
 

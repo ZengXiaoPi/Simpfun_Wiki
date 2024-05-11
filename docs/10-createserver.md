@@ -21,13 +21,17 @@ RustedWarfare：铁锈战争
 
 Mindustry：像素工坊  
 
-Terraria：泰拉瑞亚（现支持 TModLoader ！）  
+Terraria：泰拉瑞亚（现支持Terraria原版 / TModLoader / TShock）  
 
 MinecraftBE：Minecraft 基岩版  
 
 Minecraft互通：基于 Minecraft JE 服务端 Spigot 与互通插件 [Geyser-Spigot](http://geysermc.org) 的 Minecraft JE 与 BE 互通服务器  
 
 MinecraftJE：Minecraft Java版
+
+Palworld：幻兽帕鲁
+
+自定义：[见此文档](./custom/0-introduction.md)
 
 :::
 
@@ -39,7 +43,7 @@ MinecraftJE：Minecraft Java版
 
 ![3](/img/pages/CreateServer-3.png)
 
-1. 选择`实例服务端`
+4. 选择`实例服务端`(此处以Minecraft JE为例)
 
 :::caution
 
