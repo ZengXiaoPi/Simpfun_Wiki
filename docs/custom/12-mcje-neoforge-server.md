@@ -83,7 +83,7 @@ ${openjdk21} -server -Xms1024m -Xmx${maxmem}M @libraries/net/neoforged/neoforge/
 
 ![見張る街角があなたを引き留めてく](../../static/img/pages/custom/UseOtherServer-15.png)
 
-此时你可以将Forge/NeoForge安装器删除了。
+此时你可以将NeoForge安装器删除了。
 
 ### 第三步：同意EULA
 
