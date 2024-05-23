@@ -70,8 +70,8 @@ const config = {
             label: "主页",
           },
           {
-            href: "https://sfenitian.de.cool",
-            label: "逆天墙",
+            href: "https://www.yuque.com/simpfun/sfe/main",
+            label: "官方文档",
             position: "left",
           },
           {
@@ -90,6 +90,10 @@ const config = {
               {
                 label: "进入维基",
                 to: "/docs/main",
+              },
+              {
+                label: "简幻欢官方文档",
+                href: "https://www.yuque.com/simpfun/sfe/main",
               },
             ],
           },
@@ -118,8 +122,8 @@ const config = {
             title: "别的东西",
             items: [
               {
-                label: "逆天墙",
-                href: "http://nt.simpdoc.top",
+                label: "简幻欢社区论坛",
+                href: "https://simpfun.icu/",
               },
               {
                 label: "GitHub",
