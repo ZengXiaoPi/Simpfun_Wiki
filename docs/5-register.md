@@ -4,7 +4,7 @@ title: 【账号管理】如何注册
  
 1. 进入官网注册链接：[注册](https://simpfun.cn/auth?type=register)
 
-![1](img/pages/Register-1.png)
+![1](/img/pages/Register-1.png)
 
 2. 点击注册后输入：帐号、帐号密码、推荐码（可选）  
 
