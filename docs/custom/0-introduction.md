@@ -23,7 +23,7 @@ title: 必须看的前言
 
 ## “自定义”预设都有哪些？
 
-简幻欢SFE4目前提供3种类型的自定义预设，分别是 `Java多版本镜像`(Linux)， `Python镜像`(Linux)，~~`Server2019镜像`~~(~~Windows~~，**已弃用！**)，如下图所示。
+简幻欢SFE4目前提供3种类型的自定义预设，分别是 `Java多版本镜像`(Linux)， `Python镜像`(Linux)，~~`Server2019镜像`~~(~~Windows~~，**已弃用!**)，如下图所示。
 
 ![お昼寝にちょうどいい場所はどこかな～](/img/pages/CustomServer-in-1.png)
 
