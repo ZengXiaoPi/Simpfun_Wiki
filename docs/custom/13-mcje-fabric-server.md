@@ -4,6 +4,12 @@ title: 【MCJE】安装Fabric服务端
 
 简幻欢预设的Fabric版本过低？来看这篇文档！
 
+## 视频教程
+
+[点此跳转至B站观看](https://www.bilibili.com/video/av1554867270)
+
+## 图文教程
+
 ### 第一步：安装服务端核心
 
 前往[Fabric官网](https://fabricmc.net/use/installer/)，点击`Download universal jar`下载通用安装器。
