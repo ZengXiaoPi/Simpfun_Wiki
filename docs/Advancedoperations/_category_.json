@@ -1,0 +1,14 @@
+{
+  "position": 100,
+  "label": "Minecraft JE",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Minecraft JE"
+  },
+  "customProps": {
+    "description": "This description can be used in the swizzled DocCard"
+  }
+}
