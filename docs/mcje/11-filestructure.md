@@ -221,4 +221,4 @@ java -server -Xms1024m -Xmx4096M @libraries/net/neoforged/neoforge/20.2.86/win_a
 
 ## 如何在不同类型的服务端间互转存档
 
-请参见[Leaves文档 / 迁移到 Leaves 或从 Leaves 迁出](https://docs.leavesmc.top/zh/leaves/migration)。
+请参见[Leaves文档 / 迁移到 Leaves 或从 Leaves 迁出](https://docs.leavesmc.org/zh_Hans/leaves/guides/migration)。
