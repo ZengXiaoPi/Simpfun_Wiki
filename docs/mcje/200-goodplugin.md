@@ -502,7 +502,7 @@ API版本：7.1，8.1，11
 
 ### Luckperms (Sponge)
 
-API版本：7，8
+API版本：7,8,9,11
 
 标签：`管理` `信息`
 
@@ -519,7 +519,7 @@ API版本：7，8
 
 ### Locate API
 
-API版本：7,8,10
+API版本：7,8,10,11
 
 标签：`前置API`
 
@@ -532,7 +532,7 @@ API版本：7,8,10
 
 ### Nucleus
 
-API版本：5，6，7，8
+API版本：5,6,7,8
 
 标签：`管理` `信息` `生存`
 
@@ -551,7 +551,7 @@ Nucleus停更，但是仍然是值得推荐的
 
 ### CommandPacks
 
-API版本：8,10
+API版本：8,10,11
 
 前置插件：Locate API
 
@@ -573,7 +573,7 @@ API版本：7.2
 介绍：可以看作是AllMusic的Sponge版。支持网易云等平台点歌。**需要客户端模组配合。**
 
 下载链接：  
-[mcbbs](https://www.mcbbs.net/thread-993146-1-1.html)
+~~[mcbbs](https://www.mcbbs.net/thread-993146-1-1.html)~~
 
 -----
 
