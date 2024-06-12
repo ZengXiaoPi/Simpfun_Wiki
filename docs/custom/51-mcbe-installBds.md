@@ -15,7 +15,7 @@ minecraft.azureedge.net
 
 ## 访问Minecraft基岩版服务器软件下载页面
 
-https://www.minecraft.net/zh-hans/download/server/bedrock
+[https://www.minecraft.net/zh-hans/download/server/bedrock](https://www.minecraft.net/zh-hans/download/server/bedrock)
 
 选择你要下载的Minecraft(我的世界)基岩版专属服务端软件类型：
 

@@ -4,7 +4,9 @@ title: 关于config.json
 
 :::tip
 
-## 本配置文件说明基于RW-HPS官方文档修改，文档地址：[https://github.com/RW-HPS/RW-HPS/blob/master/docs/zh/run/Config.md](https://github.com/RW-HPS/RW-HPS/tree/master/docs)
+## 本配置文件说明基于RW-HPS官方文档修改
+
+文档地址：[https://github.com/RW-HPS/RW-HPS/blob/master/docs/zh/run/Config.md](https://github.com/RW-HPS/RW-HPS/tree/master/docs)
 
 在SFE4中，该文件在`/data`文件夹中,负责服务端的配置。
 
