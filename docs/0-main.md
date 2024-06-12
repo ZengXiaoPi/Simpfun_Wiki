@@ -4,9 +4,8 @@ title: 主页
 
 :::danger 警告
 
-请注意，当前全部Windows节点（X.X.W）皆将会在不久后因I/O问题被弃用，请根据 [本文档站教程](./45-migration_to_linux.md) 迁移到Linux节点。
-
-受影响区域：自定义-Windows / LLBDS、LevLamina / 其他标明Windows的镜像
+由于不可抗拒因素，本文档即将迁移至新地址，您应使用新地址的文档内容。旧文档内容随时可能过时！
+新文档地址：[https://www.yuque.com/simpfox/simpdoc](https://www.yuque.com/simpfox/simpdoc)
 
 :::
 
